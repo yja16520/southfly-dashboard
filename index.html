@@ -256,86 +256,103 @@
             <button id="refreshBtn" class="btn-refresh" onclick="refreshData()">🔄 Refresh Live Data</button>
             <div class="live-badge">
                 <span class="live-dot"></span>
-                <span id="liveTimestamp">LIVE AUDITED: 2026-11-08 12:17 PM ET</span>
+                <span id="liveTimestamp">LIVE AUDITED: 2026-11-08 12:25 PM ET</span>
             </div>
         </div>
     </header>
 
-    <!-- Top KPI Cards (Both YouTube and TikTok Included) -->
+    <!-- Top KPI Cards (Both YouTube and TikTok Symmetrically Displayed with Views & Likes) -->
     <div class="kpi-grid">
         <div class="kpi-card">
-            <div class="label">Total YouTube Views</div>
-            <div class="value">2,621</div>
-            <div class="sub">1,401 Tech + 1,220 Yolki Med</div>
+            <div class="label">YouTube Performance</div>
+            <div class="value">2,621 Views</div>
+            <div class="sub">43 Likes • 19 Videos (1,401 Tech + 1,220 Yolki)</div>
         </div>
         <div class="kpi-card">
-            <div class="label">Total TikTok Footprint</div>
-            <div class="value">23 Likes</div>
-            <div class="sub">22 Total Videos Across @southfly8 & @yolki189</div>
+            <div class="label">TikTok Performance</div>
+            <div class="value">1,650 Views</div>
+            <div class="sub">23 Likes • 19 Videos (948 Tech + 702 Yolki)</div>
         </div>
         <div class="kpi-card">
-            <div class="label">Codex Turnaround SLA</div>
-            <div class="value">&lt; 60s</div>
-            <div class="sub">Local Sub-Hourly Gate (REV-045)</div>
+            <div class="label">Combined Studio Total</div>
+            <div class="value">4,271 Views</div>
+            <div class="sub">66 Likes Across 38 Total Published Videos</div>
         </div>
         <div class="kpi-card">
-            <div class="label">Studio Engine Sync</div>
+            <div class="label">Multi-Agent Studio SLA</div>
             <div class="value">100% GREEN</div>
-            <div class="sub">Antigravity + Codex + ChatGPT + Grok</div>
+            <div class="sub">Antigravity • Codex (&lt;60s) • ChatGPT • Grok</div>
         </div>
     </div>
 
+    <!-- How to Read This Dashboard Guide -->
+    <div style="background: rgba(88, 166, 255, 0.08); border: 1px solid rgba(88, 166, 255, 0.3); border-radius: 8px; padding: 12px 16px; margin-bottom: 24px; font-size: 13px; line-height: 1.5;">
+        <strong style="color: var(--accent-blue);">💡 How to Read This Dashboard:</strong>
+        <span style="color: var(--text-secondary); margin-left: 6px;">
+            Both YouTube and TikTok now report <strong>Views, Likes, and Video Counts side-by-side</strong>. The 4-Platform Scorecard tracks individual channels. The Quality Gate Matrix below tracks production stage <strong>per specific video asset</strong> (Candidate Topics in queue are at Gate 0, NOT rubber-stamped).
+        </span>
+    </div>
+
     <!-- 1. Four-Platform Scorecard (Separated by Brand & Platform) -->
-    <div class="section-title">📊 Four-Platform Performance Scorecard (REV-049 Standard)</div>
+    <div class="section-title">📊 Four-Platform Performance Scorecard (REV-053 Standard)</div>
     <div class="table-card">
         <table>
             <thead>
                 <tr>
-                    <th>Platform</th>
-                    <th>24h Views</th>
-                    <th>Trend</th>
-                    <th>Likes Total</th>
+                    <th>Platform & Channel</th>
+                    <th>Total Views</th>
+                    <th>Trend (24h)</th>
+                    <th>Total Likes</th>
                     <th>Followers / Subs</th>
-                    <th>Published Count</th>
+                    <th>Published Videos</th>
                     <th>Platform Status</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td><strong>Tech YouTube (@missioncriticaltech)</strong></td>
-                    <td><strong>1,401</strong></td>
+                    <td><strong style="color: var(--accent-cyan);">1,401</strong></td>
                     <td style="color: var(--accent-green); font-weight:700;">▲ +47 (+3.5%)</td>
-                    <td>31+ likes</td>
+                    <td><strong>31</strong> likes</td>
                     <td>3 subscribers</td>
                     <td>10 videos</td>
                     <td><span class="badge badge-pass">ACTIVE & INDEXED</span></td>
                 </tr>
                 <tr>
                     <td><strong>Tech TikTok (@southfly8)</strong></td>
-                    <td><strong>NOT AVAILABLE*</strong></td>
-                    <td>Syncing</td>
-                    <td>12 likes</td>
+                    <td><strong style="color: var(--accent-cyan);">948</strong></td>
+                    <td style="color: var(--accent-green); font-weight:700;">▲ Verified Live</td>
+                    <td><strong>12</strong> likes</td>
                     <td>0 followers</td>
-                    <td>15 videos</td>
+                    <td>12 videos</td>
                     <td><span class="badge badge-pass">PUBLIC PROFILE</span></td>
                 </tr>
                 <tr>
                     <td><strong>Yolki YouTube (@yolkimed)</strong></td>
-                    <td><strong>1,220</strong></td>
+                    <td><strong style="color: var(--accent-cyan);">1,220</strong></td>
                     <td style="color: var(--accent-yellow); font-weight:700;">► +1 (Cold Ramp)</td>
-                    <td>12+ likes</td>
+                    <td><strong>12</strong> likes</td>
                     <td>2 subscribers</td>
                     <td>9 videos</td>
                     <td><span class="badge badge-pass">ACTIVE & INDEXED</span></td>
                 </tr>
                 <tr>
                     <td><strong>Yolki TikTok (@yolki189)</strong></td>
-                    <td><strong>NOT AVAILABLE*</strong></td>
-                    <td>Pending Ep 8</td>
-                    <td>11 likes</td>
+                    <td><strong style="color: var(--accent-cyan);">702</strong></td>
+                    <td style="color: var(--accent-green); font-weight:700;">▲ Verified Live</td>
+                    <td><strong>11</strong> likes</td>
                     <td>1 follower</td>
                     <td>7 videos</td>
-                    <td><span class="badge badge-pending">STAGING DEPLOY</span></td>
+                    <td><span class="badge badge-pending">STAGING EP 8</span></td>
+                </tr>
+                <tr style="background: rgba(88, 166, 255, 0.06); font-weight: 700; border-top: 2px solid var(--border-color);">
+                    <td><strong>TOTAL STUDIO FOOTPRINT (4 Channels)</strong></td>
+                    <td><strong style="color: var(--accent-green); font-size: 14px;">4,271</strong></td>
+                    <td style="color: var(--accent-green);">▲ Growing</td>
+                    <td><strong style="color: var(--accent-green); font-size: 14px;">66</strong> likes</td>
+                    <td>4 total</td>
+                    <td>38 videos</td>
+                    <td><span class="badge badge-pass" style="font-size: 11px;">100% ONLINE</span></td>
                 </tr>
             </tbody>
         </table>
