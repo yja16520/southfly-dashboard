@@ -256,7 +256,7 @@
             <button id="refreshBtn" class="btn-refresh" onclick="refreshData()">🔄 Refresh Live Data</button>
             <div class="live-badge">
                 <span class="live-dot"></span>
-                <span id="liveTimestamp">LIVE AUDITED: 2026-11-08 12:25 PM ET</span>
+                <span id="liveTimestamp">LIVE AUDITED: 2026-11-08 12:39 PM ET</span>
             </div>
         </div>
     </header>
@@ -448,8 +448,101 @@
         </table>
     </div>
 
-    <!-- 4. Ranked Daily Topic Pipeline -->
-    <div class="section-title">💡 Ranked Candidate Topic Pipeline (Top 10 Queue)</div>
+    <!-- 4. Publishing Schedule & Backward Milestones Governance -->
+    <div class="section-title">⏰ Publishing Windows & Backward Milestone Governance</div>
+    <div class="table-card" style="margin-bottom: 24px;">
+        <div style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); background: rgba(88, 166, 255, 0.04); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+            <div>
+                <strong style="font-size: 14px; color: var(--accent-blue);">🎯 Next Target Window: Today 5:30 PM – 6:30 PM ET</strong>
+                <span style="font-size: 12px; color: var(--text-secondary); margin-left: 8px;">(Feature: Tech Ep 10 — The 2003 Northeast Blackout)</span>
+            </div>
+            <div>
+                <span class="badge badge-pass" style="font-size: 11px;">SCHEDULE STATUS: ON PLAN</span>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Milestone Time</th>
+                    <th>Gate Level</th>
+                    <th>Activity & Review Milestone</th>
+                    <th>Deliverable & Verification</th>
+                    <th>Owner</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>1:00 PM ET</strong></td>
+                    <td><strong>Deploy</strong></td>
+                    <td><strong>Yolki Ep 8 TikTok Deploy</strong></td>
+                    <td>Upload <code>yolki_cpr_cardiac_arrest.mp4</code> to @yolki189 via CDP</td>
+                    <td>Deployment Ops</td>
+                    <td><span class="badge badge-pass">READY TO DEPLOY</span></td>
+                </tr>
+                <tr>
+                    <td><strong>1:30 PM ET (T - 4h)</strong></td>
+                    <td><strong>Gate 0</strong></td>
+                    <td><strong>Research & Source Lock</strong></td>
+                    <td>Lock U.S.-Canada Task Force report claims on GE XA/21 alarm stall</td>
+                    <td>Venture Research</td>
+                    <td><span class="badge badge-pass">CODEX VETTED</span></td>
+                </tr>
+                <tr>
+                    <td><strong>2:30 PM ET (T - 3h)</strong></td>
+                    <td><strong>Gate 1</strong></td>
+                    <td><strong>Script & Audio Voiceover</strong></td>
+                    <td>Narration in 4-5 word chunks, EBU R128 (-16 LUFS), Eddie post-mortem</td>
+                    <td>Script Director</td>
+                    <td><span class="badge badge-pending">IN PROGRESS</span></td>
+                </tr>
+                <tr>
+                    <td><strong>3:30 PM ET (T - 2h)</strong></td>
+                    <td><strong>Gate 2</strong></td>
+                    <td><strong>35mm Diffusion Visuals</strong></td>
+                    <td>Photorealistic dark control room & line scenes; <code>read_file</code> audit</td>
+                    <td>Visual Art Lead</td>
+                    <td><span class="badge badge-pending">QUEUED</span></td>
+                </tr>
+                <tr>
+                    <td><strong>4:30 PM ET (T - 1h)</strong></td>
+                    <td><strong>Gate 3</strong></td>
+                    <td><strong>Master Render & Blind Critic</strong></td>
+                    <td>1080x1920 MP4, frame-0 banner, blind critic pass on last 10s audio</td>
+                    <td>End-User Critic</td>
+                    <td><span class="badge badge-pending">QUEUED</span></td>
+                </tr>
+                <tr>
+                    <td><strong>5:30 PM ET (T - 0h)</strong></td>
+                    <td><strong>Gate 4</strong></td>
+                    <td><strong>Live Release & Seeding</strong></td>
+                    <td>YouTube Shorts & TikTok deploy, public privacy check, pinned comment</td>
+                    <td>Deployment Ops</td>
+                    <td><span class="badge badge-pending">WINDOW LOCKED</span></td>
+                </tr>
+                <tr>
+                    <td><strong>6:30 PM ET (T + 1h)</strong></td>
+                    <td><strong>Gate 5</strong></td>
+                    <td><strong>Horizontal Sweep & Digest</strong></td>
+                    <td>Telemetry pull across all 4 channels; daily digest to Eddie</td>
+                    <td>Growth Lead</td>
+                    <td><span class="badge badge-pending">SCHEDULED</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 5. Ranked Daily Topic Pipeline (With Clarified Gate Status & New Priorities) -->
+    <div class="section-title">💡 Ranked Candidate Topic Pipeline (Top 10 Queue — REV-054 Standard)</div>
+    
+    <!-- Codex Gate Clarification Note -->
+    <div style="background: rgba(210, 153, 34, 0.08); border: 1px solid rgba(210, 153, 34, 0.3); border-radius: 8px; padding: 10px 14px; margin-bottom: 12px; font-size: 12px; line-height: 1.4;">
+        <strong style="color: var(--accent-yellow);">🔍 What "Codex Pass" Means:</strong>
+        <span style="color: var(--text-secondary); margin-left: 4px;">
+            It represents an independent <strong>Gate 0 Primary-Source Fact-Check</strong> (verifying engineering/clinical claims against official investigation reports). It is <strong>NOT</strong> a release clearance for publication. Topics move through Gates 1 to 5 individually during production.
+        </span>
+    </div>
+
     <div class="table-card">
         <table>
             <thead>
@@ -459,7 +552,7 @@
                     <th>ID</th>
                     <th>Topic & Hook Paradox</th>
                     <th>Primary Source</th>
-                    <th>Codex Gate Status</th>
+                    <th>Gate Status & Provenance</th>
                 </tr>
             </thead>
             <tbody>
@@ -469,31 +562,39 @@
                     <td><code>TECH-10</code></td>
                     <td><strong>The 2003 Northeast Blackout</strong><br><span style="font-size: 11px; color: var(--text-secondary);">FirstEnergy GE XA/21 alarm queue race condition stalled telemetry, blinding operators for over an hour.</span></td>
                     <td style="font-size: 11px;">U.S.-Canada Task Force (2004)</td>
-                    <td><span class="badge badge-pass">CODEX PASSED</span></td>
+                    <td><span class="badge badge-pass">G0: SOURCE-VERIFIED</span></td>
                 </tr>
                 <tr>
                     <td style="font-weight: 800; color: #f0f6fc;">#2</td>
                     <td><span style="color: var(--accent-blue); font-weight: 700;">Tech</span></td>
-                    <td><code>TECH-11</code></td>
-                    <td><strong>AT&amp;T 1990 Network Collapse</strong><br><span style="font-size: 11px; color: var(--text-secondary);">A misplaced 'break' inside an if nested in a switch crashed 114 switches in an infinite resonant reboot cascade.</span></td>
-                    <td style="font-size: 11px;">Bell Labs Tech Report</td>
-                    <td><span class="badge badge-pass">CODEX PASSED</span></td>
+                    <td><code>TECH-15</code></td>
+                    <td><strong>Cloudflare 2020 Router BGP Cascade</strong><br><span style="font-size: 11px; color: var(--text-secondary);">A routine BGP traffic reroute triggered a buffer exhaustion cascade across European edge data centers.</span></td>
+                    <td style="font-size: 11px;">Cloudflare Engineering Post-Mortem</td>
+                    <td><span class="badge badge-pending">G0: REV-054 PRIORITY</span></td>
                 </tr>
                 <tr>
                     <td style="font-weight: 800; color: #f0f6fc;">#3</td>
                     <td><span style="color: var(--accent-blue); font-weight: 700;">Tech</span></td>
-                    <td><code>TECH-12</code></td>
-                    <td><strong>Patriot Missile 100h Clock Drift</strong><br><span style="font-size: 11px; color: var(--text-secondary);">24-bit fixed-point truncation of non-terminating binary 0.1 accumulated 0.34s drift, shifting radar gate 500m.</span></td>
-                    <td style="font-size: 11px;">GAO/IMTEC-92-26</td>
-                    <td><span class="badge badge-pass">CODEX PASSED</span></td>
+                    <td><code>TECH-11</code></td>
+                    <td><strong>AT&amp;T 1990 Network Collapse</strong><br><span style="font-size: 11px; color: var(--text-secondary);">A misplaced 'break' inside an if nested in a switch crashed 114 switches in an infinite resonant reboot cascade.</span></td>
+                    <td style="font-size: 11px;">Bell Labs Tech Report</td>
+                    <td><span class="badge badge-pass">G0: SOURCE-VERIFIED</span></td>
                 </tr>
                 <tr>
                     <td style="font-weight: 800; color: #f0f6fc;">#4</td>
                     <td><span style="color: var(--accent-blue); font-weight: 700;">Tech</span></td>
+                    <td><code>TECH-12</code></td>
+                    <td><strong>Patriot Missile 100h Clock Drift</strong><br><span style="font-size: 11px; color: var(--text-secondary);">24-bit fixed-point truncation of non-terminating binary 0.1 accumulated 0.34s drift, shifting radar gate 500m.</span></td>
+                    <td style="font-size: 11px;">GAO/IMTEC-92-26</td>
+                    <td><span class="badge badge-pass">G0: SOURCE-VERIFIED</span></td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 800; color: #f0f6fc;">#5</td>
+                    <td><span style="color: var(--accent-blue); font-weight: 700;">Tech</span></td>
                     <td><code>TECH-13</code></td>
                     <td><strong>Mars Climate Orbiter $327M Crash</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Lockheed thruster outputs in lbf·s vs NASA metric N·s mismatch dropped periapsis into fatal 57km friction.</span></td>
                     <td style="font-size: 11px;">NASA MCO Board (1999)</td>
-                    <td><span class="badge badge-pass">CODEX PASSED</span></td>
+                    <td><span class="badge badge-pass">G0: SOURCE-VERIFIED</span></td>
                 </tr>
                 <tr>
                     <td style="font-weight: 800; color: #f0f6fc;">#5</td>
@@ -501,47 +602,47 @@
                     <td><code>TECH-14</code></td>
                     <td><strong>Google 2009 'All Internet Is Malware'</strong><br><span style="font-size: 11px; color: var(--text-secondary);">A typo submitting forward slash '/' to URL blacklist matched every site on Earth as dangerous for 55 mins.</span></td>
                     <td style="font-size: 11px;">Google Post-Mortem (2009)</td>
-                    <td><span class="badge badge-pass">CODEX PASSED</span></td>
+                    <td><span class="badge badge-pass">G0: SOURCE-VERIFIED</span></td>
                 </tr>
                 <tr>
                     <td style="font-weight: 800; color: #f0f6fc;">#6</td>
                     <td><span style="color: var(--accent-green); font-weight: 700;">Medical</span></td>
-                    <td><code>MED-09</code></td>
-                    <td><strong>Severe Burns: Why Ice &amp; Butter Cook Skin</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Ice causes severe vasoconstriction and frostbite necrosis; butter traps residual heat. 5-20m running cool water halts damage.</span></td>
-                    <td style="font-size: 11px;">ABA &amp; British Burn Assoc</td>
-                    <td><span class="badge badge-pass">CODEX PASSED</span></td>
+                    <td><code>MED-14</code></td>
+                    <td><strong>Carbon Monoxide: The Invisible Household Killer</strong><br><span style="font-size: 11px; color: var(--text-secondary);">CO binds hemoglobin 200x tighter than oxygen; why 'flu symptoms' without fever in winter requires instant fresh air.</span></td>
+                    <td style="font-size: 11px;">CDC / NEJM / Undersea &amp; Hyperbaric Med</td>
+                    <td><span class="badge badge-pending">G0: REV-054 PRIORITY</span></td>
                 </tr>
                 <tr>
                     <td style="font-weight: 800; color: #f0f6fc;">#7</td>
                     <td><span style="color: var(--accent-green); font-weight: 700;">Medical</span></td>
-                    <td><code>MED-10</code></td>
-                    <td><strong>Anaphylaxis: Why Benadryl Fails</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Oral antihistamines take 30-60m; only immediate IM epinephrine into thigh reverses vascular collapse and bronchospasm.</span></td>
-                    <td style="font-size: 11px;">WAO 2020 Guidelines</td>
-                    <td><span class="badge badge-pass">CODEX PASSED</span></td>
+                    <td><code>MED-09</code></td>
+                    <td><strong>Severe Burns: Why Ice &amp; Butter Cook Skin</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Ice causes severe vasoconstriction and frostbite necrosis; butter traps residual heat. 5-20m running cool water halts damage.</span></td>
+                    <td style="font-size: 11px;">ABA &amp; British Burn Assoc</td>
+                    <td><span class="badge badge-pass">G0: SOURCE-VERIFIED</span></td>
                 </tr>
                 <tr>
                     <td style="font-weight: 800; color: #f0f6fc;">#8</td>
                     <td><span style="color: var(--accent-green); font-weight: 700;">Medical</span></td>
-                    <td><code>MED-11</code></td>
-                    <td><strong>Danger Triangle of the Face</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Valveless facial/ophthalmic veins communicate retrograde with intracranial cavernous sinus.</span></td>
-                    <td style="font-size: 11px;">StatPearls / NCBI</td>
-                    <td><span class="badge badge-pass">CODEX PASSED</span></td>
+                    <td><code>MED-10</code></td>
+                    <td><strong>Anaphylaxis: Why Benadryl Fails &amp; Epinephrine Saves Lives</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Oral antihistamines take 30-60m; only immediate IM epinephrine into thigh reverses vascular collapse and bronchospasm.</span></td>
+                    <td style="font-size: 11px;">WAO 2020 Guidelines</td>
+                    <td><span class="badge badge-pass">G0: SOURCE-VERIFIED</span></td>
                 </tr>
                 <tr>
                     <td style="font-weight: 800; color: #f0f6fc;">#9</td>
                     <td><span style="color: var(--accent-green); font-weight: 700;">Medical</span></td>
-                    <td><code>MED-12</code></td>
-                    <td><strong>Chemical Eye Burns: The 15-Minute Flush</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Alkali drain cleaner saponifies fatty acids (liquefactive necrosis), penetrating anterior chamber in minutes.</span></td>
-                    <td style="font-size: 11px;">AAO Practice Patterns</td>
-                    <td><span class="badge badge-pass">CODEX PASSED</span></td>
+                    <td><code>MED-11</code></td>
+                    <td><strong>Danger Triangle of the Face: Cavernous Sinus</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Valveless facial/ophthalmic veins communicate retrograde with intracranial cavernous sinus.</span></td>
+                    <td style="font-size: 11px;">StatPearls / NCBI</td>
+                    <td><span class="badge badge-pass">G0: SOURCE-VERIFIED</span></td>
                 </tr>
                 <tr>
                     <td style="font-weight: 800; color: #f0f6fc;">#10</td>
                     <td><span style="color: var(--accent-green); font-weight: 700;">Medical</span></td>
-                    <td><code>MED-13</code></td>
-                    <td><strong>Stroke F.A.S.T. Race: 1.9M Neurons/Min</strong><br><span style="font-size: 11px; color: var(--text-secondary);">1.9 million neurons die every minute in ischemic penumbra. IV-tPA window is strictly 4.5 hours from last-known-well.</span></td>
-                    <td style="font-size: 11px;">AHA/ASA 2019 Guidelines</td>
-                    <td><span class="badge badge-pass">CODEX PASSED</span></td>
+                    <td><code>MED-12</code></td>
+                    <td><strong>Chemical Eye Burns: The 15-Minute Flush</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Alkali drain cleaner saponifies fatty acids (liquefactive necrosis), penetrating anterior chamber in minutes.</span></td>
+                    <td style="font-size: 11px;">AAO Practice Patterns</td>
+                    <td><span class="badge badge-pass">G0: SOURCE-VERIFIED</span></td>
                 </tr>
             </tbody>
         </table>
