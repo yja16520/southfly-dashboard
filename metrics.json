@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-11-09 04:58 PM ET",
-  "epoch": 1794261538,
+  "timestamp": "2026-11-09 04:59 PM ET",
+  "epoch": 1794261578,
   "summary": {
-    "combined_views": 4828,
+    "combined_views": 4829,
     "combined_likes": 89,
     "combined_videos": 42,
     "youtube": {
-      "views": 2835,
+      "views": 2836,
       "likes": 65,
       "videos": 19,
-      "tech_views": 1541,
+      "tech_views": 1542,
       "yolki_views": 1294,
       "tech_likes": 42,
       "yolki_likes": 23
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 1541,
+      "views": 1542,
       "likes": 42,
       "subs": 3,
       "videos_count": 11,
@@ -46,7 +46,7 @@
         {
           "id": "7fZNTT41P8Q",
           "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
-          "views": 80,
+          "views": 81,
           "likes": 2,
           "url": "https://youtube.com/shorts/7fZNTT41P8Q"
         },
