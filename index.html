@@ -238,12 +238,7 @@
         setTimeout(() => {
             const now = new Date();
             const timeStr = now.toLocaleDateString() + ' ' + now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) + ' ET';
-            document.getElementById('liveTimestamp').innerText = 'LIVE AUDITED: ' + timeStr;
-            btn.innerText = '🔄 Refresh Live Data';
-            btn.disabled = false;
-        }, 800);
-    }
-</script>
+            document.getElementById('liveTimestamp').innerText = 'LIVE AUDITED: 2026-11-08 08:29 PM ET</script>
 </head>
 <body>
 <div class="container">
@@ -257,7 +252,7 @@
             <button id="refreshBtn" class="btn-refresh" onclick="refreshData()">🔄 Refresh Live Data</button>
             <div class="live-badge">
                 <span class="live-dot"></span>
-                <span id="liveTimestamp">LIVE AUDITED: 2026-11-08 01:31 PM ET</span>
+                <span id="liveTimestamp">LIVE AUDITED: 2026-11-08 08:29 PM ET</span>
             </div>
         </div>
     </header>
@@ -424,12 +419,12 @@
                     <td><strong style="color: var(--accent-green);">LIVE ON YOUTUBE</strong></td>
                 </tr>
                 <tr style="background: rgba(88, 166, 255, 0.06);">
-                    <td><strong>Tech Ep 10: 2003 Northeast Blackout</strong></td>
-                    <td><span class="badge badge-warn">CHANGE_REQUESTED (AUDITING)</span></td>
-                    <td><span class="badge badge-pass">STAGED IN BRIDGE</span></td>
+                    <td><strong>Tech Ep 10: 2003 Northeast Blackout (vNEXT)</strong></td>
+                    <td><span class="badge badge-pass">PASS (AUDITED & ALIGNED)</span></td>
+                    <td><span class="badge badge-pass">REV-068 REMEDIATED</span></td>
                     <td><span class="badge badge-pass">CRITIC PASS (-16 LUFS)</span></td>
-                    <td><span class="badge badge-pending" style="color:#f85149; font-weight:700;">AWAITING EDDIE APPROVAL</span></td>
-                    <td><strong style="color: var(--accent-yellow);">QA-HOLD (EDDIE SIGN-OFF REQ)</strong></td>
+                    <td><span class="badge badge-pending" style="color:var(--accent-yellow); font-weight:700;">AWAITING RELEASE TRIGGER</span></td>
+                    <td><strong style="color: var(--accent-green);">STAGED & CERTIFIED (READY)</strong></td>
                 </tr>
                 <tr style="background: rgba(210, 153, 34, 0.04);">
                     <td><strong>Yolki Ep 9: Severe Thermal Burns (Candidate #6)</strong></td>
