@@ -238,7 +238,12 @@
         setTimeout(() => {
             const now = new Date();
             const timeStr = now.toLocaleDateString() + ' ' + now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) + ' ET';
-            document.getElementById('liveTimestamp').innerText = 'LIVE AUDITED: 2026-11-08 08:29 PM ET</script>
+            document.getElementById('liveTimestamp').innerText = 'LIVE AUDITED: ' + timeStr;
+            btn.innerText = '🔄 Refresh Live Data';
+            btn.disabled = false;
+        }, 600);
+    }
+</script>
 </head>
 <body>
 <div class="container">
