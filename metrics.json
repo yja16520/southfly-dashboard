@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-11-08 09:20 PM ET",
-  "epoch": 1794190819,
+  "timestamp": "2026-11-09 10:30 AM ET",
+  "epoch": 1794238217,
   "summary": {
-    "combined_views": 4623,
-    "combined_likes": 87,
+    "combined_views": 4777,
+    "combined_likes": 89,
     "combined_videos": 42,
     "youtube": {
-      "views": 2812,
-      "likes": 64,
+      "views": 2823,
+      "likes": 65,
       "videos": 19,
-      "tech_views": 1531,
-      "yolki_views": 1281,
-      "tech_likes": 41,
+      "tech_views": 1536,
+      "yolki_views": 1287,
+      "tech_likes": 42,
       "yolki_likes": 23
     },
     "tiktok": {
-      "views": 1811,
-      "likes": 23,
+      "views": 1954,
+      "likes": 24,
       "videos": 23,
-      "tech_views": 1097,
-      "yolki_views": 714,
-      "tech_likes": 12,
+      "tech_views": 1225,
+      "yolki_views": 729,
+      "tech_likes": 13,
       "yolki_likes": 11
     }
   },
@@ -29,8 +29,8 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 1531,
-      "likes": 41,
+      "views": 1536,
+      "likes": 42,
       "subs": 3,
       "videos_count": 11,
       "trend": "▲ +47 (+3.5%)",
@@ -39,23 +39,30 @@
         {
           "id": "NqmcDpe0yLM",
           "title": "The Ridiculous 500-Mile Email Software Bug 📧💡 #shorts #coding #tech",
-          "views": 1266,
+          "views": 1240,
           "likes": 29,
           "url": "https://youtube.com/shorts/NqmcDpe0yLM"
         },
         {
           "id": "7fZNTT41P8Q",
           "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
-          "views": 64,
+          "views": 76,
           "likes": 2,
           "url": "https://youtube.com/shorts/7fZNTT41P8Q"
         },
         {
           "id": "c4xvXEJtRwQ",
           "title": "The $370M Code Overflow That Blew Up a Rocket 🚀💥 #shorts #coding #techhistory",
-          "views": 61,
+          "views": 62,
           "likes": 1,
           "url": "https://youtube.com/shorts/c4xvXEJtRwQ"
+        },
+        {
+          "id": "b92yJAX32FQ",
+          "title": "The Software Bug That Hid a Blackout #shorts #tech",
+          "views": 32,
+          "likes": 1,
+          "url": "https://youtube.com/shorts/b92yJAX32FQ"
         },
         {
           "id": "Aeor0SBB2-w",
@@ -63,13 +70,6 @@
           "views": 32,
           "likes": 1,
           "url": "https://youtube.com/shorts/Aeor0SBB2-w"
-        },
-        {
-          "id": "b92yJAX32FQ",
-          "title": "The Software Bug That Hid a Blackout #shorts #tech",
-          "views": 21,
-          "likes": 1,
-          "url": "https://youtube.com/shorts/b92yJAX32FQ"
         },
         {
           "id": "2agTjm7b3_s",
@@ -95,9 +95,16 @@
         {
           "id": "V8Hum-9iD2g",
           "title": "The Ridiculous 1983 Sensor Glitch That Nearly Triggered WW3! ☢️🚨 #shorts #coding #tech",
-          "views": 16,
+          "views": 17,
           "likes": 1,
           "url": "https://youtube.com/shorts/V8Hum-9iD2g"
+        },
+        {
+          "id": "69GrVIQwYW8",
+          "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
+          "views": 12,
+          "likes": 2,
+          "url": "https://youtube.com/shorts/69GrVIQwYW8"
         },
         {
           "id": "Vdbrj63XM1k",
@@ -105,13 +112,6 @@
           "views": 9,
           "likes": 1,
           "url": "https://youtube.com/shorts/Vdbrj63XM1k"
-        },
-        {
-          "id": "69GrVIQwYW8",
-          "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
-          "views": 6,
-          "likes": 1,
-          "url": "https://youtube.com/shorts/69GrVIQwYW8"
         }
       ]
     },
@@ -119,8 +119,8 @@
       "name": "SouthFly Studios",
       "handle": "@southfly8",
       "platform": "TikTok",
-      "views": 1097,
-      "likes": 12,
+      "views": 1225,
+      "likes": 13,
       "followers": 0,
       "videos_count": 16,
       "trend": "▲ Verified Live",
@@ -163,6 +163,12 @@
           "url": "https://www.tiktok.com/@southfly8/video/7701188516612443423"
         },
         {
+          "title": " created by Mission-Critical Tech with Dennis Korn’s Art of ",
+          "views": 93,
+          "viewsText": "93",
+          "url": "https://www.tiktok.com/@southfly8/video/7700327494846565662"
+        },
+        {
           "title": "The 1983 sensor bug that left humanity 12 minutes from World",
           "views": 62,
           "viewsText": "62",
@@ -181,22 +187,16 @@
           "url": "https://www.tiktok.com/@southfly8/video/7704146039984426271"
         },
         {
+          "title": "The software bug that plunged 50 million people into darknes",
+          "views": 42,
+          "viewsText": "42",
+          "url": "https://www.tiktok.com/@southfly8/video/7705950546502421790"
+        },
+        {
           "title": " created by Mission-Critical Tech with June Birchfield’s Lan",
           "views": 19,
           "viewsText": "19",
           "url": "https://www.tiktok.com/@southfly8/video/7702820969622080799"
-        },
-        {
-          "title": "The software bug that plunged 50 million people into darknes",
-          "views": 7,
-          "viewsText": "7",
-          "url": "https://www.tiktok.com/@southfly8/video/7705950546502421790"
-        },
-        {
-          "title": "tech_ep10_2003_blackout_vnext created by Mission-Critical Te",
-          "views": 0,
-          "viewsText": "0",
-          "url": "https://www.tiktok.com/@southfly8/video/7705949501130837278"
         },
         {
           "title": "The 500-Mile Email: How 3ms Broke Sendmail! 📧 Full 4-minute",
@@ -228,7 +228,7 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1281,
+      "views": 1287,
       "likes": 23,
       "subs": 2,
       "videos_count": 8,
@@ -238,28 +238,28 @@
         {
           "id": "Zhc5NOj20I0",
           "title": "What To Do If You Are Choking ALONE! 😱⚠️ (Heimlich First Aid) #shorts #firstaid #health",
-          "views": 1093,
+          "views": 1092,
           "likes": 13,
           "url": "https://youtube.com/shorts/Zhc5NOj20I0"
         },
         {
           "id": "ghv3_Z2zwgY",
           "title": "Why Pouring Ice Water on a Heatstroke Victim Can Backfire! ☀️🥵 (3 Cooling Zones)",
-          "views": 44,
+          "views": 45,
           "likes": 2,
           "url": "https://youtube.com/shorts/ghv3_Z2zwgY"
         },
         {
           "id": "2sqshfFvqcQ",
           "title": "What To Do During An Asthma Attack With NO Inhaler! 🫁⚠️ #shorts #health #medical",
-          "views": 39,
+          "views": 43,
           "likes": 2,
           "url": "https://youtube.com/shorts/2sqshfFvqcQ"
         },
         {
           "id": "Bz9UwWEiVBw",
           "title": "What To Do During Severe Arterial Bleeding! 🩸⚠️ (180-Second Rule) #shorts #firstaid #health",
-          "views": 31,
+          "views": 33,
           "likes": 1,
           "url": "https://youtube.com/shorts/Bz9UwWEiVBw"
         },
@@ -325,7 +325,7 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 714,
+      "views": 729,
       "likes": 11,
       "followers": 1,
       "videos_count": 7,
@@ -334,14 +334,14 @@
       "videos": [
         {
           "title": "What to do during an Asthma Attack when there is NO inhaler!",
-          "views": 197,
-          "viewsText": "197",
+          "views": 210,
+          "viewsText": "210",
           "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
         },
         {
           "title": "What to do if you are CHOKING and completely alone! 😱⚠️ The",
-          "views": 124,
-          "viewsText": "124",
+          "views": 125,
+          "viewsText": "125",
           "url": "https://www.tiktok.com/@yolki189/video/7703787182728760589"
         },
         {
@@ -352,8 +352,8 @@
         },
         {
           "title": "How a tooth is ACTUALLY extracted—and the deadly straw mista",
-          "views": 93,
-          "viewsText": "93",
+          "views": 94,
+          "viewsText": "94",
           "url": "https://www.tiktok.com/@yolki189/video/7704575509199473933"
         },
         {
