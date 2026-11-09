@@ -231,18 +231,105 @@
     }
 </style>
 <script>
-    function refreshData() {
-        const btn = document.getElementById('refreshBtn');
-        btn.innerText = '🔄 Refreshing...';
-        btn.disabled = true;
-        setTimeout(() => {
-            const now = new Date();
-            const timeStr = now.toLocaleDateString() + ' ' + now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) + ' ET';
-            document.getElementById('liveTimestamp').innerText = 'LIVE AUDITED: ' + timeStr;
-            btn.innerText = '🔄 Refresh Live Data';
-            btn.disabled = false;
-        }, 600);
+    function applyMetrics(data) {
+        if (!data || !data.summary) return;
+        const s = data.summary;
+        const ch = data.channels || {};
+        
+        // 1. Top KPI Cards
+        const ytViewsEl = document.getElementById('kpi-yt-views');
+        if (ytViewsEl) ytViewsEl.innerText = (s.youtube.views || 0).toLocaleString() + ' Views';
+        const ytSubEl = document.getElementById('kpi-yt-sub');
+        if (ytSubEl) ytSubEl.innerText = `${s.youtube.likes || 0} Likes • ${s.youtube.videos || 0} Videos (${(s.youtube.tech_views || 0).toLocaleString()} Tech + ${(s.youtube.yolki_views || 0).toLocaleString()} Yolki)`;
+        
+        const ttViewsEl = document.getElementById('kpi-tt-views');
+        if (ttViewsEl) ttViewsEl.innerText = (s.tiktok.views || 0).toLocaleString() + ' Views';
+        const ttSubEl = document.getElementById('kpi-tt-sub');
+        if (ttSubEl) ttSubEl.innerText = `${s.tiktok.likes || 0} Likes • ${s.tiktok.videos || 0} Videos (${(s.tiktok.tech_views || 0).toLocaleString()} Tech + ${(s.tiktok.yolki_views || 0).toLocaleString()} Yolki)`;
+        
+        const totViewsEl = document.getElementById('kpi-total-views');
+        if (totViewsEl) totViewsEl.innerText = (s.combined_views || 0).toLocaleString() + ' Views';
+        const totSubEl = document.getElementById('kpi-total-sub');
+        if (totSubEl) totSubEl.innerText = `${s.combined_likes || 0} Likes Across ${s.combined_videos || 0} Total Published Videos`;
+        
+        // 2. Scorecard Rows
+        if (ch.tech_youtube) {
+            const elV = document.getElementById('row-tech-yt-views');
+            if (elV) elV.innerText = ch.tech_youtube.views.toLocaleString();
+            const elL = document.getElementById('row-tech-yt-likes');
+            if (elL) elL.innerHTML = `<strong>${ch.tech_youtube.likes}</strong> likes`;
+            const elVid = document.getElementById('row-tech-yt-vids');
+            if (elVid) elVid.innerText = ch.tech_youtube.videos_count + ' videos';
+        }
+        if (ch.tech_tiktok) {
+            const elV = document.getElementById('row-tech-tt-views');
+            if (elV) elV.innerText = ch.tech_tiktok.views.toLocaleString();
+            const elL = document.getElementById('row-tech-tt-likes');
+            if (elL) elL.innerHTML = `<strong>${ch.tech_tiktok.likes}</strong> likes`;
+            const elVid = document.getElementById('row-tech-tt-vids');
+            if (elVid) elVid.innerText = ch.tech_tiktok.videos_count + ' videos';
+        }
+        if (ch.yolki_youtube) {
+            const elV = document.getElementById('row-yolki-yt-views');
+            if (elV) elV.innerText = ch.yolki_youtube.views.toLocaleString();
+            const elL = document.getElementById('row-yolki-yt-likes');
+            if (elL) elL.innerHTML = `<strong>${ch.yolki_youtube.likes}</strong> likes`;
+            const elVid = document.getElementById('row-yolki-yt-vids');
+            if (elVid) elVid.innerText = ch.yolki_youtube.videos_count + ' videos';
+        }
+        if (ch.yolki_tiktok) {
+            const elV = document.getElementById('row-yolki-tt-views');
+            if (elV) elV.innerText = ch.yolki_tiktok.views.toLocaleString();
+            const elL = document.getElementById('row-yolki-tt-likes');
+            if (elL) elL.innerHTML = `<strong>${ch.yolki_tiktok.likes}</strong> likes`;
+            const elVid = document.getElementById('row-yolki-tt-vids');
+            if (elVid) elVid.innerText = ch.yolki_tiktok.videos_count + ' videos';
+        }
+        
+        const elTotV = document.getElementById('row-total-views');
+        if (elTotV) elTotV.innerText = s.combined_views.toLocaleString();
+        const elTotL = document.getElementById('row-total-likes');
+        if (elTotL) elTotL.innerHTML = `<strong>${s.combined_likes}</strong> likes`;
+        const elTotVid = document.getElementById('row-total-vids');
+        if (elTotVid) elTotVid.innerText = s.combined_videos + ' videos';
+        
+        // Timestamp
+        if (data.timestamp) {
+            const tsEl = document.getElementById('liveTimestamp');
+            if (tsEl) tsEl.innerText = 'LIVE AUDITED: ' + data.timestamp;
+        }
     }
+
+    async function refreshData() {
+        const btn = document.getElementById('refreshBtn');
+        if (btn) {
+            btn.innerText = '🔄 Fetching Live Data...';
+            btn.disabled = true;
+        }
+        try {
+            // Real async fetch with cache-busting timestamp
+            const res = await fetch('./metrics.json?v=' + Date.now());
+            if (res.ok) {
+                const data = await res.json();
+                applyMetrics(data);
+                console.log('[+] Live telemetry fetched and rendered:', data.timestamp);
+            } else {
+                console.warn('Failed to load metrics.json, HTTP status:', res.status);
+            }
+        } catch (e) {
+            console.error('Fetch error:', e);
+        } finally {
+            if (btn) {
+                btn.innerText = '🔄 Refresh Live Data';
+                btn.disabled = false;
+            }
+        }
+    }
+
+    // Auto-fetch immediately upon loading
+    document.addEventListener('DOMContentLoaded', () => {
+        refreshData();
+    });
 </script>
 </head>
 <body>
@@ -266,18 +353,18 @@
     <div class="kpi-grid">
         <div class="kpi-card">
             <div class="label">YouTube Performance</div>
-            <div class="value">2,621 Views</div>
-            <div class="sub">43 Likes • 19 Videos (1,401 Tech + 1,220 Yolki)</div>
+            <div class="value" id="kpi-yt-views">2,812 Views</div>
+            <div class="sub" id="kpi-yt-sub">64 Likes • 19 Videos (1,531 Tech + 1,281 Yolki)</div>
         </div>
         <div class="kpi-card">
             <div class="label">TikTok Performance</div>
-            <div class="value">1,650 Views</div>
-            <div class="sub">23 Likes • 19 Videos (948 Tech + 702 Yolki)</div>
+            <div class="value" id="kpi-tt-views">1,811 Views</div>
+            <div class="sub" id="kpi-tt-sub">23 Likes • 23 Videos (1,097 Tech + 714 Yolki)</div>
         </div>
         <div class="kpi-card">
             <div class="label">Combined Studio Total</div>
-            <div class="value">4,271 Views</div>
-            <div class="sub">66 Likes Across 38 Total Published Videos</div>
+            <div class="value" id="kpi-total-views">4,623 Views</div>
+            <div class="sub" id="kpi-total-sub">87 Likes Across 42 Total Published Videos</div>
         </div>
         <div class="kpi-card">
             <div class="label">Multi-Agent Studio SLA</div>
@@ -312,47 +399,47 @@
             <tbody>
                 <tr>
                     <td><strong>Tech YouTube (@missioncriticaltech)</strong></td>
-                    <td><strong style="color: var(--accent-cyan);">1,401</strong></td>
-                    <td style="color: var(--accent-green); font-weight:700;">▲ +47 (+3.5%)</td>
-                    <td><strong>31</strong> likes</td>
+                    <td><strong style="color: var(--accent-cyan);" id="row-tech-yt-views">1,531</strong></td>
+                    <td style="color: var(--accent-green); font-weight:700;">▲ +177 (+13.1%)</td>
+                    <td id="row-tech-yt-likes"><strong>41</strong> likes</td>
                     <td>3 subscribers</td>
-                    <td>10 videos</td>
+                    <td id="row-tech-yt-vids">11 videos</td>
                     <td><span class="badge badge-pass">ACTIVE & INDEXED</span></td>
                 </tr>
                 <tr>
                     <td><strong>Tech TikTok (@southfly8)</strong></td>
-                    <td><strong style="color: var(--accent-cyan);">948</strong></td>
+                    <td><strong style="color: var(--accent-cyan);" id="row-tech-tt-views">1,097</strong></td>
                     <td style="color: var(--accent-green); font-weight:700;">▲ Verified Live</td>
-                    <td><strong>12</strong> likes</td>
+                    <td id="row-tech-tt-likes"><strong>12</strong> likes</td>
                     <td>0 followers</td>
-                    <td>12 videos</td>
+                    <td id="row-tech-tt-vids">16 videos</td>
                     <td><span class="badge badge-pass">PUBLIC PROFILE</span></td>
                 </tr>
                 <tr>
                     <td><strong>Yolki YouTube (@yolkimed)</strong></td>
-                    <td><strong style="color: var(--accent-cyan);">1,220</strong></td>
-                    <td style="color: var(--accent-yellow); font-weight:700;">► +1 (Cold Ramp)</td>
-                    <td><strong>12</strong> likes</td>
+                    <td><strong style="color: var(--accent-cyan);" id="row-yolki-yt-views">1,281</strong></td>
+                    <td style="color: var(--accent-green); font-weight:700;">▲ +61 (Growing)</td>
+                    <td id="row-yolki-yt-likes"><strong>23</strong> likes</td>
                     <td>2 subscribers</td>
-                    <td>9 videos</td>
+                    <td id="row-yolki-yt-vids">8 videos</td>
                     <td><span class="badge badge-pass">ACTIVE & INDEXED</span></td>
                 </tr>
                 <tr>
                     <td><strong>Yolki TikTok (@yolki189)</strong></td>
-                    <td><strong style="color: var(--accent-cyan);">702</strong></td>
+                    <td><strong style="color: var(--accent-cyan);" id="row-yolki-tt-views">714</strong></td>
                     <td style="color: var(--accent-green); font-weight:700;">▲ Verified Live</td>
-                    <td><strong>11</strong> likes</td>
+                    <td id="row-yolki-tt-likes"><strong>11</strong> likes</td>
                     <td>1 follower</td>
-                    <td>7 videos</td>
+                    <td id="row-yolki-tt-vids">7 videos</td>
                     <td><span class="badge badge-pending">STAGING EP 8</span></td>
                 </tr>
                 <tr style="background: rgba(88, 166, 255, 0.06); font-weight: 700; border-top: 2px solid var(--border-color);">
                     <td><strong>TOTAL STUDIO FOOTPRINT (4 Channels)</strong></td>
-                    <td><strong style="color: var(--accent-green); font-size: 14px;">4,271</strong></td>
-                    <td style="color: var(--accent-green);">▲ Growing</td>
-                    <td><strong style="color: var(--accent-green); font-size: 14px;">66</strong> likes</td>
-                    <td>4 total</td>
-                    <td>38 videos</td>
+                    <td><strong style="color: var(--accent-green); font-size: 14px;" id="row-total-views">4,623</strong></td>
+                    <td style="color: var(--accent-green);">▲ Growing (+352 views)</td>
+                    <td><strong style="color: var(--accent-green); font-size: 14px;" id="row-total-likes">87</strong> likes</td>
+                    <td>6 total</td>
+                    <td id="row-total-vids">42 videos</td>
                     <td><span class="badge badge-pass" style="font-size: 11px;">100% ONLINE</span></td>
                 </tr>
             </tbody>
