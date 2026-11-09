@@ -293,6 +293,33 @@
         const elTotVid = document.getElementById('row-total-vids');
         if (elTotVid) elTotVid.innerText = s.combined_videos + ' videos';
         
+        
+        // 3. Dynamic Video Catalog Rendering
+        const publishedTbody = document.getElementById('published-content-body');
+        if (publishedTbody && ch.tech_youtube && ch.tech_youtube.videos) {
+            const allVids = [];
+            (ch.tech_youtube.videos || []).forEach(v => allVids.push({...v, channel: '@missioncriticaltech', format: v.url.includes('/watch') ? 'MASTERCLASS (16:9)' : 'SHORT (9:16)'}));
+            (ch.yolki_youtube.videos || []).forEach(v => allVids.push({...v, channel: '@yolkimed', format: 'SHORT (9:16)'}));
+            allVids.sort((a, b) => b.views - a.views);
+
+            if (allVids.length > 0) {
+                let rowsHtml = '';
+                allVids.forEach(v => {
+                    const badgeClass = v.format.includes('MASTERCLASS') ? 'background:rgba(210,153,34,0.15); color:var(--accent-yellow); border:1px solid rgba(210,153,34,0.4);' : 'background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);';
+                    const btnLabel = v.format.includes('MASTERCLASS') ? 'Watch Film' : 'Watch Short';
+                    rowsHtml += `<tr>
+                        <td><strong>${v.channel}</strong></td>
+                        <td><span class="badge" style="${badgeClass}">${v.format}</span></td>
+                        <td>${v.title}</td>
+                        <td><strong style="color:var(--accent-cyan);">${v.views.toLocaleString()}</strong></td>
+                        <td>${v.likes}</td>
+                        <td><a href="${v.url}" target="_blank" class="btn">${btnLabel}</a></td>
+                    </tr>`;
+                });
+                publishedTbody.innerHTML = rowsHtml;
+            }
+        }
+
         // Timestamp
         if (data.timestamp) {
             const tsEl = document.getElementById('liveTimestamp');
@@ -492,7 +519,7 @@
                     <td><span class="badge badge-pass">CHATGPT ALIGNED</span></td>
                     <td><span class="badge badge-pass">CRITIC PASS</span></td>
                     <td><span class="badge badge-pass">EDDIE APPROVED</span></td>
-                    <td><strong style="color: var(--accent-green);">PUBLISHED & VERIFIED</strong></td>
+                    <td><strong style="color: var(--accent-green);">PUBLISHED & VERIFIED (64 views)</strong></td>
                 </tr>
                 <tr>
                     <td><strong>Yolki Ep 8: Cardiac Arrest & CPR (Short)</strong></td>
@@ -500,7 +527,7 @@
                     <td><span class="badge badge-pass">CHATGPT ALIGNED</span></td>
                     <td><span class="badge badge-pass">CRITIC PASS</span></td>
                     <td><span class="badge badge-pass">EDDIE APPROVED</span></td>
-                    <td><strong style="color: var(--accent-green);">PUBLISHED (TT Staging)</strong></td>
+                    <td><strong style="color: var(--accent-green);">PUBLISHED (19 views combined)</strong></td>
                 </tr>
                 <tr>
                     <td><strong>Masterclass Ep 1: The 500-Mile Email (16:9)</strong></td>
@@ -508,39 +535,39 @@
                     <td><span class="badge badge-pass">CHATGPT ALIGNED</span></td>
                     <td><span class="badge badge-pass">CRITIC PASS</span></td>
                     <td><span class="badge badge-pass">EDDIE APPROVED</span></td>
-                    <td><strong style="color: var(--accent-green);">LIVE ON YOUTUBE</strong></td>
+                    <td><strong style="color: var(--accent-green);">LIVE ON YOUTUBE (69GrVIQwYW8)</strong></td>
                 </tr>
-                <tr style="background: rgba(88, 166, 255, 0.06);">
-                    <td><strong>Tech Ep 10: 2003 Northeast Blackout (vNEXT)</strong></td>
-                    <td><span class="badge badge-pass">PASS (AUDITED & ALIGNED)</span></td>
+                <tr style="background: rgba(88, 166, 255, 0.08); border-left: 4px solid var(--accent-cyan);">
+                    <td><strong>Tech Ep 10: 2003 Northeast Blackout (vNEXT Master)</strong></td>
+                    <td><span class="badge badge-pass">CODEX 100% PASS</span></td>
                     <td><span class="badge badge-pass">REV-068 REMEDIATED</span></td>
-                    <td><span class="badge badge-pass">CRITIC PASS (-16 LUFS)</span></td>
+                    <td><span class="badge badge-pass">CRITIC UNCONDITIONAL PASS</span></td>
                     <td><span class="badge badge-pending" style="color:var(--accent-yellow); font-weight:700;">AWAITING RELEASE TRIGGER</span></td>
-                    <td><strong style="color: var(--accent-green);">STAGED & CERTIFIED (READY)</strong></td>
+                    <td><strong style="color: var(--accent-green);">STAGED & CERTIFIED (SHA-256: b9d10780...)</strong></td>
                 </tr>
                 <tr style="background: rgba(210, 153, 34, 0.04);">
                     <td><strong>Yolki Ep 9: Severe Thermal Burns (Candidate #6)</strong></td>
+                    <td><span class="badge badge-pass">GATE 0 CODEX PASS</span></td>
+                    <td><span class="badge badge-pending">PRE-PRODUCTION</span></td>
                     <td><span class="badge badge-na">IN QUEUE</span></td>
                     <td><span class="badge badge-na">IN QUEUE</span></td>
-                    <td><span class="badge badge-na">IN QUEUE</span></td>
-                    <td><span class="badge badge-na">IN QUEUE</span></td>
-                    <td><span class="badge badge-na">IN QUEUE</span></td>
-                    <td><strong style="color: var(--accent-yellow);">GATE 0: CODEX VETTED</strong></td>
+                    <td><strong style="color: var(--accent-yellow);">STAGE 0: CODEX VETTED</strong></td>
                 </tr>
             </tbody>
         </table>
     </div>
 
     <!-- 4. Publishing Schedule & Backward Milestones Governance -->
+        <!-- 4. Publishing Schedule & Backward Milestones Governance -->
     <div class="section-title">⏰ Publishing Windows & Backward Milestone Governance</div>
     <div class="table-card" style="margin-bottom: 24px;">
         <div style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); background: rgba(88, 166, 255, 0.04); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
             <div>
-                <strong style="font-size: 14px; color: var(--accent-blue);">🎯 Next Target Window: Today 5:30 PM – 6:30 PM ET</strong>
-                <span style="font-size: 12px; color: var(--text-secondary); margin-left: 8px;">(Feature: Tech Ep 10 — The 2003 Northeast Blackout)</span>
+                <strong style="font-size: 14px; color: var(--accent-blue);">🎯 Current Target Window: Today 9:30 PM – 10:30 PM ET</strong>
+                <span style="font-size: 12px; color: var(--text-secondary); margin-left: 8px;">(Feature: Tech Ep 10 — The 2003 Northeast Blackout vNEXT)</span>
             </div>
             <div>
-                <span class="badge badge-pass" style="font-size: 11px;">SCHEDULE STATUS: ON PLAN</span>
+                <span class="badge badge-pass" style="font-size: 11px;">MILESTONES 100% EXECUTED — STAGED</span>
             </div>
         </div>
         <table>
@@ -556,52 +583,60 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><strong>1:30 PM ET (T - 4h)</strong></td>
+                    <td><strong>1:30 PM ET (T - 8h)</strong></td>
                     <td><strong>Gate 0-3</strong></td>
-                    <td><strong>Production & Blind Critic</strong></td>
-                    <td>1080x1920 MP4, 11 cuts, -16.0 LUFS audio, Blind Critic Unconditional Pass</td>
+                    <td><strong>Initial Production & Blind Critic</strong></td>
+                    <td>1080x1920 MP4, 11 cuts, -16.0 LUFS audio, Blind Critic Pass</td>
                     <td>Production Lead</td>
                     <td><span class="badge badge-pass">GATE 1-3 PASS</span></td>
                 </tr>
-                <tr style="background: rgba(210, 153, 34, 0.08);">
-                    <td><strong>1:45 PM ET (T - 3.7h)</strong></td>
+                <tr>
+                    <td><strong>1:45 PM ET (T - 7.7h)</strong></td>
                     <td><strong>Codex QA</strong></td>
                     <td><strong>Independent Codex CLI Audit</strong></td>
-                    <td>Primary source fact-check (Task Force 2004), 265 plants correction, alarm stall check</td>
+                    <td>Primary source fact-check (Task Force 2004), 265 plants verified, alarm queue stall locked</td>
                     <td>Codex Local QA</td>
-                    <td><span class="badge badge-warn">CHANGE_REQUESTED (IN REVIEW)</span></td>
+                    <td><span class="badge badge-pass">AUDIT COMPLETED</span></td>
                 </tr>
-                <tr style="background: rgba(88, 166, 255, 0.08);">
-                    <td><strong>2:15 PM ET (T - 3.2h)</strong></td>
+                <tr>
+                    <td><strong>2:15 PM ET (T - 7.2h)</strong></td>
                     <td><strong>ChatGPT</strong></td>
                     <td><strong>Strategic Advisor Bridge</strong></td>
-                    <td>Audience retention curve, 1.5s hook velocity, narrative tension review in Advisor_Shared/</td>
+                    <td>Memos REV-067 & REV-068 delivered: sag causal fix & race condition softening instructed</td>
                     <td>ChatGPT Cloud Advisor</td>
-                    <td><span class="badge badge-pass">STAGED IN BRIDGE</span></td>
+                    <td><span class="badge badge-pass">REV-068 ISSUED</span></td>
+                </tr>
+                <tr style="background: rgba(63, 185, 80, 0.08);">
+                    <td><strong>8:15 PM ET (T - 1.2h)</strong></td>
+                    <td><strong>vNEXT Master</strong></td>
+                    <td><strong>Script Remediated & Critic Re-Certified</strong></td>
+                    <td>tech_ep10_2003_blackout_vnext.mp4 (82.77s, 28.2 MB, -16 LUFS, 0.3s tail padding)</td>
+                    <td>Lead Producer + Critic</td>
+                    <td><span class="badge badge-pass">UNCONDITIONAL PASS</span></td>
+                </tr>
+                <tr style="background: rgba(88, 166, 255, 0.08);">
+                    <td><strong>9:00 PM ET (T - 0.5h)</strong></td>
+                    <td><strong>Drive Sync</strong></td>
+                    <td><strong>Staging & Package Delivery</strong></td>
+                    <td>Review package, manifest, transcript & thumbnail synced to Advisor_Shared/</td>
+                    <td>Ops Lead</td>
+                    <td><span class="badge badge-pass">SYNCED TO DRIVE</span></td>
                 </tr>
                 <tr style="background: rgba(248, 81, 73, 0.12); border-left: 4px solid #f85149;">
-                    <td><strong>3:30 PM ET (T - 2h)</strong></td>
+                    <td><strong>9:30 PM ET (T - 0h)</strong></td>
                     <td><strong>Eddie Gate</strong></td>
-                    <td><strong>Founder Review & Approval</strong></td>
-                    <td>Review demo package, review Codex/ChatGPT feedback, grant explicit release sign-off</td>
+                    <td><strong>Founder Review & Release Trigger</strong></td>
+                    <td>Final executive sign-off for release to @missioncriticaltech and @southfly8</td>
                     <td>Founder Eddie</td>
-                    <td><span class="badge badge-pending" style="color:#f85149; font-weight:800;">MANDATORY APPROVAL GATE</span></td>
+                    <td><span class="badge badge-pending" style="color:#f85149; font-weight:800;">READY FOR RELEASE COMMAND</span></td>
                 </tr>
                 <tr>
-                    <td><strong>5:30 PM ET (T - 0h)</strong></td>
-                    <td><strong>Deploy</strong></td>
-                    <td><strong>Live Multi-Platform Release</strong></td>
-                    <td>YouTube Shorts (@missioncriticaltech) & TikTok (@southfly8) post + Gate 4 verification</td>
-                    <td>Deployment Ops</td>
-                    <td><span class="badge badge-pending">HELD FOR EDDIE APPROVAL</span></td>
-                </tr>
-                <tr>
-                    <td><strong>6:30 PM ET (T + 1h)</strong></td>
+                    <td><strong>10:30 PM ET (T + 1h)</strong></td>
                     <td><strong>Post-Flight</strong></td>
                     <td><strong>Horizontal Sweep & Daily Digest</strong></td>
                     <td>Cross-platform telemetry audit across all 4 channels, executive digest to southfly.studios@gmail.com</td>
                     <td>Growth Lead</td>
-                    <td><span class="badge badge-pending">SCHEDULED</span></td>
+                    <td><span class="badge badge-pending">SCHEDULED POST-DEPLOY</span></td>
                 </tr>
             </tbody>
         </table>
@@ -724,7 +759,8 @@
     </div>
 
     <!-- 5. Active Live Releases Quick Directory -->
-    <div class="section-title">🚀 Published Content & Live Links</div>
+        <!-- 6. Active Live Releases Quick Directory (Dynamically Bound to Live Video Catalog) -->
+    <div class="section-title">🚀 Published Content & Live Links (Full Live Catalog)</div>
     <div class="table-card">
         <table>
             <thead>
@@ -737,46 +773,158 @@
                     <th>Action</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="published-content-body">
                 <tr>
                     <td><strong>@missioncriticaltech</strong></td>
                     <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
-                    <td>CrowdStrike 2024: Out-of-Bounds Memory Read Bug</td>
-                    <td><strong>28</strong></td>
-                    <td>1</td>
-                    <td><a href="https://youtube.com/shorts/7fZNTT41P8Q" target="_blank" class="btn">Watch Short</a></td>
-                </tr>
-                <tr>
-                    <td><strong>@yolkimed</strong></td>
-                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
-                    <td>Sudden Cardiac Arrest: Why Pausing CPR Drops Pressure!</td>
-                    <td><strong>1</strong></td>
-                    <td>0</td>
-                    <td><a href="https://youtube.com/shorts/vK5Cdr099a8" target="_blank" class="btn">Watch Short</a></td>
-                </tr>
-                <tr>
-                    <td><strong>@missioncriticaltech</strong></td>
-                    <td><span class="badge" style="background:rgba(210,153,34,0.15); color:var(--accent-yellow); border:1px solid rgba(210,153,34,0.4);">MASTERCLASS (16:9)</span></td>
-                    <td>The 500-Mile Email: How 3ms Broke Sendmail</td>
-                    <td><strong>22</strong></td>
-                    <td>1</td>
-                    <td><a href="https://youtube.com/watch?v=69GrVIQwYW8" target="_blank" class="btn">Watch Film</a></td>
-                </tr>
-                <tr>
-                    <td><strong>@missioncriticaltech</strong></td>
-                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
-                    <td>The 500-Mile Email Bug (Hook Short)</td>
-                    <td><strong>1,192+</strong></td>
+                    <td>The Ridiculous 500-Mile Email Software Bug 📧💡</td>
+                    <td><strong style="color:var(--accent-cyan);">1,266</strong></td>
                     <td>29</td>
                     <td><a href="https://youtube.com/shorts/NqmcDpe0yLM" target="_blank" class="btn">Watch Short</a></td>
                 </tr>
                 <tr>
                     <td><strong>@yolkimed</strong></td>
                     <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
-                    <td>Choking Alone / Chair Trick Emergency</td>
-                    <td><strong>1,050+</strong></td>
-                    <td>12</td>
+                    <td>What To Do If You Are Choking ALONE! 😱⚠️</td>
+                    <td><strong style="color:var(--accent-cyan);">1,093</strong></td>
+                    <td>13</td>
                     <td><a href="https://youtube.com/shorts/Zhc5NOj20I0" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@missioncriticaltech</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug!</td>
+                    <td><strong style="color:var(--accent-cyan);">64</strong></td>
+                    <td>2</td>
+                    <td><a href="https://youtube.com/shorts/7fZNTT41P8Q" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@missioncriticaltech</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>The $370M Code Overflow That Blew Up a Rocket 🚀💥</td>
+                    <td><strong style="color:var(--accent-cyan);">61</strong></td>
+                    <td>1</td>
+                    <td><a href="https://youtube.com/shorts/c4xvXEJtRwQ" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@yolkimed</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>Why Pouring Ice Water on a Heatstroke Victim Can Backfire</td>
+                    <td><strong style="color:var(--accent-cyan);">44</strong></td>
+                    <td>2</td>
+                    <td><a href="https://youtube.com/shorts/ghv3_Z2zwgY" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@yolkimed</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>What To Do During An Asthma Attack With NO Inhaler! 🫁⚠️</td>
+                    <td><strong style="color:var(--accent-cyan);">39</strong></td>
+                    <td>2</td>
+                    <td><a href="https://youtube.com/shorts/2sqshfFvqcQ" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@missioncriticaltech</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>How 7 Characters of Regex Crashed 12 Million Websites #shorts</td>
+                    <td><strong style="color:var(--accent-cyan);">31</strong></td>
+                    <td>1</td>
+                    <td><a href="https://youtube.com/shorts/Aeor0SBB2-w" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@yolkimed</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>What To Do During Severe Arterial Bleeding! 🩸⚠️</td>
+                    <td><strong style="color:var(--accent-cyan);">31</strong></td>
+                    <td>1</td>
+                    <td><a href="https://youtube.com/shorts/Bz9UwWEiVBw" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@missioncriticaltech</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>The Software Bug That Hid a Blackout #shorts #tech</td>
+                    <td><strong style="color:var(--accent-cyan);">21</strong></td>
+                    <td>1</td>
+                    <td><a href="https://youtube.com/shorts/b92yJAX32FQ" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@yolkimed</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>Why Freezing Victims Tear Off Their Clothes! ❄️⚠️ (Hypothermia)</td>
+                    <td><strong style="color:var(--accent-cyan);">24</strong></td>
+                    <td>1</td>
+                    <td><a href="https://youtube.com/shorts/QhBYJhjwZuk" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@missioncriticaltech</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>Why Wall Street Pays 70-Year-Olds $500/hr for 1959 Code</td>
+                    <td><strong style="color:var(--accent-cyan);">20</strong></td>
+                    <td>1</td>
+                    <td><a href="https://youtube.com/shorts/YfjcnpNDyJ8" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@missioncriticaltech</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>Why 100 Lava Lamps Guard 20% of the Internet! 💡🔐</td>
+                    <td><strong style="color:var(--accent-cyan);">20</strong></td>
+                    <td>1</td>
+                    <td><a href="https://youtube.com/shorts/2agTjm7b3_s" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@missioncriticaltech</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>The $440M Dead Code Glitch That Bankrupted Wall Street</td>
+                    <td><strong style="color:var(--accent-cyan);">18</strong></td>
+                    <td>2</td>
+                    <td><a href="https://youtube.com/shorts/zLXFLPOuX8Y" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@yolkimed</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>Why Dentists Warn: NEVER Use a Straw After Tooth Extraction</td>
+                    <td><strong style="color:var(--accent-cyan);">15</strong></td>
+                    <td>2</td>
+                    <td><a href="https://youtube.com/shorts/NTfFWaR57-Y" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@yolkimed</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>Why Pausing CPR for 5 Seconds Is DEADLY! 😱⚠️</td>
+                    <td><strong style="color:var(--accent-cyan);">13</strong></td>
+                    <td>1</td>
+                    <td><a href="https://youtube.com/shorts/_Wd2Kkc4bTA" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@missioncriticaltech</strong></td>
+                    <td><span class="badge" style="background:rgba(210,153,34,0.15); color:var(--accent-yellow); border:1px solid rgba(210,153,34,0.4);">MASTERCLASS (16:9)</span></td>
+                    <td>The 500-Mile Email: How 3ms Broke Sendmail</td>
+                    <td><strong style="color:var(--accent-cyan);">6</strong></td>
+                    <td>1</td>
+                    <td><a href="https://youtube.com/watch?v=69GrVIQwYW8" target="_blank" class="btn">Watch Film</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@yolkimed</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>Sudden Cardiac Arrest: Why Pausing CPR Resets Pressure</td>
+                    <td><strong style="color:var(--accent-cyan);">6</strong></td>
+                    <td>0</td>
+                    <td><a href="https://youtube.com/shorts/vK5Cdr099a8" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@missioncriticaltech</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>How Typing Too Fast Triggered a Lethal Radiation Overdose</td>
+                    <td><strong style="color:var(--accent-cyan);">9</strong></td>
+                    <td>1</td>
+                    <td><a href="https://youtube.com/shorts/Vdbrj63XM1k" target="_blank" class="btn">Watch Short</a></td>
+                </tr>
+                <tr>
+                    <td><strong>@missioncriticaltech</strong></td>
+                    <td><span class="badge" style="background:rgba(88,166,255,0.15); color:var(--accent-blue); border:1px solid rgba(88,166,255,0.4);">SHORT (9:16)</span></td>
+                    <td>The Ridiculous 1983 Sensor Glitch (Soviet WW3 Bug)</td>
+                    <td><strong style="color:var(--accent-cyan);">16</strong></td>
+                    <td>1</td>
+                    <td><a href="https://youtube.com/shorts/V8Hum-9iD2g" target="_blank" class="btn">Watch Short</a></td>
                 </tr>
             </tbody>
         </table>
