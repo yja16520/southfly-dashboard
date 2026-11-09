@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-11-09 04:51 PM ET",
-  "epoch": 1794261110,
+  "timestamp": "2026-11-09 04:58 PM ET",
+  "epoch": 1794261508,
   "summary": {
-    "combined_views": 4825,
+    "combined_views": 4829,
     "combined_likes": 89,
-    "combined_videos": 43,
+    "combined_videos": 42,
     "youtube": {
-      "views": 2832,
+      "views": 2836,
       "likes": 65,
-      "videos": 20,
-      "tech_views": 1539,
-      "yolki_views": 1293,
+      "videos": 19,
+      "tech_views": 1542,
+      "yolki_views": 1294,
       "tech_likes": 42,
       "yolki_likes": 23
     },
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 1539,
+      "views": 1542,
       "likes": 42,
       "subs": 3,
       "videos_count": 11,
@@ -46,7 +46,7 @@
         {
           "id": "7fZNTT41P8Q",
           "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
-          "views": 78,
+          "views": 81,
           "likes": 2,
           "url": "https://youtube.com/shorts/7fZNTT41P8Q"
         },
@@ -228,17 +228,17 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1293,
+      "views": 1294,
       "likes": 23,
       "subs": 2,
-      "videos_count": 9,
+      "videos_count": 8,
       "trend": "▲ +26 (Growing)",
       "status": "ACTIVE & INDEXED",
       "videos": [
         {
           "id": "Zhc5NOj20I0",
           "title": "What To Do If You Are Choking ALONE! 😱⚠️ (Heimlich First Aid) #shorts #firstaid #health",
-          "views": 1093,
+          "views": 1094,
           "likes": 13,
           "url": "https://youtube.com/shorts/Zhc5NOj20I0"
         },

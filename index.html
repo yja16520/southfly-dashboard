@@ -371,7 +371,7 @@
             <button id="refreshBtn" class="btn-refresh" onclick="refreshData()">🔄 Refresh Live Data</button>
             <div class="live-badge">
                 <span class="live-dot"></span>
-                <span id="liveTimestamp">LIVE AUDITED: 2026-11-09 04:51 PM ET</span>
+                <span id="liveTimestamp">LIVE AUDITED: 2026-11-09 04:58 PM ET</span>
             </div>
         </div>
     </header>
@@ -380,8 +380,8 @@
     <div class="kpi-grid">
         <div class="kpi-card">
             <div class="label">YouTube Performance</div>
-            <div class="value" id="kpi-yt-views">2,832 Views</div>
-            <div class="sub" id="kpi-yt-sub">65 Likes • 20 Videos (1,539 Tech + 1,293 Yolki)</div>
+            <div class="value" id="kpi-yt-views">2,836 Views</div>
+            <div class="sub" id="kpi-yt-sub">65 Likes • 19 Videos (1,542 Tech + 1,294 Yolki)</div>
         </div>
         <div class="kpi-card">
             <div class="label">TikTok Performance</div>
@@ -390,8 +390,8 @@
         </div>
         <div class="kpi-card">
             <div class="label">Combined Studio Total</div>
-            <div class="value" id="kpi-total-views">4,825 Views</div>
-            <div class="sub" id="kpi-total-sub">89 Likes Across 43 Total Published Videos</div>
+            <div class="value" id="kpi-total-views">4,829 Views</div>
+            <div class="sub" id="kpi-total-sub">89 Likes Across 42 Total Published Videos</div>
         </div>
         <div class="kpi-card">
             <div class="label">Multi-Agent Studio SLA</div>
@@ -426,7 +426,7 @@
             <tbody>
                 <tr>
                     <td><strong>Tech YouTube (@missioncriticaltech)</strong></td>
-                    <td><strong style="color: var(--accent-cyan);" id="row-tech-yt-views">1,539</strong></td>
+                    <td><strong style="color: var(--accent-cyan);" id="row-tech-yt-views">1,542</strong></td>
                     <td style="color: var(--accent-green); font-weight:700;">▲ +177 (+13.1%)</td>
                     <td id="row-tech-yt-likes"><strong>41</strong> likes</td>
                     <td>3 subscribers</td>
@@ -444,7 +444,7 @@
                 </tr>
                 <tr>
                     <td><strong>Yolki YouTube (@yolkimed)</strong></td>
-                    <td><strong style="color: var(--accent-cyan);" id="row-yolki-yt-views">1,293</strong></td>
+                    <td><strong style="color: var(--accent-cyan);" id="row-yolki-yt-views">1,294</strong></td>
                     <td style="color: var(--accent-green); font-weight:700;">▲ +61 (Growing)</td>
                     <td id="row-yolki-yt-likes"><strong>23</strong> likes</td>
                     <td>2 subscribers</td>
@@ -462,7 +462,7 @@
                 </tr>
                 <tr style="background: rgba(88, 166, 255, 0.06); font-weight: 700; border-top: 2px solid var(--border-color);">
                     <td><strong>TOTAL STUDIO FOOTPRINT (4 Channels)</strong></td>
-                    <td><strong style="color: var(--accent-green); font-size: 14px;" id="row-total-views">4,825</strong></td>
+                    <td><strong style="color: var(--accent-green); font-size: 14px;" id="row-total-views">4,829</strong></td>
                     <td style="color: var(--accent-green);">▲ Growing (+352 views)</td>
                     <td id="row-total-likes"><strong style="color: var(--accent-green); font-size: 14px;">89</strong> likes</td>
                     <td>6 total</td>
@@ -472,6 +472,356 @@
             </tbody>
         </table>
     </div>
+
+
+    
+    <!-- 1.5. Daily Trajectory & Growth Trend Audit -->
+    <div class="section-title">📈 Daily Growth Trend &amp; Historical Trajectory (Nov 02 – Nov 09)</div>
+    <div class="card" style="margin-bottom: 24px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 16px;">
+            <div>
+                <div style="font-size: 14px; font-weight: 700; color: var(--text-primary);">8-Day Inception-to-Date Growth Velocity Curve</div>
+                <div style="font-size: 12px; color: var(--text-secondary); margin-top: 2px;">Ground-truthed telemetry traceable to Day 1 Launch (Nov 02, 2026) across all 4 channels</div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+                <button id="btn-trend-views" class="badge badge-pass" style="cursor: pointer; padding: 6px 12px; border: 1px solid var(--accent-green);" onclick="renderChart('views')">● Total Views (4,825)</button>
+                <button id="btn-trend-likes" class="badge" style="cursor: pointer; padding: 6px 12px; background: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-secondary);" onclick="renderChart('likes')">Audience Likes (89)</button>
+                <button id="btn-trend-subs" class="badge" style="cursor: pointer; padding: 6px 12px; background: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-secondary);" onclick="renderChart('subs')">Subscribers (5)</button>
+            </div>
+        </div>
+
+        <!-- SVG Trend Line Chart -->
+        <div id="trend-chart-container" style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 8px; padding: 16px; margin-bottom: 20px; overflow-x: auto;">
+            <svg width="100%" height="auto" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" style="background:var(--bg-primary, #0d1117); border-radius:8px; display:block; margin: 0 auto;">
+  <defs>
+    <linearGradient id="areaGradient_dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39c5bb" stop-opacity="0.32"/>
+      <stop offset="60%" stop-color="#39c5bb" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#39c5bb" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  
+  <line x1="50" y1="205" x2="865" y2="205" stroke="#30363d" stroke-width="1.5"/>
+  <text x="42" y="209" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">0</text>
+  
+  
+        <line x1="50" y1="170.0" x2="865" y2="170.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="42" y="174.0" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">1,000</text>
+        
+        <line x1="50" y1="135.0" x2="865" y2="135.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="42" y="139.0" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">2,000</text>
+        
+        <line x1="50" y1="100.0" x2="865" y2="100.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="42" y="104.0" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">3,000</text>
+        
+        <line x1="50" y1="65.0" x2="865" y2="65.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="42" y="69.0" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">4,000</text>
+        
+        <line x1="50" y1="30.0" x2="865" y2="30.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="42" y="34.0" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">5,000</text>
+        
+  <polygon points="50.0,205.0 50.0,201.5 166.4,200.4 282.9,198.7 399.3,117.0 515.7,106.3 632.1,73.8 748.6,43.2 865.0,36.1 865.0,205.0" fill="url(#areaGradient_dark)"/>
+  <polyline points="50.0,201.5 166.4,200.4 282.9,198.7 399.3,117.0 515.7,106.3 632.1,73.8 748.6,43.2 865.0,36.1" fill="none" stroke="#39c5bb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+        <circle cx="50.0" cy="201.5" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        
+            <text x="50.0" y="192.5" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">99</text>
+            
+        <circle cx="166.4" cy="200.4" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        
+        <circle cx="282.9" cy="198.7" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        
+        <circle cx="399.3" cy="117.0" r="5" fill="#f59e0b" stroke="#161b22" stroke-width="2"/>
+        
+            <rect x="363.3" y="92.0" width="72" height="18" rx="4" fill="rgba(210,153,34,0.25)" stroke="#f59e0b" stroke-width="1"/>
+            <text x="399.3" y="105.0" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="700" fill="#d29922" text-anchor="middle">🚀 +2,333</text>
+            
+        <circle cx="515.7" cy="106.3" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        
+        <circle cx="632.1" cy="73.8" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        
+            <text x="632.1" y="64.8" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">3,749</text>
+            
+        <circle cx="748.6" cy="43.2" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        
+            <text x="748.6" y="34.2" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">4,623</text>
+            
+        <circle cx="865.0" cy="36.1" r="5" fill="#10b981" stroke="#161b22" stroke-width="2"/>
+        
+            <rect x="831.0" y="11.1" width="68" height="18" rx="4" fill="rgba(63,185,80,0.25)" stroke="#10b981" stroke-width="1"/>
+            <text x="865.0" y="24.1" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#3fb950" text-anchor="middle">4,825</text>
+            
+  
+        <text x="50.0" y="223.0" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#8b949e" text-anchor="middle">Nov 02</text>
+        
+        <text x="166.4" y="223.0" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#8b949e" text-anchor="middle">Nov 03</text>
+        
+        <text x="282.9" y="223.0" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#8b949e" text-anchor="middle">Nov 04</text>
+        
+        <text x="399.3" y="223.0" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#8b949e" text-anchor="middle">Nov 05</text>
+        
+        <text x="515.7" y="223.0" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#8b949e" text-anchor="middle">Nov 06</text>
+        
+        <text x="632.1" y="223.0" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#8b949e" text-anchor="middle">Nov 07</text>
+        
+        <text x="748.6" y="223.0" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#8b949e" text-anchor="middle">Nov 08</text>
+        
+        <text x="865.0" y="223.0" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#8b949e" text-anchor="middle">Nov 09</text>
+        
+</svg>
+        </div>
+
+        <!-- Summary KPIs Row -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 20px;">
+            <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center;">
+                <div style="font-size: 11px; color: var(--text-secondary); text-transform: uppercase; font-weight: 700;">Traceable History</div>
+                <div style="font-size: 18px; font-weight: 800; color: var(--text-primary); margin-top: 2px;">8 Consecutive Days</div>
+                <div style="font-size: 11px; color: var(--accent-cyan); margin-top: 2px;">Nov 02 → Nov 09</div>
+            </div>
+            <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center;">
+                <div style="font-size: 11px; color: var(--text-secondary); text-transform: uppercase; font-weight: 700;">Cumulative View Gain</div>
+                <div style="font-size: 18px; font-weight: 800; color: var(--accent-green); margin-top: 2px;">+4,726 Views</div>
+                <div style="font-size: 11px; color: var(--accent-green); margin-top: 2px;">▲ 4,773% Expansion</div>
+            </div>
+            <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center;">
+                <div style="font-size: 11px; color: var(--text-secondary); text-transform: uppercase; font-weight: 700;">Total Audience Likes</div>
+                <div style="font-size: 18px; font-weight: 800; color: var(--accent-cyan); margin-top: 2px;">89 Likes (+84)</div>
+                <div style="font-size: 11px; color: var(--accent-cyan); margin-top: 2px;">1.85% Studio Average</div>
+            </div>
+            <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center;">
+                <div style="font-size: 11px; color: var(--text-secondary); text-transform: uppercase; font-weight: 700;">Subscribers Base</div>
+                <div style="font-size: 18px; font-weight: 800; color: var(--accent-purple); margin-top: 2px;">5 Subscribers</div>
+                <div style="font-size: 11px; color: var(--accent-purple); margin-top: 2px;">+4 Gained (400%)</div>
+            </div>
+        </div>
+
+        <!-- Historical Breakdown Table -->
+        <div style="font-size: 13px; font-weight: 700; color: var(--text-primary); margin-bottom: 8px;">Day-by-Day Historical Inception Breakdown</div>
+        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+            <thead>
+                <tr style="background: var(--bg-primary); color: var(--text-secondary);">
+                    <th style="padding: 10px 12px; border-bottom: 2px solid var(--border-color); text-align: left;">Date</th>
+                    <th style="padding: 10px 12px; border-bottom: 2px solid var(--border-color); text-align: right;">Daily Δ</th>
+                    <th style="padding: 10px 12px; border-bottom: 2px solid var(--border-color); text-align: left;">Cumulative Progress</th>
+                    <th style="padding: 10px 12px; border-bottom: 2px solid var(--border-color); text-align: right;">Likes (Δ)</th>
+                    <th style="padding: 10px 12px; border-bottom: 2px solid var(--border-color); text-align: center;">Subs</th>
+                    <th style="padding: 10px 12px; border-bottom: 2px solid var(--border-color); text-align: left;">Milestone &amp; Operations Event</th>
+                </tr>
+            </thead>
+            <tbody id="trend-table-body">
+                
+        <tr style="">
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); white-space: nowrap;">
+                <strong style="color: var(--text-primary);">Nov 02</strong> <span style="color: var(--text-secondary); font-size: 11px;">(Day 1)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <span class="badge badge-pass" style="font-size: 11px;">+99</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+                    <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 3%; height: 100%; border-radius: 4px;"></div>
+                    </div>
+                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">99</span>
+                </div>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <strong style="color: var(--text-primary);">5</strong> <span style="color: var(--accent-green); font-size: 11px;">(+5)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: center; font-weight: bold; color: var(--accent-purple);">
+                1
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); font-size: 12px; color: var(--text-secondary);">
+                Studio Inception: Lava Lamps, 1983 Bug, Asthma
+            </td>
+        </tr>
+        
+        <tr style="background: rgba(255,255,255,0.02);">
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); white-space: nowrap;">
+                <strong style="color: var(--text-primary);">Nov 03</strong> <span style="color: var(--text-secondary); font-size: 11px;">(Day 2)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <span class="badge badge-pass" style="font-size: 11px;">+33</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+                    <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 3%; height: 100%; border-radius: 4px;"></div>
+                    </div>
+                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">132</span>
+                </div>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <strong style="color: var(--text-primary);">7</strong> <span style="color: var(--accent-green); font-size: 11px;">(+2)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: center; font-weight: bold; color: var(--accent-purple);">
+                1
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); font-size: 12px; color: var(--text-secondary);">
+                Therac-25 Radiation Bug & Hypothermia First Aid
+            </td>
+        </tr>
+        
+        <tr style="">
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); white-space: nowrap;">
+                <strong style="color: var(--text-primary);">Nov 04</strong> <span style="color: var(--text-secondary); font-size: 11px;">(Day 3)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <span class="badge badge-pass" style="font-size: 11px;">+48</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+                    <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 3%; height: 100%; border-radius: 4px;"></div>
+                    </div>
+                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">180</span>
+                </div>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <strong style="color: var(--text-primary);">9</strong> <span style="color: var(--accent-green); font-size: 11px;">(+2)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: center; font-weight: bold; color: var(--accent-purple);">
+                2
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); font-size: 12px; color: var(--text-secondary);">
+                Algorithmic Staging & Production Review
+            </td>
+        </tr>
+        
+        <tr style="background: rgba(210,153,34,0.08); font-weight: bold;">
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); white-space: nowrap;">
+                <strong style="color: var(--text-primary);">Nov 05</strong> <span style="color: var(--text-secondary); font-size: 11px;">(Day 4)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <span class="badge badge-pass" style="font-size: 11px;">+2,333</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+                    <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 50%; height: 100%; border-radius: 4px;"></div>
+                    </div>
+                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">2,513</span>
+                </div>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <strong style="color: var(--text-primary);">49</strong> <span style="color: var(--accent-green); font-size: 11px;">(+40)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: center; font-weight: bold; color: var(--accent-purple);">
+                3
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); font-size: 12px; color: var(--text-secondary);">
+                🚀 BREAKOUT: 500-Mile Email & Choking Alone
+            </td>
+        </tr>
+        
+        <tr style="">
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); white-space: nowrap;">
+                <strong style="color: var(--text-primary);">Nov 06</strong> <span style="color: var(--text-secondary); font-size: 11px;">(Day 5)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <span class="badge badge-pass" style="font-size: 11px;">+307</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+                    <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 56%; height: 100%; border-radius: 4px;"></div>
+                    </div>
+                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">2,820</span>
+                </div>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <strong style="color: var(--text-primary);">58</strong> <span style="color: var(--accent-green); font-size: 11px;">(+9)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: center; font-weight: bold; color: var(--accent-purple);">
+                3
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); font-size: 12px; color: var(--text-secondary);">
+                Ariane 5, Knight Capital & Drowning 24h
+            </td>
+        </tr>
+        
+        <tr style="background: rgba(255,255,255,0.02);">
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); white-space: nowrap;">
+                <strong style="color: var(--text-primary);">Nov 07</strong> <span style="color: var(--text-secondary); font-size: 11px;">(Day 6)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <span class="badge badge-pass" style="font-size: 11px;">+929</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+                    <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 74%; height: 100%; border-radius: 4px;"></div>
+                    </div>
+                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">3,749</span>
+                </div>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <strong style="color: var(--text-primary);">66</strong> <span style="color: var(--accent-green); font-size: 11px;">(+8)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: center; font-weight: bold; color: var(--accent-purple);">
+                4
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); font-size: 12px; color: var(--text-secondary);">
+                Brand Kit Deployment & Cardiac Arrest CPR
+            </td>
+        </tr>
+        
+        <tr style="">
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); white-space: nowrap;">
+                <strong style="color: var(--text-primary);">Nov 08</strong> <span style="color: var(--text-secondary); font-size: 11px;">(Day 7)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <span class="badge badge-pass" style="font-size: 11px;">+874</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+                    <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 92%; height: 100%; border-radius: 4px;"></div>
+                    </div>
+                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">4,623</span>
+                </div>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <strong style="color: var(--text-primary);">87</strong> <span style="color: var(--accent-green); font-size: 11px;">(+21)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: center; font-weight: bold; color: var(--accent-purple);">
+                4
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); font-size: 12px; color: var(--text-secondary);">
+                CrowdStrike Kernel Outage & 2003 Blackout
+            </td>
+        </tr>
+        
+        <tr style="background: rgba(255,255,255,0.02);">
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); white-space: nowrap;">
+                <strong style="color: var(--text-primary);">Nov 09</strong> <span style="color: var(--text-secondary); font-size: 11px;">(Day 8)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <span class="badge badge-pass" style="font-size: 11px;">+202</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+                    <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 96%; height: 100%; border-radius: 4px;"></div>
+                    </div>
+                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">4,825</span>
+                </div>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
+                <strong style="color: var(--text-primary);">89</strong> <span style="color: var(--accent-green); font-size: 11px;">(+2)</span>
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: center; font-weight: bold; color: var(--accent-purple);">
+                5
+            </td>
+            <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); font-size: 12px; color: var(--text-secondary);">
+                Blackout Circulation & Yolki Ep 9 Pilot (Today)
+            </td>
+        </tr>
+        
+            </tbody>
+        </table>
+    </div>
+    
 
     <!-- 2. Multi-Agent Studio Architecture -->
     <div class="section-title">⚡ Multi-Agent Studio Architecture</div>
@@ -921,5 +1271,91 @@
         </table>
     </div>
 </div>
+
+<script>
+const studioDailyHistory = [
+    {"date": "Nov 02", "day": "Day 1", "views": 99, "delta_v": "+99", "likes": 5, "delta_l": "+5", "subs": 1, "note": "Studio Inception: Lava Lamps, 1983 Bug, Asthma"},
+    {"date": "Nov 03", "day": "Day 2", "views": 132, "delta_v": "+33", "likes": 7, "delta_l": "+2", "subs": 1, "note": "Therac-25 Radiation Bug & Hypothermia First Aid"},
+    {"date": "Nov 04", "day": "Day 3", "views": 180, "delta_v": "+48", "likes": 9, "delta_l": "+2", "subs": 2, "note": "Algorithmic Staging & Production Review"},
+    {"date": "Nov 05", "day": "Day 4", "views": 2513, "delta_v": "+2,333", "likes": 49, "delta_l": "+40", "subs": 3, "note": "🚀 BREAKOUT: 500-Mile Email & Choking Alone"},
+    {"date": "Nov 06", "day": "Day 5", "views": 2820, "delta_v": "+307", "likes": 58, "delta_l": "+9", "subs": 3, "note": "Ariane 5, Knight Capital & Drowning 24h"},
+    {"date": "Nov 07", "day": "Day 6", "views": 3749, "delta_v": "+929", "likes": 66, "delta_l": "+8", "subs": 4, "note": "Brand Kit Deployment & Cardiac Arrest CPR"},
+    {"date": "Nov 08", "day": "Day 7", "views": 4623, "delta_v": "+874", "likes": 87, "delta_l": "+21", "subs": 4, "note": "CrowdStrike Kernel Outage & 2003 Blackout"},
+    {"date": "Nov 09", "day": "Day 8", "views": 4825, "delta_v": "+202", "likes": 89, "delta_l": "+2", "subs": 5, "note": "Blackout Circulation & Yolki Ep 9 Pilot (Today)"}
+];
+
+function renderChart(metric) {
+    const btnV = document.getElementById('btn-trend-views');
+    const btnL = document.getElementById('btn-trend-likes');
+    const btnS = document.getElementById('btn-trend-subs');
+    
+    if (btnV) btnV.className = 'badge' + (metric === 'views' ? ' badge-pass' : '');
+    if (btnL) btnL.className = 'badge' + (metric === 'likes' ? ' badge-pass' : '');
+    if (btnS) btnS.className = 'badge' + (metric === 'subs' ? ' badge-pass' : '');
+    
+    const width = 900;
+    const height = 240;
+    const padLeft = 60;
+    const padRight = 40;
+    const padTop = 35;
+    const padBottom = 35;
+    const chartW = width - padLeft - padRight;
+    const chartH = height - padTop - padBottom;
+    const n = studioDailyHistory.length;
+    
+    let maxVal = 5000;
+    let strokeColor = 'var(--accent-cyan)';
+    let metricKey = 'views';
+    let gradStart = '#39c5bb';
+    
+    if (metric === 'likes') {
+        maxVal = 100;
+        strokeColor = 'var(--accent-green)';
+        metricKey = 'likes';
+        gradStart = '#3fb950';
+    } else if (metric === 'subs') {
+        maxVal = 10;
+        strokeColor = 'var(--accent-purple)';
+        metricKey = 'subs';
+        gradStart = '#bc8cff';
+    }
+    
+    const coords = studioDailyHistory.map((h, i) => {
+        const val = h[metricKey];
+        const x = padLeft + i * (chartW / (n - 1));
+        const y = padTop + chartH - (val / maxVal) * chartH;
+        return { x, y, h, val };
+    });
+    
+    const polyPts = coords.map(c => `${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(' ');
+    const areaPts = `${padLeft.toFixed(1)},${(padTop + chartH).toFixed(1)} ` + polyPts + ` ${coords[coords.length - 1].x.toFixed(1)},${(padTop + chartH).toFixed(1)}`;
+    
+    const areaEl = document.getElementById('dash-area');
+    const lineEl = document.getElementById('dash-line');
+    const dotsEl = document.getElementById('dash-dots');
+    
+    if (lineEl) {
+        lineEl.setAttribute('points', polyPts);
+        lineEl.setAttribute('stroke', strokeColor);
+    }
+    if (areaEl) {
+        areaEl.setAttribute('points', areaPts);
+    }
+    
+    if (dotsEl) {
+        let dotsHtml = '';
+        coords.forEach((c, idx) => {
+            const isLast = (idx === n - 1);
+            const radius = isLast ? 6 : 4;
+            dotsHtml += `<circle cx="${c.x.toFixed(1)}" cy="${c.y.toFixed(1)}" r="${radius}" fill="${strokeColor}" stroke="var(--bg-secondary)" stroke-width="2.5"/>`;
+            if (isLast || idx === 0 || (metric === 'views' && idx === 3)) {
+                dotsHtml += `<text x="${c.x.toFixed(1)}" y="${(c.y - 10).toFixed(1)}" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="${strokeColor}" text-anchor="middle">${c.val.toLocaleString()}</text>`;
+            }
+        });
+        dotsEl.innerHTML = dotsHtml;
+    }
+}
+</script>
+
 </body>
 </html>
