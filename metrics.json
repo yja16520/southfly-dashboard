@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-11-09 04:14 PM ET",
-  "epoch": 1794258896,
+  "timestamp": "2026-11-09 04:51 PM ET",
+  "epoch": 1794261110,
   "summary": {
-    "combined_views": 4815,
+    "combined_views": 4825,
     "combined_likes": 89,
-    "combined_videos": 42,
+    "combined_videos": 43,
     "youtube": {
       "views": 2832,
       "likes": 65,
-      "videos": 19,
-      "tech_views": 1538,
-      "yolki_views": 1294,
+      "videos": 20,
+      "tech_views": 1539,
+      "yolki_views": 1293,
       "tech_likes": 42,
       "yolki_likes": 23
     },
     "tiktok": {
-      "views": 1983,
+      "views": 1993,
       "likes": 24,
       "videos": 23,
-      "tech_views": 1248,
+      "tech_views": 1258,
       "yolki_views": 735,
       "tech_likes": 13,
       "yolki_likes": 11
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 1538,
+      "views": 1539,
       "likes": 42,
       "subs": 3,
       "videos_count": 11,
@@ -46,7 +46,7 @@
         {
           "id": "7fZNTT41P8Q",
           "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
-          "views": 77,
+          "views": 78,
           "likes": 2,
           "url": "https://youtube.com/shorts/7fZNTT41P8Q"
         },
@@ -119,7 +119,7 @@
       "name": "SouthFly Studios",
       "handle": "@southfly8",
       "platform": "TikTok",
-      "views": 1248,
+      "views": 1258,
       "likes": 13,
       "followers": 0,
       "videos_count": 16,
@@ -170,8 +170,8 @@
         },
         {
           "title": "The software bug that plunged 50 million people into darknes",
-          "views": 65,
-          "viewsText": "65",
+          "views": 75,
+          "viewsText": "75",
           "url": "https://www.tiktok.com/@southfly8/video/7705950546502421790"
         },
         {
@@ -228,17 +228,17 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1294,
+      "views": 1293,
       "likes": 23,
       "subs": 2,
-      "videos_count": 8,
+      "videos_count": 9,
       "trend": "▲ +26 (Growing)",
       "status": "ACTIVE & INDEXED",
       "videos": [
         {
           "id": "Zhc5NOj20I0",
           "title": "What To Do If You Are Choking ALONE! 😱⚠️ (Heimlich First Aid) #shorts #firstaid #health",
-          "views": 1094,
+          "views": 1093,
           "likes": 13,
           "url": "https://youtube.com/shorts/Zhc5NOj20I0"
         },
