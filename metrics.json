@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-11-10 09:31 AM ET",
-  "epoch": 1794321097,
+  "timestamp": "2026-11-10 10:30 AM ET",
+  "epoch": 1794324618,
   "summary": {
-    "combined_views": 5010,
+    "combined_views": 5024,
     "combined_likes": 117,
     "combined_videos": 44,
     "youtube": {
-      "views": 2971,
+      "views": 2973,
       "likes": 91,
       "videos": 20,
-      "tech_views": 1614,
+      "tech_views": 1616,
       "yolki_views": 1357,
       "tech_likes": 63,
       "yolki_likes": 28
     },
     "tiktok": {
-      "views": 2039,
+      "views": 2051,
       "likes": 26,
       "videos": 24,
       "tech_views": 1263,
-      "yolki_views": 776,
+      "yolki_views": 788,
       "tech_likes": 14,
       "yolki_likes": 12
     }
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 1614,
+      "views": 1616,
       "likes": 63,
       "subs": 4,
       "videos_count": 11,
@@ -47,7 +47,7 @@
         {
           "id": "7fZNTT41P8Q",
           "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
-          "views": 98,
+          "views": 101,
           "likes": 4,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=7fZNTT41P8Q"
@@ -85,20 +85,20 @@
           "url": "https://youtube.com/watch?v=zLXFLPOuX8Y"
         },
         {
-          "id": "YfjcnpNDyJ8",
-          "title": "Why Wall Street Pays 70-Year-Olds $500/hr for 1959 Code! 🏦💀 #shorts #coding #tech",
-          "views": 24,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=YfjcnpNDyJ8"
-        },
-        {
           "id": "V8Hum-9iD2g",
           "title": "The Ridiculous 1983 Sensor Glitch That Nearly Triggered WW3! ☢️🚨 #shorts #coding #tech",
           "views": 23,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=V8Hum-9iD2g"
+        },
+        {
+          "id": "YfjcnpNDyJ8",
+          "title": "Why Wall Street Pays 70-Year-Olds $500/hr for 1959 Code! 🏦💀 #shorts #coding #tech",
+          "views": 23,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=YfjcnpNDyJ8"
         },
         {
           "id": "2agTjm7b3_s",
@@ -281,7 +281,7 @@
         {
           "id": "jfCbIR2I2Cw",
           "title": "Why You Must NEVER Ignore a Second Head Bump! 🧠⚠️ #shorts",
-          "views": 26,
+          "views": 28,
           "likes": 0,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=jfCbIR2I2Cw"
@@ -335,14 +335,6 @@
           "url": "https://youtube.com/shorts/7_FcrPWqC58"
         },
         {
-          "id": "Lhm6hpHfM8A",
-          "title": "[INTERNAL DEMO] How Stitches Work: Suture Mechanics & Tissue Eversion",
-          "views": 4,
-          "likes": 0,
-          "type": "Short (9:16)",
-          "url": "https://youtube.com/shorts/Lhm6hpHfM8A"
-        },
-        {
           "id": "vK5Cdr099a8",
           "title": "Sudden Cardiac Arrest: Why Pausing CPR Resets Pressure to Zero! #Shorts",
           "views": 4,
@@ -351,9 +343,17 @@
           "url": "https://youtube.com/watch?v=vK5Cdr099a8"
         },
         {
+          "id": "Lhm6hpHfM8A",
+          "title": "[INTERNAL DEMO] How Stitches Work: Suture Mechanics & Tissue Eversion",
+          "views": 3,
+          "likes": 0,
+          "type": "Short (9:16)",
+          "url": "https://youtube.com/shorts/Lhm6hpHfM8A"
+        },
+        {
           "id": "COvNTK9Q0tU",
           "title": "[INTERNAL REVIEW] Suture Mechanism 1080p Master (REV-056 Standard)",
-          "views": 2,
+          "views": 1,
           "likes": 0,
           "type": "Short (9:16)",
           "url": "https://youtube.com/shorts/COvNTK9Q0tU"
@@ -364,7 +364,7 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 776,
+      "views": 788,
       "likes": 12,
       "followers": 1,
       "videos_count": 8,
@@ -373,8 +373,8 @@
       "videos": [
         {
           "title": "What to do during an Asthma Attack when there is NO inhaler!",
-          "views": 219,
-          "viewsText": "219",
+          "views": 220,
+          "viewsText": "220",
           "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
         },
         {
@@ -408,16 +408,16 @@
           "url": "https://www.tiktok.com/@yolki189/video/7705051845525245198"
         },
         {
+          "title": "Why you must NEVER ignore a second head bump! 🧠⚠️ The silen",
+          "views": 46,
+          "viewsText": "46",
+          "url": "https://www.tiktok.com/@yolki189/video/7706341082610666766"
+        },
+        {
           "title": "Why freezing victims tear off their clothes right before the",
           "views": 42,
           "viewsText": "42",
           "url": "https://www.tiktok.com/@yolki189/video/7704142881543523597"
-        },
-        {
-          "title": "Why you must NEVER ignore a second head bump! 🧠⚠️ The silen",
-          "views": 35,
-          "viewsText": "35",
-          "url": "https://www.tiktok.com/@yolki189/video/7706341082610666766"
         }
       ]
     }
