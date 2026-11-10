@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-11-09 07:30 PM ET",
-  "epoch": 1794270615,
+  "timestamp": "2026-11-09 08:12 PM ET",
+  "epoch": 1794273157,
   "summary": {
-    "combined_views": 4857,
-    "combined_likes": 113,
-    "combined_videos": 42,
+    "combined_views": 4872,
+    "combined_likes": 114,
+    "combined_videos": 44,
     "youtube": {
-      "views": 2856,
-      "likes": 88,
-      "videos": 19,
+      "views": 2871,
+      "likes": 89,
+      "videos": 20,
       "tech_views": 1555,
-      "yolki_views": 1301,
-      "tech_likes": 60,
+      "yolki_views": 1316,
+      "tech_likes": 61,
       "yolki_likes": 28
     },
     "tiktok": {
       "views": 2001,
       "likes": 25,
-      "videos": 23,
+      "videos": 24,
       "tech_views": 1263,
       "yolki_views": 738,
       "tech_likes": 14,
@@ -30,7 +30,7 @@
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
       "views": 1555,
-      "likes": 60,
+      "likes": 61,
       "subs": 4,
       "videos_count": 11,
       "trend": "▲ +47 (+3.5%)",
@@ -46,8 +46,8 @@
         {
           "id": "7fZNTT41P8Q",
           "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
-          "views": 88,
-          "likes": 3,
+          "views": 90,
+          "likes": 4,
           "url": "https://youtube.com/shorts/7fZNTT41P8Q"
         },
         {
@@ -109,7 +109,7 @@
         {
           "id": "Vdbrj63XM1k",
           "title": "How Typing Too Fast Triggered a Lethal Radiation Overdose! ⚡️💀 (Therac-25 Bug) #shorts",
-          "views": 12,
+          "views": 10,
           "likes": 3,
           "url": "https://youtube.com/shorts/Vdbrj63XM1k"
         }
@@ -228,10 +228,10 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1301,
+      "views": 1316,
       "likes": 28,
       "subs": 3,
-      "videos_count": 8,
+      "videos_count": 9,
       "trend": "▲ +26 (Growing)",
       "status": "ACTIVE & INDEXED",
       "videos": [
@@ -273,16 +273,23 @@
         {
           "id": "NTfFWaR57-Y",
           "title": "Why Dentists Warn: NEVER Use a Straw After Tooth Extraction! 🦷🚫 #shorts",
-          "views": 16,
+          "views": 18,
           "likes": 3,
           "url": "https://youtube.com/shorts/NTfFWaR57-Y"
         },
         {
           "id": "_Wd2Kkc4bTA",
           "title": "Why Pausing CPR for 5 Seconds Is DEADLY! 😱⚠️ (Perfusion Pressure Explained)",
-          "views": 14,
+          "views": 15,
           "likes": 2,
           "url": "https://youtube.com/shorts/_Wd2Kkc4bTA"
+        },
+        {
+          "id": "jfCbIR2I2Cw",
+          "title": "Why You Must NEVER Ignore a Second Head Bump! 🧠⚠️ #shorts",
+          "views": 12,
+          "likes": 0,
+          "url": "https://youtube.com/shorts/jfCbIR2I2Cw"
         },
         {
           "id": "jFwDpBhWjYw",
@@ -335,7 +342,7 @@
       "views": 738,
       "likes": 11,
       "followers": 1,
-      "videos_count": 7,
+      "videos_count": 8,
       "trend": "▲ Verified Live",
       "status": "STAGING EP 8",
       "videos": [
@@ -380,6 +387,12 @@
           "views": 42,
           "viewsText": "42",
           "url": "https://www.tiktok.com/@yolki189/video/7704142881543523597"
+        },
+        {
+          "title": "Why you must NEVER ignore a second head bump! 🧠⚠️ The silen",
+          "views": 0,
+          "viewsText": "0",
+          "url": "https://www.tiktok.com/@yolki189/video/7706341082610666766"
         }
       ]
     }
