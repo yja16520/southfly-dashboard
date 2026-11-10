@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-11-09 10:21 PM ET",
-  "epoch": 1794280912,
+  "timestamp": "2026-11-10 09:29 AM ET",
+  "epoch": 1794321007,
   "summary": {
-    "combined_views": 4712,
+    "combined_views": 5009,
     "combined_likes": 117,
-    "combined_videos": 40,
+    "combined_videos": 44,
     "youtube": {
-      "views": 2944,
+      "views": 2970,
       "likes": 91,
-      "videos": 19,
-      "tech_views": 1603,
-      "yolki_views": 1341,
+      "videos": 20,
+      "tech_views": 1616,
+      "yolki_views": 1354,
       "tech_likes": 63,
       "yolki_likes": 28
     },
     "tiktok": {
-      "views": 1768,
+      "views": 2039,
       "likes": 26,
-      "videos": 21,
-      "tech_views": 1028,
-      "yolki_views": 740,
+      "videos": 24,
+      "tech_views": 1263,
+      "yolki_views": 776,
       "tech_likes": 14,
       "yolki_likes": 12
     }
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 1603,
+      "views": 1616,
       "likes": 63,
       "subs": 4,
       "videos_count": 11,
@@ -47,7 +47,7 @@
         {
           "id": "7fZNTT41P8Q",
           "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
-          "views": 90,
+          "views": 101,
           "likes": 4,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=7fZNTT41P8Q"
@@ -109,20 +109,20 @@
           "url": "https://youtube.com/watch?v=2agTjm7b3_s"
         },
         {
+          "id": "69GrVIQwYW8",
+          "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
+          "views": 16,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=69GrVIQwYW8"
+        },
+        {
           "id": "Vdbrj63XM1k",
           "title": "How Typing Too Fast Triggered a Lethal Radiation Overdose! ⚡️💀 (Therac-25 Bug) #shorts",
           "views": 15,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Vdbrj63XM1k"
-        },
-        {
-          "id": "69GrVIQwYW8",
-          "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
-          "views": 14,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=69GrVIQwYW8"
         }
       ]
     },
@@ -130,87 +130,105 @@
       "name": "SouthFly Studios",
       "handle": "@southfly8",
       "platform": "TikTok",
-      "views": 1028,
+      "views": 1263,
       "likes": 14,
       "followers": 0,
-      "videos_count": 13,
+      "videos_count": 16,
       "trend": "▲ Verified Live",
       "status": "PUBLIC PROFILE",
       "videos": [
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": " created by Mission-Critical Tech with Mission-Critical Tech",
           "views": 323,
           "viewsText": "323",
           "url": "https://www.tiktok.com/@southfly8/video/7700356172284562719"
         },
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": "The 60-year-old code holding global banks hostage 🏦💀 Why W",
           "views": 151,
           "viewsText": "151",
           "url": "https://www.tiktok.com/@southfly8/video/7703633998374800671"
         },
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": " created by Mission-Critical Tech with Mission-Critical Tech",
           "views": 120,
           "viewsText": "120",
           "url": "https://www.tiktok.com/@southfly8/video/7700356495640251679"
         },
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": "The $370,000,000 code overflow that blew up a rocket in 37 s",
           "views": 112,
           "viewsText": "112",
           "url": "https://www.tiktok.com/@southfly8/video/7705051653002595615"
         },
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": "How dead code from 2003 bankrupted a Wall Street giant in 45",
           "views": 100,
           "viewsText": "100",
           "url": "https://www.tiktok.com/@southfly8/video/7705122238546054431"
         },
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": " created by Mission-Critical Tech with Darcy Hodge’s Quiet N",
+          "views": 94,
+          "viewsText": "94",
+          "url": "https://www.tiktok.com/@southfly8/video/7701188516612443423"
+        },
+        {
+          "title": " created by Mission-Critical Tech with Dennis Korn’s Art of ",
+          "views": 93,
+          "viewsText": "93",
+          "url": "https://www.tiktok.com/@southfly8/video/7700327494846565662"
+        },
+        {
+          "title": "The software bug that plunged 50 million people into darknes",
           "views": 80,
           "viewsText": "80",
           "url": "https://www.tiktok.com/@southfly8/video/7705950546502421790"
         },
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": "The 1983 sensor bug that left humanity 12 minutes from World",
           "views": 62,
           "viewsText": "62",
           "url": "https://www.tiktok.com/@southfly8/video/7703728933757373727"
         },
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": "the_500_mile_email created by Mission-Critical Tech with Mis",
           "views": 61,
           "viewsText": "61",
           "url": "https://www.tiktok.com/@southfly8/video/7704575180068146462"
         },
         {
-          "title": "Mission-Critical Tech 使用 June Birchfield 的 Lantern on the Ta",
+          "title": "The fatal microsecond bug that burned cancer patients alive ",
+          "views": 48,
+          "viewsText": "48",
+          "url": "https://www.tiktok.com/@southfly8/video/7704146039984426271"
+        },
+        {
+          "title": " created by Mission-Critical Tech with June Birchfield’s Lan",
           "views": 19,
           "viewsText": "19",
           "url": "https://www.tiktok.com/@southfly8/video/7702820969622080799"
         },
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": "The 500-Mile Email: How 3ms Broke Sendmail! 📧 Full 4-minute",
           "views": 0,
           "viewsText": "0",
           "url": "https://www.tiktok.com/@southfly8/video/7705807890178755871"
         },
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": "How 7 characters of regular expression crashed 12 million we",
           "views": 0,
           "viewsText": "0",
           "url": "https://www.tiktok.com/@southfly8/video/7705270119013879070"
         },
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": "Can code actually kill? The 1985 Therac-25 radiation disaste",
           "views": 0,
           "viewsText": "0",
           "url": "https://www.tiktok.com/@southfly8/video/7705265617061874975"
         },
         {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "title": "Why 100 Lava Lamps protect 20% of the entire internet 🤯 Fol",
           "views": 0,
           "viewsText": "0",
           "url": "https://www.tiktok.com/@southfly8/video/7703473141913308447"
@@ -221,10 +239,10 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1341,
+      "views": 1354,
       "likes": 28,
       "subs": 3,
-      "videos_count": 8,
+      "videos_count": 9,
       "trend": "▲ +26 (Growing)",
       "status": "ACTIVE & INDEXED",
       "videos": [
@@ -261,20 +279,28 @@
           "url": "https://youtube.com/watch?v=Bz9UwWEiVBw"
         },
         {
+          "id": "jfCbIR2I2Cw",
+          "title": "Why You Must NEVER Ignore a Second Head Bump! 🧠⚠️ #shorts",
+          "views": 25,
+          "likes": 0,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=jfCbIR2I2Cw"
+        },
+        {
+          "id": "NTfFWaR57-Y",
+          "title": "Why Dentists Warn: NEVER Use a Straw After Tooth Extraction! 🦷🚫 #shorts",
+          "views": 24,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=NTfFWaR57-Y"
+        },
+        {
           "id": "QhBYJhjwZuk",
           "title": "Why Freezing Victims Tear Off Their Clothes! ❄️⚠️ (Hypothermia First Aid) #shorts #firstaid #medical",
           "views": 24,
           "likes": 1,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=QhBYJhjwZuk"
-        },
-        {
-          "id": "NTfFWaR57-Y",
-          "title": "Why Dentists Warn: NEVER Use a Straw After Tooth Extraction! 🦷🚫 #shorts",
-          "views": 22,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=NTfFWaR57-Y"
         },
         {
           "id": "_Wd2Kkc4bTA",
@@ -291,14 +317,6 @@
           "likes": 2,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=jFwDpBhWjYw"
-        },
-        {
-          "id": "jfCbIR2I2Cw",
-          "title": "Why You Must NEVER Ignore a Second Head Bump! 🧠⚠️ #shorts",
-          "views": 14,
-          "likes": 0,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=jfCbIR2I2Cw"
         },
         {
           "id": "yb1dfL6dup8",
@@ -346,7 +364,7 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 740,
+      "views": 776,
       "likes": 12,
       "followers": 1,
       "videos_count": 8,
@@ -354,51 +372,51 @@
       "status": "STAGING EP 8",
       "videos": [
         {
-          "title": "Yolki Med 使用 Yolki Med 的 原聲 - yolki189 创作的 What to do during",
+          "title": "What to do during an Asthma Attack when there is NO inhaler!",
           "views": 219,
           "viewsText": "219",
           "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
         },
         {
-          "title": "Yolki Med 使用 Yolki Med 的 原聲 - Yolki Med 创作的 What to do if yo",
+          "title": "What to do if you are CHOKING and completely alone! 😱⚠️ The",
           "views": 126,
           "viewsText": "126",
           "url": "https://www.tiktok.com/@yolki189/video/7703787182728760589"
         },
         {
-          "title": "Yolki Med 使用 Yolki Med 的 原聲 - Yolki Med 创作的 Why pausing CPR ",
-          "views": 98,
-          "viewsText": "98",
+          "title": "Why pausing CPR for just 5 seconds is deadly! 😱⚠️ Hands-onl",
+          "views": 100,
+          "viewsText": "100",
           "url": "https://www.tiktok.com/@yolki189/video/7705468926158834957"
         },
         {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 How ",
+          "title": "How a tooth is ACTUALLY extracted—and the deadly straw mista",
           "views": 94,
           "viewsText": "94",
           "url": "https://www.tiktok.com/@yolki189/video/7704575509199473933"
         },
         {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 How ",
+          "title": "How to stop life-threatening arterial bleeding in 60 seconds",
           "views": 87,
           "viewsText": "87",
           "url": "https://www.tiktok.com/@yolki189/video/7705074654133734670"
         },
         {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Why ",
+          "title": "Why kids can drown 24 hours AFTER swimming! 🏊‍♂️⚠️ The sile",
           "views": 73,
           "viewsText": "73",
           "url": "https://www.tiktok.com/@yolki189/video/7705051845525245198"
         },
         {
-          "title": "Yolki Med 使用 Yolki Med 的 原聲 - Yolki Med 创作的 Why freezing vic",
+          "title": "Why freezing victims tear off their clothes right before the",
           "views": 42,
           "viewsText": "42",
           "url": "https://www.tiktok.com/@yolki189/video/7704142881543523597"
         },
         {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Why ",
-          "views": 1,
-          "viewsText": "1",
+          "title": "Why you must NEVER ignore a second head bump! 🧠⚠️ The silen",
+          "views": 35,
+          "viewsText": "35",
           "url": "https://www.tiktok.com/@yolki189/video/7706341082610666766"
         }
       ]
