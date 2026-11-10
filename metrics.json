@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-11-10 10:30 AM ET",
-  "epoch": 1794324618,
+  "timestamp": "2026-11-10 12:12 PM ET",
+  "epoch": 1794330792,
   "summary": {
-    "combined_views": 5024,
+    "combined_views": 5057,
     "combined_likes": 117,
     "combined_videos": 44,
     "youtube": {
-      "views": 2973,
+      "views": 2989,
       "likes": 91,
       "videos": 20,
-      "tech_views": 1616,
-      "yolki_views": 1357,
+      "tech_views": 1629,
+      "yolki_views": 1360,
       "tech_likes": 63,
       "yolki_likes": 28
     },
     "tiktok": {
-      "views": 2051,
+      "views": 2068,
       "likes": 26,
       "videos": 24,
       "tech_views": 1263,
-      "yolki_views": 788,
+      "yolki_views": 805,
       "tech_likes": 14,
       "yolki_likes": 12
     }
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 1616,
+      "views": 1629,
       "likes": 63,
       "subs": 4,
       "videos_count": 11,
@@ -39,7 +39,7 @@
         {
           "id": "NqmcDpe0yLM",
           "title": "The Ridiculous 500-Mile Email Software Bug 📧💡 #shorts #coding #tech",
-          "views": 1250,
+          "views": 1251,
           "likes": 31,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=NqmcDpe0yLM"
@@ -47,7 +47,7 @@
         {
           "id": "7fZNTT41P8Q",
           "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
-          "views": 101,
+          "views": 105,
           "likes": 4,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=7fZNTT41P8Q"
@@ -55,7 +55,7 @@
         {
           "id": "c4xvXEJtRwQ",
           "title": "The $370M Code Overflow That Blew Up a Rocket 🚀💥 #shorts #coding #techhistory",
-          "views": 69,
+          "views": 70,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=c4xvXEJtRwQ"
@@ -63,7 +63,7 @@
         {
           "id": "b92yJAX32FQ",
           "title": "The Software Bug That Hid a Blackout #shorts #tech",
-          "views": 38,
+          "views": 39,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=b92yJAX32FQ"
@@ -71,7 +71,7 @@
         {
           "id": "Aeor0SBB2-w",
           "title": "How 7 Characters of Regex Crashed 12 Million Websites #shorts #tech",
-          "views": 34,
+          "views": 35,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Aeor0SBB2-w"
@@ -79,7 +79,7 @@
         {
           "id": "zLXFLPOuX8Y",
           "title": "The $440M Dead Code Glitch That Bankrupted Wall Street 📉💥 #shorts #coding",
-          "views": 24,
+          "views": 25,
           "likes": 4,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=zLXFLPOuX8Y"
@@ -87,7 +87,7 @@
         {
           "id": "V8Hum-9iD2g",
           "title": "The Ridiculous 1983 Sensor Glitch That Nearly Triggered WW3! ☢️🚨 #shorts #coding #tech",
-          "views": 23,
+          "views": 24,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=V8Hum-9iD2g"
@@ -95,7 +95,7 @@
         {
           "id": "YfjcnpNDyJ8",
           "title": "Why Wall Street Pays 70-Year-Olds $500/hr for 1959 Code! 🏦💀 #shorts #coding #tech",
-          "views": 23,
+          "views": 24,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=YfjcnpNDyJ8"
@@ -103,7 +103,7 @@
         {
           "id": "2agTjm7b3_s",
           "title": "Why 100 Lava Lamps Guard 20% of the Internet! 💡🔐 #shorts #coding #cybersecurity",
-          "views": 23,
+          "views": 24,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=2agTjm7b3_s"
@@ -119,7 +119,7 @@
         {
           "id": "Vdbrj63XM1k",
           "title": "How Typing Too Fast Triggered a Lethal Radiation Overdose! ⚡️💀 (Therac-25 Bug) #shorts",
-          "views": 15,
+          "views": 16,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Vdbrj63XM1k"
@@ -239,7 +239,7 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1357,
+      "views": 1360,
       "likes": 28,
       "subs": 3,
       "videos_count": 9,
@@ -337,7 +337,7 @@
         {
           "id": "vK5Cdr099a8",
           "title": "Sudden Cardiac Arrest: Why Pausing CPR Resets Pressure to Zero! #Shorts",
-          "views": 4,
+          "views": 5,
           "likes": 0,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=vK5Cdr099a8"
@@ -345,7 +345,7 @@
         {
           "id": "Lhm6hpHfM8A",
           "title": "[INTERNAL DEMO] How Stitches Work: Suture Mechanics & Tissue Eversion",
-          "views": 3,
+          "views": 4,
           "likes": 0,
           "type": "Short (9:16)",
           "url": "https://youtube.com/shorts/Lhm6hpHfM8A"
@@ -353,7 +353,7 @@
         {
           "id": "COvNTK9Q0tU",
           "title": "[INTERNAL REVIEW] Suture Mechanism 1080p Master (REV-056 Standard)",
-          "views": 1,
+          "views": 2,
           "likes": 0,
           "type": "Short (9:16)",
           "url": "https://youtube.com/shorts/COvNTK9Q0tU"
@@ -364,7 +364,7 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 788,
+      "views": 805,
       "likes": 12,
       "followers": 1,
       "videos_count": 8,
@@ -373,8 +373,8 @@
       "videos": [
         {
           "title": "What to do during an Asthma Attack when there is NO inhaler!",
-          "views": 220,
-          "viewsText": "220",
+          "views": 221,
+          "viewsText": "221",
           "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
         },
         {
@@ -409,8 +409,8 @@
         },
         {
           "title": "Why you must NEVER ignore a second head bump! 🧠⚠️ The silen",
-          "views": 46,
-          "viewsText": "46",
+          "views": 62,
+          "viewsText": "62",
           "url": "https://www.tiktok.com/@yolki189/video/7706341082610666766"
         },
         {
