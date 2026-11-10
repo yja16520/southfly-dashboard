@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-11-10 09:29 AM ET",
-  "epoch": 1794321007,
+  "timestamp": "2026-11-10 09:31 AM ET",
+  "epoch": 1794321097,
   "summary": {
-    "combined_views": 5009,
+    "combined_views": 5010,
     "combined_likes": 117,
     "combined_videos": 44,
     "youtube": {
-      "views": 2970,
+      "views": 2971,
       "likes": 91,
       "videos": 20,
-      "tech_views": 1616,
-      "yolki_views": 1354,
+      "tech_views": 1614,
+      "yolki_views": 1357,
       "tech_likes": 63,
       "yolki_likes": 28
     },
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 1616,
+      "views": 1614,
       "likes": 63,
       "subs": 4,
       "videos_count": 11,
@@ -47,7 +47,7 @@
         {
           "id": "7fZNTT41P8Q",
           "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
-          "views": 101,
+          "views": 98,
           "likes": 4,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=7fZNTT41P8Q"
@@ -85,20 +85,20 @@
           "url": "https://youtube.com/watch?v=zLXFLPOuX8Y"
         },
         {
+          "id": "YfjcnpNDyJ8",
+          "title": "Why Wall Street Pays 70-Year-Olds $500/hr for 1959 Code! 🏦💀 #shorts #coding #tech",
+          "views": 24,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=YfjcnpNDyJ8"
+        },
+        {
           "id": "V8Hum-9iD2g",
           "title": "The Ridiculous 1983 Sensor Glitch That Nearly Triggered WW3! ☢️🚨 #shorts #coding #tech",
           "views": 23,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=V8Hum-9iD2g"
-        },
-        {
-          "id": "YfjcnpNDyJ8",
-          "title": "Why Wall Street Pays 70-Year-Olds $500/hr for 1959 Code! 🏦💀 #shorts #coding #tech",
-          "views": 23,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=YfjcnpNDyJ8"
         },
         {
           "id": "2agTjm7b3_s",
@@ -239,7 +239,7 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1354,
+      "views": 1357,
       "likes": 28,
       "subs": 3,
       "videos_count": 9,
@@ -281,7 +281,7 @@
         {
           "id": "jfCbIR2I2Cw",
           "title": "Why You Must NEVER Ignore a Second Head Bump! 🧠⚠️ #shorts",
-          "views": 25,
+          "views": 26,
           "likes": 0,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=jfCbIR2I2Cw"
@@ -335,6 +335,14 @@
           "url": "https://youtube.com/shorts/7_FcrPWqC58"
         },
         {
+          "id": "Lhm6hpHfM8A",
+          "title": "[INTERNAL DEMO] How Stitches Work: Suture Mechanics & Tissue Eversion",
+          "views": 4,
+          "likes": 0,
+          "type": "Short (9:16)",
+          "url": "https://youtube.com/shorts/Lhm6hpHfM8A"
+        },
+        {
           "id": "vK5Cdr099a8",
           "title": "Sudden Cardiac Arrest: Why Pausing CPR Resets Pressure to Zero! #Shorts",
           "views": 4,
@@ -343,17 +351,9 @@
           "url": "https://youtube.com/watch?v=vK5Cdr099a8"
         },
         {
-          "id": "Lhm6hpHfM8A",
-          "title": "[INTERNAL DEMO] How Stitches Work: Suture Mechanics & Tissue Eversion",
-          "views": 3,
-          "likes": 0,
-          "type": "Short (9:16)",
-          "url": "https://youtube.com/shorts/Lhm6hpHfM8A"
-        },
-        {
           "id": "COvNTK9Q0tU",
           "title": "[INTERNAL REVIEW] Suture Mechanism 1080p Master (REV-056 Standard)",
-          "views": 1,
+          "views": 2,
           "likes": 0,
           "type": "Short (9:16)",
           "url": "https://youtube.com/shorts/COvNTK9Q0tU"
