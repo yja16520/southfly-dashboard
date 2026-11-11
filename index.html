@@ -371,7 +371,7 @@
             <button id="refreshBtn" class="btn-refresh" onclick="refreshData()">🔄 Refresh Live Data</button>
             <div class="live-badge">
                 <span class="live-dot"></span>
-                <span id="liveTimestamp">LIVE AUDITED: 2026-11-10 07:32 PM ET</span>
+                <span id="liveTimestamp">LIVE AUDITED: 2026-11-10 07:41 PM ET</span>
             </div>
         </div>
     </header>
@@ -380,18 +380,18 @@
     <div class="kpi-grid">
         <div class="kpi-card">
             <div class="label">YouTube Performance</div>
-            <div class="value" id="kpi-yt-views">3,031 Views</div>
-            <div class="sub" id="kpi-yt-sub">92 Likes • 21 Videos (1,661 Tech + 1,370 Yolki)</div>
+            <div class="value" id="kpi-yt-views">3,036 Views</div>
+            <div class="sub" id="kpi-yt-sub">92 Likes • 21 Videos (1,666 Tech + 1,370 Yolki)</div>
         </div>
         <div class="kpi-card">
             <div class="label">TikTok Performance</div>
-            <div class="value" id="kpi-tt-views">0 Views</div>
-            <div class="sub" id="kpi-tt-sub">0 Likes • 0 Videos (0 Tech + 0 Yolki)</div>
+            <div class="value" id="kpi-tt-views">2,068 Views</div>
+            <div class="sub" id="kpi-tt-sub">26 Likes • 24 Videos (1,263 Tech + 805 Yolki)</div>
         </div>
         <div class="kpi-card">
             <div class="label">Combined Studio Total</div>
-            <div class="value" id="kpi-total-views">3,031 Views</div>
-            <div class="sub" id="kpi-total-sub">92 Likes Across 21 Total Published Videos</div>
+            <div class="value" id="kpi-total-views">5,104 Views</div>
+            <div class="sub" id="kpi-total-sub">118 Likes Across 45 Total Published Videos</div>
         </div>
         <div class="kpi-card">
             <div class="label">Multi-Agent Studio SLA</div>
@@ -426,7 +426,7 @@
             <tbody>
                 <tr>
                     <td><strong>Tech YouTube (@missioncriticaltech)</strong></td>
-                    <td><strong style="color: var(--accent-cyan);" id="row-tech-yt-views">1,661</strong></td>
+                    <td><strong style="color: var(--accent-cyan);" id="row-tech-yt-views">1,666</strong></td>
                     <td style="color: var(--accent-green); font-weight:700;">▲ +177 (+13.1%)</td>
                     <td id="row-tech-yt-likes"><strong>41</strong> likes</td>
                     <td>3 subscribers</td>
@@ -435,7 +435,7 @@
                 </tr>
                 <tr>
                     <td><strong>Tech TikTok (@southfly8)</strong></td>
-                    <td><strong style="color: var(--accent-cyan);" id="row-tech-tt-views">0</strong></td>
+                    <td><strong style="color: var(--accent-cyan);" id="row-tech-tt-views">1,263</strong></td>
                     <td style="color: var(--accent-green); font-weight:700;">▲ Verified Live</td>
                     <td id="row-tech-tt-likes"><strong>12</strong> likes</td>
                     <td>0 followers</td>
@@ -453,7 +453,7 @@
                 </tr>
                 <tr>
                     <td><strong>Yolki TikTok (@yolki189)</strong></td>
-                    <td><strong style="color: var(--accent-cyan);" id="row-yolki-tt-views">0</strong></td>
+                    <td><strong style="color: var(--accent-cyan);" id="row-yolki-tt-views">805</strong></td>
                     <td style="color: var(--accent-green); font-weight:700;">▲ Verified Live</td>
                     <td id="row-yolki-tt-likes"><strong>11</strong> likes</td>
                     <td>1 follower</td>
@@ -462,9 +462,9 @@
                 </tr>
                 <tr style="background: rgba(88, 166, 255, 0.06); font-weight: 700; border-top: 2px solid var(--border-color);">
                     <td><strong>TOTAL STUDIO FOOTPRINT (4 Channels)</strong></td>
-                    <td><strong style="color: var(--accent-green); font-size: 14px;" id="row-total-views">3,031</strong></td>
+                    <td><strong style="color: var(--accent-green); font-size: 14px;" id="row-total-views">5,104</strong></td>
                     <td style="color: var(--accent-green);">▲ Growing (+352 views)</td>
-                    <td id="row-total-likes"><strong style="color: var(--accent-green); font-size: 14px;">92</strong> likes</td>
+                    <td id="row-total-likes"><strong style="color: var(--accent-green); font-size: 14px;">118</strong> likes</td>
                     <td>6 total</td>
                     <td id="row-total-vids">42 videos</td>
                     <td><span class="badge badge-pass" style="font-size: 11px;">100% ONLINE</span></td>
@@ -491,6 +491,7 @@
     
     
     
+    
     <!-- 1.5. Daily Trajectory & Growth Trend Audit -->
     <div class="section-title">📈 Daily Growth Trend &amp; Historical Trajectory (Nov 02 – Nov 10)</div>
     <div class="card" style="margin-bottom: 24px;">
@@ -500,9 +501,9 @@
                 <div style="font-size: 12px; color: var(--text-secondary); margin-top: 2px;">Ground-truthed telemetry traceable to Day 1 Launch (Nov 02, 2026) across all 4 channels</div>
             </div>
             <div style="display: flex; gap: 8px;">
-                <button id="btn-trend-views" class="badge badge-pass" style="cursor: pointer; padding: 6px 12px; border: 1px solid var(--accent-green);" onclick="renderChart('views')">● Total Views (3,031)</button>
-                <button id="btn-trend-likes" class="badge" style="cursor: pointer; padding: 6px 12px; background: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-secondary);" onclick="renderChart('likes')">Audience Likes (92)</button>
-                <button id="btn-trend-subs" class="badge" style="cursor: pointer; padding: 6px 12px; background: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-secondary);" onclick="renderChart('subs')">Subscribers (4)</button>
+                <button id="btn-trend-views" class="badge badge-pass" style="cursor: pointer; padding: 6px 12px; border: 1px solid var(--accent-green);" onclick="renderChart('views')">● Total Views (5,104)</button>
+                <button id="btn-trend-likes" class="badge" style="cursor: pointer; padding: 6px 12px; background: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-secondary);" onclick="renderChart('likes')">Audience Likes (118)</button>
+                <button id="btn-trend-subs" class="badge" style="cursor: pointer; padding: 6px 12px; background: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-secondary);" onclick="renderChart('subs')">Subscribers (5)</button>
             </div>
         </div>
 
@@ -539,8 +540,8 @@
         <line x1="60" y1="35.0" x2="860" y2="35.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
         <text x="52" y="39.0" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">6,000</text>
         
-  <polygon id="dash-area" points="60.0,205.0 60.0,202.2 160.0,201.3 260.0,199.9 360.0,133.8 460.0,125.1 560.0,98.8 660.0,74.0 760.0,68.3 860.0,119.1 860.0,205.0" fill="url(#areaGradient_dark)"/>
-  <polyline id="dash-line" points="60.0,202.2 160.0,201.3 260.0,199.9 360.0,133.8 460.0,125.1 560.0,98.8 660.0,74.0 760.0,68.3 860.0,119.1" fill="none" stroke="#39c5bb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon id="dash-area" points="60.0,205.0 60.0,202.2 160.0,201.3 260.0,199.9 360.0,133.8 460.0,125.1 560.0,98.8 660.0,74.0 760.0,68.3 860.0,60.4 860.0,205.0" fill="url(#areaGradient_dark)"/>
+  <polyline id="dash-line" points="60.0,202.2 160.0,201.3 260.0,199.9 360.0,133.8 460.0,125.1 560.0,98.8 660.0,74.0 760.0,68.3 860.0,60.4" fill="none" stroke="#39c5bb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
   <g id="dash-dots">
   
         <circle cx="60.0" cy="202.2" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
@@ -570,10 +571,10 @@
         
             <text x="760.0" y="59.3" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">4,825</text>
             
-        <circle cx="860.0" cy="119.1" r="5.5" fill="#10b981" stroke="#161b22" stroke-width="2"/>
+        <circle cx="860.0" cy="60.4" r="5.5" fill="#10b981" stroke="#161b22" stroke-width="2"/>
         
-            <rect x="824.0" y="94.1" width="72" height="18" rx="4" fill="rgba(63,185,80,0.25)" stroke="#10b981" stroke-width="1"/>
-            <text x="860.0" y="107.1" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#3fb950" text-anchor="middle">3,031</text>
+            <rect x="824.0" y="35.4" width="72" height="18" rx="4" fill="rgba(63,185,80,0.25)" stroke="#10b981" stroke-width="1"/>
+            <text x="860.0" y="48.4" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#3fb950" text-anchor="middle">5,104</text>
             
   </g>
   
@@ -607,18 +608,18 @@
             </div>
             <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center;">
                 <div style="font-size: 11px; color: var(--text-secondary); text-transform: uppercase; font-weight: 700;">Cumulative View Gain</div>
-                <div style="font-size: 18px; font-weight: 800; color: var(--accent-green); margin-top: 2px;">+2,932 Views</div>
-                <div style="font-size: 11px; color: var(--accent-green); margin-top: 2px;">▲ 2,961% Expansion</div>
+                <div style="font-size: 18px; font-weight: 800; color: var(--accent-green); margin-top: 2px;">+5,005 Views</div>
+                <div style="font-size: 11px; color: var(--accent-green); margin-top: 2px;">▲ 5,055% Expansion</div>
             </div>
             <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center;">
                 <div style="font-size: 11px; color: var(--text-secondary); text-transform: uppercase; font-weight: 700;">Total Audience Likes</div>
-                <div style="font-size: 18px; font-weight: 800; color: var(--accent-cyan); margin-top: 2px;">92 Likes (+87)</div>
-                <div style="font-size: 11px; color: var(--accent-cyan); margin-top: 2px;">3.04% Studio Average</div>
+                <div style="font-size: 18px; font-weight: 800; color: var(--accent-cyan); margin-top: 2px;">118 Likes (+113)</div>
+                <div style="font-size: 11px; color: var(--accent-cyan); margin-top: 2px;">2.31% Studio Average</div>
             </div>
             <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center;">
                 <div style="font-size: 11px; color: var(--text-secondary); text-transform: uppercase; font-weight: 700;">Subscribers Base</div>
-                <div style="font-size: 18px; font-weight: 800; color: var(--accent-purple); margin-top: 2px;">4 Subscribers</div>
-                <div style="font-size: 11px; color: var(--accent-purple); margin-top: 2px;">+3 Gained (400%)</div>
+                <div style="font-size: 18px; font-weight: 800; color: var(--accent-purple); margin-top: 2px;">5 Subscribers</div>
+                <div style="font-size: 11px; color: var(--accent-purple); margin-top: 2px;">+4 Gained (400%)</div>
             </div>
         </div>
 
@@ -850,21 +851,21 @@
                 <strong style="color: var(--text-primary);">Nov 10</strong> <span style="color: var(--text-secondary); font-size: 11px;">(Day 9)</span>
             </td>
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
-                <span class="badge badge-pass" style="font-size: 11px;">+-1,794</span>
+                <span class="badge badge-pass" style="font-size: 11px;">+279</span>
             </td>
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
                 <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
                     <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
-                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 50%; height: 100%; border-radius: 4px;"></div>
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 85%; height: 100%; border-radius: 4px;"></div>
                     </div>
-                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">3,031</span>
+                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">5,104</span>
                 </div>
             </td>
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
-                <strong style="color: var(--text-primary);">92</strong> <span style="color: var(--accent-green); font-size: 11px;">(+3)</span>
+                <strong style="color: var(--text-primary);">118</strong> <span style="color: var(--accent-green); font-size: 11px;">(+29)</span>
             </td>
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: center; font-weight: bold; color: var(--accent-purple);">
-                4
+                5
             </td>
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); font-size: 12px; color: var(--text-secondary);">
                 🚀 5K Milestone & AT&T 1990 Long-Distance Bug (Today)
@@ -1410,11 +1411,11 @@ const studioDailyHistory = [
     {
         "date": "Nov 10",
         "day": "Day 9",
-        "views": 3031,
-        "delta_v": "+-1,794",
-        "likes": 92,
-        "delta_l": "+3",
-        "subs": 4,
+        "views": 5104,
+        "delta_v": "+279",
+        "likes": 118,
+        "delta_l": "+29",
+        "subs": 5,
         "note": "\ud83d\ude80 5K Milestone & AT&T 1990 Long-Distance Bug (Today)"
     }
 ];

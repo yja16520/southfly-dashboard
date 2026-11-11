@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-11-10 07:32 PM ET",
-  "epoch": 1794357125,
+  "timestamp": "2026-11-10 07:41 PM ET",
+  "epoch": 1794357699,
   "summary": {
-    "combined_views": 3031,
-    "combined_likes": 92,
-    "combined_videos": 21,
+    "combined_views": 5104,
+    "combined_likes": 118,
+    "combined_videos": 45,
     "youtube": {
-      "views": 3031,
+      "views": 3036,
       "likes": 92,
       "videos": 21,
-      "tech_views": 1661,
+      "tech_views": 1666,
       "yolki_views": 1370,
       "tech_likes": 64,
       "yolki_likes": 28
     },
     "tiktok": {
-      "views": 0,
-      "likes": 0,
-      "videos": 0,
-      "tech_views": 0,
-      "yolki_views": 0,
-      "tech_likes": 0,
-      "yolki_likes": 0
+      "views": 2068,
+      "likes": 26,
+      "videos": 24,
+      "tech_views": 1263,
+      "yolki_views": 805,
+      "tech_likes": 14,
+      "yolki_likes": 12
     }
   },
   "channels": {
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 1661,
+      "views": 1666,
       "likes": 64,
       "subs": 4,
       "videos_count": 12,
@@ -77,6 +77,14 @@
           "url": "https://youtube.com/watch?v=Aeor0SBB2-w"
         },
         {
+          "id": "DH3-z1t3Ryg",
+          "title": "The Single C Word That Crashed 114 Switches! 💀 (1990 AT&T Outage) #shorts #coding #tech",
+          "views": 27,
+          "likes": 1,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=DH3-z1t3Ryg"
+        },
+        {
           "id": "zLXFLPOuX8Y",
           "title": "The $440M Dead Code Glitch That Bankrupted Wall Street 📉💥 #shorts #coding",
           "views": 25,
@@ -109,14 +117,6 @@
           "url": "https://youtube.com/watch?v=2agTjm7b3_s"
         },
         {
-          "id": "DH3-z1t3Ryg",
-          "title": "The Single C Word That Crashed 114 Switches! 💀 (1990 AT&T Outage) #shorts #coding #tech",
-          "views": 22,
-          "likes": 1,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=DH3-z1t3Ryg"
-        },
-        {
           "id": "69GrVIQwYW8",
           "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
           "views": 18,
@@ -138,13 +138,110 @@
       "name": "SouthFly Studios",
       "handle": "@southfly8",
       "platform": "TikTok",
-      "views": 0,
-      "likes": 0,
+      "views": 1263,
+      "likes": 14,
       "followers": 0,
-      "videos_count": 0,
+      "videos_count": 16,
       "trend": "▲ Verified Live",
       "status": "PUBLIC PROFILE",
-      "videos": []
+      "videos": [
+        {
+          "title": " created by Mission-Critical Tech with Mission-Critical Tech",
+          "views": 323,
+          "viewsText": "323",
+          "url": "https://www.tiktok.com/@southfly8/video/7700356172284562719"
+        },
+        {
+          "title": "The 60-year-old code holding global banks hostage 🏦💀 Why W",
+          "views": 151,
+          "viewsText": "151",
+          "url": "https://www.tiktok.com/@southfly8/video/7703633998374800671"
+        },
+        {
+          "title": " created by Mission-Critical Tech with Mission-Critical Tech",
+          "views": 120,
+          "viewsText": "120",
+          "url": "https://www.tiktok.com/@southfly8/video/7700356495640251679"
+        },
+        {
+          "title": "The $370,000,000 code overflow that blew up a rocket in 37 s",
+          "views": 112,
+          "viewsText": "112",
+          "url": "https://www.tiktok.com/@southfly8/video/7705051653002595615"
+        },
+        {
+          "title": "How dead code from 2003 bankrupted a Wall Street giant in 45",
+          "views": 100,
+          "viewsText": "100",
+          "url": "https://www.tiktok.com/@southfly8/video/7705122238546054431"
+        },
+        {
+          "title": " created by Mission-Critical Tech with Darcy Hodge’s Quiet N",
+          "views": 94,
+          "viewsText": "94",
+          "url": "https://www.tiktok.com/@southfly8/video/7701188516612443423"
+        },
+        {
+          "title": " created by Mission-Critical Tech with Dennis Korn’s Art of ",
+          "views": 93,
+          "viewsText": "93",
+          "url": "https://www.tiktok.com/@southfly8/video/7700327494846565662"
+        },
+        {
+          "title": "The software bug that plunged 50 million people into darknes",
+          "views": 80,
+          "viewsText": "80",
+          "url": "https://www.tiktok.com/@southfly8/video/7705950546502421790"
+        },
+        {
+          "title": "The 1983 sensor bug that left humanity 12 minutes from World",
+          "views": 62,
+          "viewsText": "62",
+          "url": "https://www.tiktok.com/@southfly8/video/7703728933757373727"
+        },
+        {
+          "title": "the_500_mile_email created by Mission-Critical Tech with Mis",
+          "views": 61,
+          "viewsText": "61",
+          "url": "https://www.tiktok.com/@southfly8/video/7704575180068146462"
+        },
+        {
+          "title": "The fatal microsecond bug that burned cancer patients alive ",
+          "views": 48,
+          "viewsText": "48",
+          "url": "https://www.tiktok.com/@southfly8/video/7704146039984426271"
+        },
+        {
+          "title": " created by Mission-Critical Tech with June Birchfield’s Lan",
+          "views": 19,
+          "viewsText": "19",
+          "url": "https://www.tiktok.com/@southfly8/video/7702820969622080799"
+        },
+        {
+          "title": "The 500-Mile Email: How 3ms Broke Sendmail! 📧 Full 4-minute",
+          "views": 0,
+          "viewsText": "0",
+          "url": "https://www.tiktok.com/@southfly8/video/7705807890178755871"
+        },
+        {
+          "title": "How 7 characters of regular expression crashed 12 million we",
+          "views": 0,
+          "viewsText": "0",
+          "url": "https://www.tiktok.com/@southfly8/video/7705270119013879070"
+        },
+        {
+          "title": "Can code actually kill? The 1985 Therac-25 radiation disaste",
+          "views": 0,
+          "viewsText": "0",
+          "url": "https://www.tiktok.com/@southfly8/video/7705265617061874975"
+        },
+        {
+          "title": "Why 100 Lava Lamps protect 20% of the entire internet 🤯 Fol",
+          "views": 0,
+          "viewsText": "0",
+          "url": "https://www.tiktok.com/@southfly8/video/7703473141913308447"
+        }
+      ]
     },
     "yolki_youtube": {
       "name": "Yolki Med",
@@ -275,13 +372,62 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 0,
-      "likes": 0,
-      "followers": 0,
-      "videos_count": 0,
+      "views": 805,
+      "likes": 12,
+      "followers": 1,
+      "videos_count": 8,
       "trend": "▲ Verified Live",
       "status": "STAGING EP 8",
-      "videos": []
+      "videos": [
+        {
+          "title": "What to do during an Asthma Attack when there is NO inhaler!",
+          "views": 221,
+          "viewsText": "221",
+          "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
+        },
+        {
+          "title": "What to do if you are CHOKING and completely alone! 😱⚠️ The",
+          "views": 126,
+          "viewsText": "126",
+          "url": "https://www.tiktok.com/@yolki189/video/7703787182728760589"
+        },
+        {
+          "title": "Why pausing CPR for just 5 seconds is deadly! 😱⚠️ Hands-onl",
+          "views": 100,
+          "viewsText": "100",
+          "url": "https://www.tiktok.com/@yolki189/video/7705468926158834957"
+        },
+        {
+          "title": "How a tooth is ACTUALLY extracted—and the deadly straw mista",
+          "views": 94,
+          "viewsText": "94",
+          "url": "https://www.tiktok.com/@yolki189/video/7704575509199473933"
+        },
+        {
+          "title": "How to stop life-threatening arterial bleeding in 60 seconds",
+          "views": 87,
+          "viewsText": "87",
+          "url": "https://www.tiktok.com/@yolki189/video/7705074654133734670"
+        },
+        {
+          "title": "Why kids can drown 24 hours AFTER swimming! 🏊‍♂️⚠️ The sile",
+          "views": 73,
+          "viewsText": "73",
+          "url": "https://www.tiktok.com/@yolki189/video/7705051845525245198"
+        },
+        {
+          "title": "Why you must NEVER ignore a second head bump! 🧠⚠️ The silen",
+          "views": 62,
+          "viewsText": "62",
+          "url": "https://www.tiktok.com/@yolki189/video/7706341082610666766"
+        },
+        {
+          "title": "Why freezing victims tear off their clothes right before the",
+          "views": 42,
+          "viewsText": "42",
+          "url": "https://www.tiktok.com/@yolki189/video/7704142881543523597"
+        }
+      ]
     }
   }
 }
