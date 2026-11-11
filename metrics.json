@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-11-10 06:29 PM ET",
-  "epoch": 1794353393,
+  "timestamp": "2026-11-10 07:22 PM ET",
+  "epoch": 1794356526,
   "summary": {
-    "combined_views": 4871,
-    "combined_likes": 117,
-    "combined_videos": 40,
+    "combined_views": 3020,
+    "combined_likes": 91,
+    "combined_videos": 21,
     "youtube": {
-      "views": 3009,
+      "views": 3020,
       "likes": 91,
       "videos": 21,
-      "tech_views": 1639,
+      "tech_views": 1650,
       "yolki_views": 1370,
       "tech_likes": 63,
       "yolki_likes": 28
     },
     "tiktok": {
-      "views": 1862,
-      "likes": 26,
-      "videos": 19,
-      "tech_views": 1028,
-      "yolki_views": 834,
-      "tech_likes": 14,
-      "yolki_likes": 12
+      "views": 0,
+      "likes": 0,
+      "videos": 0,
+      "tech_views": 0,
+      "yolki_views": 0,
+      "tech_likes": 0,
+      "yolki_likes": 0
     }
   },
   "channels": {
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 1639,
+      "views": 1650,
       "likes": 63,
       "subs": 4,
       "videos_count": 12,
@@ -126,8 +126,8 @@
         },
         {
           "id": "DH3-z1t3Ryg",
-          "title": "The 1990 AT&T Glitch: When 1 C Break Crashed US Phones #tech #programming",
-          "views": 0,
+          "title": "The Single C Word That Crashed 114 Switches! 💀 (1990 AT&T Outage) #shorts #coding #tech",
+          "views": 11,
           "likes": 0,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=DH3-z1t3Ryg"
@@ -138,74 +138,13 @@
       "name": "SouthFly Studios",
       "handle": "@southfly8",
       "platform": "TikTok",
-      "views": 1028,
-      "likes": 14,
+      "views": 0,
+      "likes": 0,
       "followers": 0,
-      "videos_count": 10,
+      "videos_count": 0,
       "trend": "▲ Verified Live",
       "status": "PUBLIC PROFILE",
-      "videos": [
-        {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
-          "views": 323,
-          "viewsText": "323",
-          "url": "https://www.tiktok.com/@southfly8/video/7700356172284562719"
-        },
-        {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
-          "views": 151,
-          "viewsText": "151",
-          "url": "https://www.tiktok.com/@southfly8/video/7703633998374800671"
-        },
-        {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
-          "views": 120,
-          "viewsText": "120",
-          "url": "https://www.tiktok.com/@southfly8/video/7700356495640251679"
-        },
-        {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
-          "views": 112,
-          "viewsText": "112",
-          "url": "https://www.tiktok.com/@southfly8/video/7705051653002595615"
-        },
-        {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
-          "views": 100,
-          "viewsText": "100",
-          "url": "https://www.tiktok.com/@southfly8/video/7705122238546054431"
-        },
-        {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
-          "views": 80,
-          "viewsText": "80",
-          "url": "https://www.tiktok.com/@southfly8/video/7705950546502421790"
-        },
-        {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
-          "views": 62,
-          "viewsText": "62",
-          "url": "https://www.tiktok.com/@southfly8/video/7703728933757373727"
-        },
-        {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
-          "views": 61,
-          "viewsText": "61",
-          "url": "https://www.tiktok.com/@southfly8/video/7704575180068146462"
-        },
-        {
-          "title": "Mission-Critical Tech 使用 June Birchfield 的 Lantern on the Ta",
-          "views": 19,
-          "viewsText": "19",
-          "url": "https://www.tiktok.com/@southfly8/video/7702820969622080799"
-        },
-        {
-          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
-          "views": 0,
-          "viewsText": "0",
-          "url": "https://www.tiktok.com/@southfly8/video/7703473141913308447"
-        }
-      ]
+      "videos": []
     },
     "yolki_youtube": {
       "name": "Yolki Med",
@@ -336,68 +275,13 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 834,
-      "likes": 12,
-      "followers": 1,
-      "videos_count": 9,
+      "views": 0,
+      "likes": 0,
+      "followers": 0,
+      "videos_count": 0,
       "trend": "▲ Verified Live",
       "status": "STAGING EP 8",
-      "videos": [
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 原聲 - yolki189 创作的 What to do during",
-          "views": 221,
-          "viewsText": "221",
-          "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
-        },
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 原聲 - Yolki Med 创作的 What to do if yo",
-          "views": 126,
-          "viewsText": "126",
-          "url": "https://www.tiktok.com/@yolki189/video/7703787182728760589"
-        },
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 原聲 - Yolki Med 创作的 Why pausing CPR ",
-          "views": 100,
-          "viewsText": "100",
-          "url": "https://www.tiktok.com/@yolki189/video/7705468926158834957"
-        },
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 How ",
-          "views": 94,
-          "viewsText": "94",
-          "url": "https://www.tiktok.com/@yolki189/video/7704575509199473933"
-        },
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Why ",
-          "views": 91,
-          "viewsText": "91",
-          "url": "https://www.tiktok.com/@yolki189/video/7706341082610666766"
-        },
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 How ",
-          "views": 87,
-          "viewsText": "87",
-          "url": "https://www.tiktok.com/@yolki189/video/7705074654133734670"
-        },
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Why ",
-          "views": 73,
-          "viewsText": "73",
-          "url": "https://www.tiktok.com/@yolki189/video/7705051845525245198"
-        },
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 原聲 - Yolki Med 创作的 Why freezing vic",
-          "views": 42,
-          "viewsText": "42",
-          "url": "https://www.tiktok.com/@yolki189/video/7704142881543523597"
-        },
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 On J",
-          "views": 0,
-          "viewsText": "0",
-          "url": "https://www.tiktok.com/@yolki189/video/7706688679577685262"
-        }
-      ]
+      "videos": []
     }
   }
 }
