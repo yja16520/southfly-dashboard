@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-11-10 07:22 PM ET",
-  "epoch": 1794356566,
+  "timestamp": "2026-11-10 07:30 PM ET",
+  "epoch": 1794357006,
   "summary": {
-    "combined_views": 3020,
+    "combined_views": 3030,
     "combined_likes": 92,
     "combined_videos": 21,
     "youtube": {
-      "views": 3020,
+      "views": 3030,
       "likes": 92,
       "videos": 21,
-      "tech_views": 1650,
+      "tech_views": 1660,
       "yolki_views": 1370,
       "tech_likes": 64,
       "yolki_likes": 28
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 1650,
+      "views": 1660,
       "likes": 64,
       "subs": 4,
       "videos_count": 12,
@@ -109,6 +109,14 @@
           "url": "https://youtube.com/watch?v=2agTjm7b3_s"
         },
         {
+          "id": "DH3-z1t3Ryg",
+          "title": "The Single C Word That Crashed 114 Switches! 💀 (1990 AT&T Outage) #shorts #coding #tech",
+          "views": 21,
+          "likes": 1,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=DH3-z1t3Ryg"
+        },
+        {
           "id": "69GrVIQwYW8",
           "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
           "views": 18,
@@ -123,14 +131,6 @@
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Vdbrj63XM1k"
-        },
-        {
-          "id": "DH3-z1t3Ryg",
-          "title": "The Single C Word That Crashed 114 Switches! 💀 (1990 AT&T Outage) #shorts #coding #tech",
-          "views": 11,
-          "likes": 1,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=DH3-z1t3Ryg"
         }
       ]
     },
