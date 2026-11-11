@@ -1,17 +1,17 @@
 {
   "timestamp": "2026-11-10 07:22 PM ET",
-  "epoch": 1794356526,
+  "epoch": 1794356566,
   "summary": {
     "combined_views": 3020,
-    "combined_likes": 91,
+    "combined_likes": 92,
     "combined_videos": 21,
     "youtube": {
       "views": 3020,
-      "likes": 91,
+      "likes": 92,
       "videos": 21,
       "tech_views": 1650,
       "yolki_views": 1370,
-      "tech_likes": 63,
+      "tech_likes": 64,
       "yolki_likes": 28
     },
     "tiktok": {
@@ -30,7 +30,7 @@
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
       "views": 1650,
-      "likes": 63,
+      "likes": 64,
       "subs": 4,
       "videos_count": 12,
       "trend": "▲ +47 (+3.5%)",
@@ -128,7 +128,7 @@
           "id": "DH3-z1t3Ryg",
           "title": "The Single C Word That Crashed 114 Switches! 💀 (1990 AT&T Outage) #shorts #coding #tech",
           "views": 11,
-          "likes": 0,
+          "likes": 1,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=DH3-z1t3Ryg"
         }
