@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-11-11 10:30 AM ET",
-  "epoch": 1794411016,
+  "timestamp": "2026-11-11 07:30 PM ET",
+  "epoch": 1794443415,
   "summary": {
-    "combined_views": 5591,
-    "combined_likes": 125,
-    "combined_videos": 40,
+    "combined_views": 5834,
+    "combined_likes": 127,
+    "combined_videos": 42,
     "youtube": {
-      "views": 3715,
-      "likes": 97,
-      "videos": 21,
-      "tech_views": 2332,
-      "yolki_views": 1383,
+      "views": 3900,
+      "likes": 98,
+      "videos": 22,
+      "tech_views": 2477,
+      "yolki_views": 1423,
       "tech_likes": 69,
-      "yolki_likes": 28
+      "yolki_likes": 29
     },
     "tiktok": {
-      "views": 1876,
-      "likes": 28,
-      "videos": 19,
+      "views": 1934,
+      "likes": 29,
+      "videos": 20,
       "tech_views": 1028,
-      "yolki_views": 848,
+      "yolki_views": 906,
       "tech_likes": 15,
-      "yolki_likes": 13
+      "yolki_likes": 14
     }
   },
   "channels": {
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 2332,
+      "views": 2477,
       "likes": 69,
       "subs": 4,
       "videos_count": 12,
@@ -39,7 +39,7 @@
         {
           "id": "NqmcDpe0yLM",
           "title": "The Ridiculous 500-Mile Email Software Bug 📧💡 #shorts #coding #tech",
-          "views": 1253,
+          "views": 1254,
           "likes": 31,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=NqmcDpe0yLM"
@@ -47,7 +47,7 @@
         {
           "id": "DH3-z1t3Ryg",
           "title": "The Single C Word That Crashed 114 Switches! 💀 (1990 AT&T Outage) #shorts #coding #tech",
-          "views": 673,
+          "views": 809,
           "likes": 6,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=DH3-z1t3Ryg"
@@ -55,7 +55,7 @@
         {
           "id": "7fZNTT41P8Q",
           "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
-          "views": 125,
+          "views": 126,
           "likes": 4,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=7fZNTT41P8Q"
@@ -83,6 +83,14 @@
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Aeor0SBB2-w"
+        },
+        {
+          "id": "69GrVIQwYW8",
+          "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
+          "views": 28,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=69GrVIQwYW8"
         },
         {
           "id": "zLXFLPOuX8Y",
@@ -115,14 +123,6 @@
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=2agTjm7b3_s"
-        },
-        {
-          "id": "69GrVIQwYW8",
-          "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
-          "views": 21,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=69GrVIQwYW8"
         },
         {
           "id": "Vdbrj63XM1k",
@@ -217,20 +217,28 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1383,
-      "likes": 28,
+      "views": 1423,
+      "likes": 29,
       "subs": 3,
-      "videos_count": 9,
+      "videos_count": 10,
       "trend": "▲ +26 (Growing)",
       "status": "ACTIVE & INDEXED",
       "videos": [
         {
           "id": "Zhc5NOj20I0",
           "title": "What To Do If You Are Choking ALONE! 😱⚠️ (Heimlich First Aid) #shorts #firstaid #health",
-          "views": 1099,
+          "views": 1100,
           "likes": 13,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Zhc5NOj20I0"
+        },
+        {
+          "id": "jfCbIR2I2Cw",
+          "title": "Why You Must NEVER Ignore a Second Head Bump! 🧠⚠️ #shorts",
+          "views": 49,
+          "likes": 0,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=jfCbIR2I2Cw"
         },
         {
           "id": "ghv3_Z2zwgY",
@@ -249,20 +257,20 @@
           "url": "https://youtube.com/watch?v=2sqshfFvqcQ"
         },
         {
-          "id": "jfCbIR2I2Cw",
-          "title": "Why You Must NEVER Ignore a Second Head Bump! 🧠⚠️ #shorts",
-          "views": 42,
-          "likes": 0,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=jfCbIR2I2Cw"
-        },
-        {
           "id": "Bz9UwWEiVBw",
           "title": "What To Do During Severe Arterial Bleeding! 🩸⚠️ (180-Second Rule) #shorts #firstaid #health",
           "views": 40,
           "likes": 2,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Bz9UwWEiVBw"
+        },
+        {
+          "id": "QI34USS_3yQ",
+          "title": "Normal Pulse Oximeter Reading Can MISS Carbon Monoxide Poisoning #Shorts",
+          "views": 31,
+          "likes": 1,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=QI34USS_3yQ"
         },
         {
           "id": "NTfFWaR57-Y",
@@ -283,7 +291,7 @@
         {
           "id": "_Wd2Kkc4bTA",
           "title": "Why Pausing CPR for 5 Seconds Is DEADLY! 😱⚠️ (Perfusion Pressure Explained)",
-          "views": 20,
+          "views": 21,
           "likes": 2,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=_Wd2Kkc4bTA"
@@ -342,17 +350,17 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 848,
-      "likes": 13,
+      "views": 906,
+      "likes": 14,
       "followers": 1,
-      "videos_count": 8,
+      "videos_count": 9,
       "trend": "▲ Verified Live",
       "status": "STAGING EP 8",
       "videos": [
         {
           "title": "Yolki Med 使用 Yolki Med 的 原聲 - yolki189 创作的 What to do during",
-          "views": 232,
-          "viewsText": "232",
+          "views": 237,
+          "viewsText": "237",
           "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
         },
         {
@@ -368,16 +376,16 @@
           "url": "https://www.tiktok.com/@yolki189/video/7705468926158834957"
         },
         {
+          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Why ",
+          "views": 94,
+          "viewsText": "94",
+          "url": "https://www.tiktok.com/@yolki189/video/7706341082610666766"
+        },
+        {
           "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 How ",
           "views": 94,
           "viewsText": "94",
           "url": "https://www.tiktok.com/@yolki189/video/7704575509199473933"
-        },
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Why ",
-          "views": 92,
-          "viewsText": "92",
-          "url": "https://www.tiktok.com/@yolki189/video/7706341082610666766"
         },
         {
           "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 How ",
@@ -390,6 +398,12 @@
           "views": 73,
           "viewsText": "73",
           "url": "https://www.tiktok.com/@yolki189/video/7705051845525245198"
+        },
+        {
+          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Norm",
+          "views": 51,
+          "viewsText": "51",
+          "url": "https://www.tiktok.com/@yolki189/video/7707004891645938958"
         },
         {
           "title": "Yolki Med 使用 Yolki Med 的 原聲 - Yolki Med 创作的 Why freezing vic",
