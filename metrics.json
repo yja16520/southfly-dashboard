@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-11-11 07:30 PM ET",
-  "epoch": 1794443415,
+  "timestamp": "2026-11-14 10:30 AM ET",
+  "epoch": 1794670218,
   "summary": {
-    "combined_views": 5834,
-    "combined_likes": 127,
-    "combined_videos": 42,
+    "combined_views": 3569,
+    "combined_likes": 67,
+    "combined_videos": 35,
     "youtube": {
-      "views": 3900,
-      "likes": 98,
-      "videos": 22,
-      "tech_views": 2477,
-      "yolki_views": 1423,
-      "tech_likes": 69,
-      "yolki_likes": 29
+      "views": 1537,
+      "likes": 35,
+      "videos": 12,
+      "tech_views": 0,
+      "yolki_views": 1537,
+      "tech_likes": 0,
+      "yolki_likes": 35
     },
     "tiktok": {
-      "views": 1934,
-      "likes": 29,
-      "videos": 20,
+      "views": 2032,
+      "likes": 32,
+      "videos": 23,
       "tech_views": 1028,
-      "yolki_views": 906,
-      "tech_likes": 15,
-      "yolki_likes": 14
+      "yolki_views": 1004,
+      "tech_likes": 17,
+      "yolki_likes": 15
     }
   },
   "channels": {
@@ -29,119 +29,22 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 2477,
-      "likes": 69,
-      "subs": 4,
-      "videos_count": 12,
+      "views": 0,
+      "likes": 0,
+      "subs": 1,
+      "videos_count": 1,
       "trend": "▲ +47 (+3.5%)",
       "status": "ACTIVE & INDEXED",
-      "videos": [
-        {
-          "id": "NqmcDpe0yLM",
-          "title": "The Ridiculous 500-Mile Email Software Bug 📧💡 #shorts #coding #tech",
-          "views": 1254,
-          "likes": 31,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=NqmcDpe0yLM"
-        },
-        {
-          "id": "DH3-z1t3Ryg",
-          "title": "The Single C Word That Crashed 114 Switches! 💀 (1990 AT&T Outage) #shorts #coding #tech",
-          "views": 809,
-          "likes": 6,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=DH3-z1t3Ryg"
-        },
-        {
-          "id": "7fZNTT41P8Q",
-          "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
-          "views": 126,
-          "likes": 4,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=7fZNTT41P8Q"
-        },
-        {
-          "id": "c4xvXEJtRwQ",
-          "title": "The $370M Code Overflow That Blew Up a Rocket 🚀💥 #shorts #coding #techhistory",
-          "views": 70,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=c4xvXEJtRwQ"
-        },
-        {
-          "id": "b92yJAX32FQ",
-          "title": "The Software Bug That Hid a Blackout #shorts #tech",
-          "views": 41,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=b92yJAX32FQ"
-        },
-        {
-          "id": "Aeor0SBB2-w",
-          "title": "How 7 Characters of Regex Crashed 12 Million Websites #shorts #tech",
-          "views": 36,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=Aeor0SBB2-w"
-        },
-        {
-          "id": "69GrVIQwYW8",
-          "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
-          "views": 28,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=69GrVIQwYW8"
-        },
-        {
-          "id": "zLXFLPOuX8Y",
-          "title": "The $440M Dead Code Glitch That Bankrupted Wall Street 📉💥 #shorts #coding",
-          "views": 25,
-          "likes": 4,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=zLXFLPOuX8Y"
-        },
-        {
-          "id": "V8Hum-9iD2g",
-          "title": "The Ridiculous 1983 Sensor Glitch That Nearly Triggered WW3! ☢️🚨 #shorts #coding #tech",
-          "views": 24,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=V8Hum-9iD2g"
-        },
-        {
-          "id": "YfjcnpNDyJ8",
-          "title": "Why Wall Street Pays 70-Year-Olds $500/hr for 1959 Code! 🏦💀 #shorts #coding #tech",
-          "views": 24,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=YfjcnpNDyJ8"
-        },
-        {
-          "id": "2agTjm7b3_s",
-          "title": "Why 100 Lava Lamps Guard 20% of the Internet! 💡🔐 #shorts #coding #cybersecurity",
-          "views": 24,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=2agTjm7b3_s"
-        },
-        {
-          "id": "Vdbrj63XM1k",
-          "title": "How Typing Too Fast Triggered a Lethal Radiation Overdose! ⚡️💀 (Therac-25 Bug) #shorts",
-          "views": 16,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=Vdbrj63XM1k"
-        }
-      ]
+      "videos": []
     },
     "tech_tiktok": {
       "name": "SouthFly Studios",
       "handle": "@southfly8",
       "platform": "TikTok",
       "views": 1028,
-      "likes": 15,
+      "likes": 17,
       "followers": 0,
-      "videos_count": 11,
+      "videos_count": 12,
       "trend": "▲ Verified Live",
       "status": "PUBLIC PROFILE",
       "videos": [
@@ -203,6 +106,12 @@
           "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
           "views": 0,
           "viewsText": "0",
+          "url": "https://www.tiktok.com/@southfly8/video/7707462282363653406"
+        },
+        {
+          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
+          "views": 0,
+          "viewsText": "0",
           "url": "https://www.tiktok.com/@southfly8/video/7706698803973311774"
         },
         {
@@ -217,17 +126,17 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1423,
-      "likes": 29,
+      "views": 1537,
+      "likes": 35,
       "subs": 3,
-      "videos_count": 10,
+      "videos_count": 11,
       "trend": "▲ +26 (Growing)",
       "status": "ACTIVE & INDEXED",
       "videos": [
         {
           "id": "Zhc5NOj20I0",
           "title": "What To Do If You Are Choking ALONE! 😱⚠️ (Heimlich First Aid) #shorts #firstaid #health",
-          "views": 1100,
+          "views": 1106,
           "likes": 13,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Zhc5NOj20I0"
@@ -235,10 +144,26 @@
         {
           "id": "jfCbIR2I2Cw",
           "title": "Why You Must NEVER Ignore a Second Head Bump! 🧠⚠️ #shorts",
-          "views": 49,
-          "likes": 0,
+          "views": 72,
+          "likes": 1,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=jfCbIR2I2Cw"
+        },
+        {
+          "id": "QI34USS_3yQ",
+          "title": "Normal Pulse Oximeter Reading Can MISS Carbon Monoxide Poisoning #Shorts",
+          "views": 60,
+          "likes": 1,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=QI34USS_3yQ"
+        },
+        {
+          "id": "2sqshfFvqcQ",
+          "title": "What To Do During An Asthma Attack With NO Inhaler! 🫁⚠️ #shorts #health #medical",
+          "views": 50,
+          "likes": 2,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=2sqshfFvqcQ"
         },
         {
           "id": "ghv3_Z2zwgY",
@@ -249,33 +174,25 @@
           "url": "https://youtube.com/watch?v=ghv3_Z2zwgY"
         },
         {
-          "id": "2sqshfFvqcQ",
-          "title": "What To Do During An Asthma Attack With NO Inhaler! 🫁⚠️ #shorts #health #medical",
-          "views": 45,
-          "likes": 2,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=2sqshfFvqcQ"
-        },
-        {
           "id": "Bz9UwWEiVBw",
           "title": "What To Do During Severe Arterial Bleeding! 🩸⚠️ (180-Second Rule) #shorts #firstaid #health",
-          "views": 40,
+          "views": 43,
           "likes": 2,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Bz9UwWEiVBw"
         },
         {
-          "id": "QI34USS_3yQ",
-          "title": "Normal Pulse Oximeter Reading Can MISS Carbon Monoxide Poisoning #Shorts",
+          "id": "5Jrw_oh3SG0",
+          "title": "Why Benadryl FAILS in Severe Anaphylaxis! (Inject EpiPen Fast) #Shorts",
           "views": 31,
-          "likes": 1,
+          "likes": 2,
           "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=QI34USS_3yQ"
+          "url": "https://youtube.com/watch?v=5Jrw_oh3SG0"
         },
         {
           "id": "NTfFWaR57-Y",
           "title": "Why Dentists Warn: NEVER Use a Straw After Tooth Extraction! 🦷🚫 #shorts",
-          "views": 26,
+          "views": 31,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=NTfFWaR57-Y"
@@ -283,7 +200,7 @@
         {
           "id": "QhBYJhjwZuk",
           "title": "Why Freezing Victims Tear Off Their Clothes! ❄️⚠️ (Hypothermia First Aid) #shorts #firstaid #medical",
-          "views": 24,
+          "views": 29,
           "likes": 1,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=QhBYJhjwZuk"
@@ -291,7 +208,7 @@
         {
           "id": "_Wd2Kkc4bTA",
           "title": "Why Pausing CPR for 5 Seconds Is DEADLY! 😱⚠️ (Perfusion Pressure Explained)",
-          "views": 21,
+          "views": 22,
           "likes": 2,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=_Wd2Kkc4bTA"
@@ -308,41 +225,41 @@
           "id": "yb1dfL6dup8",
           "title": "Why You Must NEVER Ignore a Second Head Bump! 🧠⚠️ #Shorts #Health #Parenting",
           "views": 8,
-          "likes": 0,
+          "likes": 1,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=yb1dfL6dup8"
         },
         {
-          "id": "vK5Cdr099a8",
-          "title": "Sudden Cardiac Arrest: Why Pausing CPR Resets Pressure to Zero! #Shorts",
-          "views": 6,
-          "likes": 0,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=vK5Cdr099a8"
-        },
-        {
           "id": "7_FcrPWqC58",
           "title": "[MOTION DEMO] Suture Physics & Active Collagen Animation",
-          "views": 5,
+          "views": 7,
           "likes": 0,
           "type": "Short (9:16)",
           "url": "https://youtube.com/shorts/7_FcrPWqC58"
         },
         {
-          "id": "Lhm6hpHfM8A",
-          "title": "[INTERNAL DEMO] How Stitches Work: Suture Mechanics & Tissue Eversion",
-          "views": 4,
-          "likes": 0,
-          "type": "Short (9:16)",
-          "url": "https://youtube.com/shorts/Lhm6hpHfM8A"
+          "id": "vK5Cdr099a8",
+          "title": "Sudden Cardiac Arrest: Why Pausing CPR Resets Pressure to Zero! #Shorts",
+          "views": 6,
+          "likes": 1,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=vK5Cdr099a8"
         },
         {
           "id": "COvNTK9Q0tU",
           "title": "[INTERNAL REVIEW] Suture Mechanism 1080p Master (REV-056 Standard)",
-          "views": 2,
-          "likes": 0,
+          "views": 5,
+          "likes": 1,
           "type": "Short (9:16)",
           "url": "https://youtube.com/shorts/COvNTK9Q0tU"
+        },
+        {
+          "id": "Lhm6hpHfM8A",
+          "title": "[INTERNAL DEMO] How Stitches Work: Suture Mechanics & Tissue Eversion",
+          "views": 5,
+          "likes": 0,
+          "type": "Short (9:16)",
+          "url": "https://youtube.com/shorts/Lhm6hpHfM8A"
         }
       ]
     },
@@ -350,23 +267,23 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 906,
-      "likes": 14,
+      "views": 1004,
+      "likes": 15,
       "followers": 1,
-      "videos_count": 9,
+      "videos_count": 11,
       "trend": "▲ Verified Live",
       "status": "STAGING EP 8",
       "videos": [
         {
           "title": "Yolki Med 使用 Yolki Med 的 原聲 - yolki189 创作的 What to do during",
-          "views": 237,
-          "viewsText": "237",
+          "views": 269,
+          "viewsText": "269",
           "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
         },
         {
           "title": "Yolki Med 使用 Yolki Med 的 原聲 - Yolki Med 创作的 What to do if yo",
-          "views": 127,
-          "viewsText": "127",
+          "views": 129,
+          "viewsText": "129",
           "url": "https://www.tiktok.com/@yolki189/video/7703787182728760589"
         },
         {
@@ -376,40 +293,52 @@
           "url": "https://www.tiktok.com/@yolki189/video/7705468926158834957"
         },
         {
+          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 How ",
+          "views": 96,
+          "viewsText": "96",
+          "url": "https://www.tiktok.com/@yolki189/video/7704575509199473933"
+        },
+        {
           "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Why ",
-          "views": 94,
-          "viewsText": "94",
+          "views": 95,
+          "viewsText": "95",
           "url": "https://www.tiktok.com/@yolki189/video/7706341082610666766"
         },
         {
           "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 How ",
-          "views": 94,
-          "viewsText": "94",
-          "url": "https://www.tiktok.com/@yolki189/video/7704575509199473933"
-        },
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 How ",
-          "views": 88,
-          "viewsText": "88",
+          "views": 90,
+          "viewsText": "90",
           "url": "https://www.tiktok.com/@yolki189/video/7705074654133734670"
         },
         {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Why ",
-          "views": 73,
-          "viewsText": "73",
-          "url": "https://www.tiktok.com/@yolki189/video/7705051845525245198"
+          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Norm",
+          "views": 84,
+          "viewsText": "84",
+          "url": "https://www.tiktok.com/@yolki189/video/7707004891645938958"
         },
         {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Norm",
-          "views": 51,
-          "viewsText": "51",
-          "url": "https://www.tiktok.com/@yolki189/video/7707004891645938958"
+          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Why ",
+          "views": 74,
+          "viewsText": "74",
+          "url": "https://www.tiktok.com/@yolki189/video/7705051845525245198"
         },
         {
           "title": "Yolki Med 使用 Yolki Med 的 原聲 - Yolki Med 创作的 Why freezing vic",
           "views": 42,
           "viewsText": "42",
           "url": "https://www.tiktok.com/@yolki189/video/7704142881543523597"
+        },
+        {
+          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Seve",
+          "views": 24,
+          "viewsText": "24",
+          "url": "https://www.tiktok.com/@yolki189/video/7707888794455821582"
+        },
+        {
+          "title": "Yolki Med 使用  的 原声 - Yolki Med 创作的 On Jan 15, 1990, ONE sing",
+          "views": 1,
+          "viewsText": "1",
+          "url": "https://www.tiktok.com/@yolki189/video/7706688679577685262"
         }
       ]
     }
