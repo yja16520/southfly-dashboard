@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-11-14 10:30 AM ET",
-  "epoch": 1794670218,
+  "timestamp": "2026-11-14 04:01 PM ET",
+  "epoch": 1794690136,
   "summary": {
-    "combined_views": 3569,
-    "combined_likes": 67,
-    "combined_videos": 35,
+    "combined_views": 3610,
+    "combined_likes": 69,
+    "combined_videos": 34,
     "youtube": {
-      "views": 1537,
+      "views": 1550,
       "likes": 35,
-      "videos": 12,
+      "videos": 11,
       "tech_views": 0,
-      "yolki_views": 1537,
+      "yolki_views": 1550,
       "tech_likes": 0,
       "yolki_likes": 35
     },
     "tiktok": {
-      "views": 2032,
-      "likes": 32,
+      "views": 2060,
+      "likes": 34,
       "videos": 23,
-      "tech_views": 1028,
-      "yolki_views": 1004,
-      "tech_likes": 17,
-      "yolki_likes": 15
+      "tech_views": 1030,
+      "yolki_views": 1030,
+      "tech_likes": 18,
+      "yolki_likes": 16
     }
   },
   "channels": {
@@ -32,7 +32,7 @@
       "views": 0,
       "likes": 0,
       "subs": 1,
-      "videos_count": 1,
+      "videos_count": 0,
       "trend": "▲ +47 (+3.5%)",
       "status": "ACTIVE & INDEXED",
       "videos": []
@@ -41,10 +41,10 @@
       "name": "SouthFly Studios",
       "handle": "@southfly8",
       "platform": "TikTok",
-      "views": 1028,
-      "likes": 17,
+      "views": 1030,
+      "likes": 18,
       "followers": 0,
-      "videos_count": 12,
+      "videos_count": 13,
       "trend": "▲ Verified Live",
       "status": "PUBLIC PROFILE",
       "videos": [
@@ -68,8 +68,8 @@
         },
         {
           "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
-          "views": 112,
-          "viewsText": "112",
+          "views": 114,
+          "viewsText": "114",
           "url": "https://www.tiktok.com/@southfly8/video/7705051653002595615"
         },
         {
@@ -103,6 +103,12 @@
           "url": "https://www.tiktok.com/@southfly8/video/7702820969622080799"
         },
         {
+          "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 原聲 - Missio",
+          "views": 0,
+          "viewsText": "0",
+          "url": "https://www.tiktok.com/@southfly8/video/7708073279310810399"
+        },
+        {
           "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 original so",
           "views": 0,
           "viewsText": "0",
@@ -126,7 +132,7 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1537,
+      "views": 1550,
       "likes": 35,
       "subs": 3,
       "videos_count": 11,
@@ -174,20 +180,20 @@
           "url": "https://youtube.com/watch?v=ghv3_Z2zwgY"
         },
         {
+          "id": "5Jrw_oh3SG0",
+          "title": "Why Benadryl FAILS in Severe Anaphylaxis! (Inject EpiPen Fast) #Shorts",
+          "views": 44,
+          "likes": 2,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=5Jrw_oh3SG0"
+        },
+        {
           "id": "Bz9UwWEiVBw",
           "title": "What To Do During Severe Arterial Bleeding! 🩸⚠️ (180-Second Rule) #shorts #firstaid #health",
           "views": 43,
           "likes": 2,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Bz9UwWEiVBw"
-        },
-        {
-          "id": "5Jrw_oh3SG0",
-          "title": "Why Benadryl FAILS in Severe Anaphylaxis! (Inject EpiPen Fast) #Shorts",
-          "views": 31,
-          "likes": 2,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=5Jrw_oh3SG0"
         },
         {
           "id": "NTfFWaR57-Y",
@@ -267,17 +273,17 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 1004,
-      "likes": 15,
+      "views": 1030,
+      "likes": 16,
       "followers": 1,
-      "videos_count": 11,
+      "videos_count": 10,
       "trend": "▲ Verified Live",
       "status": "STAGING EP 8",
       "videos": [
         {
           "title": "Yolki Med 使用 Yolki Med 的 原聲 - yolki189 创作的 What to do during",
-          "views": 269,
-          "viewsText": "269",
+          "views": 272,
+          "viewsText": "272",
           "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
         },
         {
@@ -323,22 +329,16 @@
           "url": "https://www.tiktok.com/@yolki189/video/7705051845525245198"
         },
         {
+          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Seve",
+          "views": 48,
+          "viewsText": "48",
+          "url": "https://www.tiktok.com/@yolki189/video/7707888794455821582"
+        },
+        {
           "title": "Yolki Med 使用 Yolki Med 的 原聲 - Yolki Med 创作的 Why freezing vic",
           "views": 42,
           "viewsText": "42",
           "url": "https://www.tiktok.com/@yolki189/video/7704142881543523597"
-        },
-        {
-          "title": "Yolki Med 使用 Yolki Med 的 original sound - Yolki Med 创作的 Seve",
-          "views": 24,
-          "viewsText": "24",
-          "url": "https://www.tiktok.com/@yolki189/video/7707888794455821582"
-        },
-        {
-          "title": "Yolki Med 使用  的 原声 - Yolki Med 创作的 On Jan 15, 1990, ONE sing",
-          "views": 1,
-          "viewsText": "1",
-          "url": "https://www.tiktok.com/@yolki189/video/7706688679577685262"
         }
       ]
     }
