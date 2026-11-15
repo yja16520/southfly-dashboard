@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-11-15 10:30 AM ET",
-  "epoch": 1794756616,
+  "timestamp": "2026-11-15 02:58 PM ET",
+  "epoch": 1794772725,
   "summary": {
-    "combined_views": 6484,
-    "combined_likes": 149,
+    "combined_views": 6509,
+    "combined_likes": 150,
     "combined_videos": 48,
     "youtube": {
-      "views": 4361,
-      "likes": 113,
+      "views": 4383,
+      "likes": 114,
       "videos": 25,
-      "tech_views": 2783,
-      "yolki_views": 1578,
-      "tech_likes": 77,
+      "tech_views": 2796,
+      "yolki_views": 1587,
+      "tech_likes": 78,
       "yolki_likes": 36
     },
     "tiktok": {
-      "views": 2123,
+      "views": 2126,
       "likes": 36,
       "videos": 23,
       "tech_views": 1030,
-      "yolki_views": 1093,
+      "yolki_views": 1096,
       "tech_likes": 18,
       "yolki_likes": 18
     }
@@ -29,9 +29,9 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 2783,
-      "likes": 77,
-      "subs": 7,
+      "views": 2796,
+      "likes": 78,
+      "subs": 8,
       "videos_count": 14,
       "trend": "▲ +47 (+3.5%)",
       "status": "ACTIVE & INDEXED",
@@ -55,8 +55,8 @@
         {
           "id": "69GrVIQwYW8",
           "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
-          "views": 232,
-          "likes": 5,
+          "views": 244,
+          "likes": 6,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=69GrVIQwYW8"
         },
@@ -87,7 +87,7 @@
         {
           "id": "yK3zH7KxtAQ",
           "title": "Why Google Flagged the Entire Internet as Malware in 2009 (The Slash Bug) #shorts #tech",
-          "views": 37,
+          "views": 38,
           "likes": 1,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=yK3zH7KxtAQ"
@@ -245,7 +245,7 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1578,
+      "views": 1587,
       "likes": 36,
       "subs": 4,
       "videos_count": 11,
@@ -271,7 +271,7 @@
         {
           "id": "5Jrw_oh3SG0",
           "title": "Why Benadryl FAILS in Severe Anaphylaxis! (Inject EpiPen Fast) #Shorts",
-          "views": 65,
+          "views": 73,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=5Jrw_oh3SG0"
@@ -327,7 +327,7 @@
         {
           "id": "_Wd2Kkc4bTA",
           "title": "Why Pausing CPR for 5 Seconds Is DEADLY! 😱⚠️ (Perfusion Pressure Explained)",
-          "views": 22,
+          "views": 23,
           "likes": 2,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=_Wd2Kkc4bTA"
@@ -386,7 +386,7 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 1093,
+      "views": 1096,
       "likes": 18,
       "followers": 1,
       "videos_count": 10,
@@ -395,8 +395,8 @@
       "videos": [
         {
           "title": "Yolki Med 使用 Yolki Med 的 原聲 - yolki189 创作的 What to do during",
-          "views": 299,
-          "viewsText": "299",
+          "views": 302,
+          "viewsText": "302",
           "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
         },
         {
