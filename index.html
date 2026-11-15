@@ -371,7 +371,7 @@
             <button id="refreshBtn" class="btn-refresh" onclick="refreshData()">🔄 Refresh Live Data</button>
             <div class="live-badge">
                 <span class="live-dot"></span>
-                <span id="liveTimestamp">LIVE AUDITED: 2026-11-14 04:01 PM ET</span>
+                <span id="liveTimestamp">LIVE AUDITED: 2026-11-14 07:30 PM ET</span>
             </div>
         </div>
     </header>
@@ -380,8 +380,8 @@
     <div class="kpi-grid">
         <div class="kpi-card">
             <div class="label">YouTube Performance</div>
-            <div class="value" id="kpi-yt-views">1,550 Views</div>
-            <div class="sub" id="kpi-yt-sub">35 Likes • 11 Videos (0 Tech + 1,550 Yolki)</div>
+            <div class="value" id="kpi-yt-views">4,279 Views</div>
+            <div class="sub" id="kpi-yt-sub">112 Likes • 25 Videos (2,731 Tech + 1,548 Yolki)</div>
         </div>
         <div class="kpi-card">
             <div class="label">TikTok Performance</div>
@@ -390,8 +390,8 @@
         </div>
         <div class="kpi-card">
             <div class="label">Combined Studio Total</div>
-            <div class="value" id="kpi-total-views">3,610 Views</div>
-            <div class="sub" id="kpi-total-sub">69 Likes Across 34 Total Published Videos</div>
+            <div class="value" id="kpi-total-views">6,339 Views</div>
+            <div class="sub" id="kpi-total-sub">146 Likes Across 48 Total Published Videos</div>
         </div>
         <div class="kpi-card">
             <div class="label">Multi-Agent Studio SLA</div>
@@ -426,7 +426,7 @@
             <tbody>
                 <tr>
                     <td><strong>Tech YouTube (@missioncriticaltech)</strong></td>
-                    <td><strong style="color: var(--accent-cyan);" id="row-tech-yt-views">0</strong></td>
+                    <td><strong style="color: var(--accent-cyan);" id="row-tech-yt-views">2,731</strong></td>
                     <td style="color: var(--accent-green); font-weight:700;">▲ +177 (+13.1%)</td>
                     <td id="row-tech-yt-likes"><strong>41</strong> likes</td>
                     <td>3 subscribers</td>
@@ -444,7 +444,7 @@
                 </tr>
                 <tr>
                     <td><strong>Yolki YouTube (@yolkimed)</strong></td>
-                    <td><strong style="color: var(--accent-cyan);" id="row-yolki-yt-views">1,550</strong></td>
+                    <td><strong style="color: var(--accent-cyan);" id="row-yolki-yt-views">1,548</strong></td>
                     <td style="color: var(--accent-green); font-weight:700;">▲ +61 (Growing)</td>
                     <td id="row-yolki-yt-likes"><strong>23</strong> likes</td>
                     <td>2 subscribers</td>
@@ -462,9 +462,9 @@
                 </tr>
                 <tr style="background: rgba(88, 166, 255, 0.06); font-weight: 700; border-top: 2px solid var(--border-color);">
                     <td><strong>TOTAL STUDIO FOOTPRINT (4 Channels)</strong></td>
-                    <td><strong style="color: var(--accent-green); font-size: 14px;" id="row-total-views">3,610</strong></td>
+                    <td><strong style="color: var(--accent-green); font-size: 14px;" id="row-total-views">6,339</strong></td>
                     <td style="color: var(--accent-green);">▲ Growing (+352 views)</td>
-                    <td id="row-total-likes"><strong style="color: var(--accent-green); font-size: 14px;">69</strong> likes</td>
+                    <td id="row-total-likes"><strong style="color: var(--accent-green); font-size: 14px;">146</strong> likes</td>
                     <td>6 total</td>
                     <td id="row-total-vids">42 videos</td>
                     <td><span class="badge badge-pass" style="font-size: 11px;">100% ONLINE</span></td>
@@ -496,6 +496,7 @@
     
     
     
+    
     <!-- 1.5. Daily Trajectory & Growth Trend Audit -->
     <div class="section-title">📈 Daily Growth Trend &amp; Historical Trajectory (Nov 02 – Nov 10)</div>
     <div class="card" style="margin-bottom: 24px;">
@@ -505,9 +506,9 @@
                 <div style="font-size: 12px; color: var(--text-secondary); margin-top: 2px;">Ground-truthed telemetry traceable to Day 1 Launch (Nov 02, 2026) across all 4 channels</div>
             </div>
             <div style="display: flex; gap: 8px;">
-                <button id="btn-trend-views" class="badge badge-pass" style="cursor: pointer; padding: 6px 12px; border: 1px solid var(--accent-green);" onclick="renderChart('views')">● Total Views (3,610)</button>
-                <button id="btn-trend-likes" class="badge" style="cursor: pointer; padding: 6px 12px; background: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-secondary);" onclick="renderChart('likes')">Audience Likes (69)</button>
-                <button id="btn-trend-subs" class="badge" style="cursor: pointer; padding: 6px 12px; background: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-secondary);" onclick="renderChart('subs')">Subscribers (2)</button>
+                <button id="btn-trend-views" class="badge badge-pass" style="cursor: pointer; padding: 6px 12px; border: 1px solid var(--accent-green);" onclick="renderChart('views')">● Total Views (6,339)</button>
+                <button id="btn-trend-likes" class="badge" style="cursor: pointer; padding: 6px 12px; background: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-secondary);" onclick="renderChart('likes')">Audience Likes (146)</button>
+                <button id="btn-trend-subs" class="badge" style="cursor: pointer; padding: 6px 12px; background: var(--bg-primary); border: 1px solid var(--border-color); color: var(--text-secondary);" onclick="renderChart('subs')">Subscribers (8)</button>
             </div>
         </div>
 
@@ -526,59 +527,62 @@
   <text x="52" y="209" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">0</text>
   
   
-        <line x1="60" y1="176.7" x2="860" y2="176.7" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
-        <text x="52" y="180.7" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">1,000</text>
+        <line x1="60" y1="180.7" x2="860" y2="180.7" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="52" y="184.7" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">1,000</text>
         
-        <line x1="60" y1="148.3" x2="860" y2="148.3" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
-        <text x="52" y="152.3" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">2,000</text>
+        <line x1="60" y1="156.4" x2="860" y2="156.4" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="52" y="160.4" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">2,000</text>
         
-        <line x1="60" y1="120.0" x2="860" y2="120.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
-        <text x="52" y="124.0" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">3,000</text>
+        <line x1="60" y1="132.1" x2="860" y2="132.1" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="52" y="136.1" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">3,000</text>
         
-        <line x1="60" y1="91.7" x2="860" y2="91.7" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
-        <text x="52" y="95.7" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">4,000</text>
+        <line x1="60" y1="107.9" x2="860" y2="107.9" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="52" y="111.9" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">4,000</text>
         
-        <line x1="60" y1="63.3" x2="860" y2="63.3" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
-        <text x="52" y="67.3" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">5,000</text>
+        <line x1="60" y1="83.6" x2="860" y2="83.6" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="52" y="87.6" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">5,000</text>
+        
+        <line x1="60" y1="59.3" x2="860" y2="59.3" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="52" y="63.3" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">6,000</text>
         
         <line x1="60" y1="35.0" x2="860" y2="35.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
-        <text x="52" y="39.0" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">6,000</text>
+        <text x="52" y="39.0" font-family="-apple-system, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">7,000</text>
         
-  <polygon id="dash-area" points="60.0,205.0 60.0,202.2 160.0,201.3 260.0,199.9 360.0,133.8 460.0,125.1 560.0,98.8 660.0,74.0 760.0,68.3 860.0,102.7 860.0,205.0" fill="url(#areaGradient_dark)"/>
-  <polyline id="dash-line" points="60.0,202.2 160.0,201.3 260.0,199.9 360.0,133.8 460.0,125.1 560.0,98.8 660.0,74.0 760.0,68.3 860.0,102.7" fill="none" stroke="#39c5bb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon id="dash-area" points="60.0,205.0 60.0,202.6 160.0,201.8 260.0,200.6 360.0,144.0 460.0,136.5 560.0,114.0 660.0,92.7 760.0,87.8 860.0,51.1 860.0,205.0" fill="url(#areaGradient_dark)"/>
+  <polyline id="dash-line" points="60.0,202.6 160.0,201.8 260.0,200.6 360.0,144.0 460.0,136.5 560.0,114.0 660.0,92.7 760.0,87.8 860.0,51.1" fill="none" stroke="#39c5bb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
   <g id="dash-dots">
   
-        <circle cx="60.0" cy="202.2" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        <circle cx="60.0" cy="202.6" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
         
-            <text x="60.0" y="193.2" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">99</text>
+            <text x="60.0" y="193.6" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">99</text>
             
-        <circle cx="160.0" cy="201.3" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        <circle cx="160.0" cy="201.8" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
         
-        <circle cx="260.0" cy="199.9" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        <circle cx="260.0" cy="200.6" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
         
-        <circle cx="360.0" cy="133.8" r="5.5" fill="#f59e0b" stroke="#161b22" stroke-width="2"/>
+        <circle cx="360.0" cy="144.0" r="5.5" fill="#f59e0b" stroke="#161b22" stroke-width="2"/>
         
-            <rect x="324.0" y="108.8" width="72" height="18" rx="4" fill="rgba(210,153,34,0.25)" stroke="#f59e0b" stroke-width="1"/>
-            <text x="360.0" y="121.8" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="700" fill="#d29922" text-anchor="middle">🚀 +2,333</text>
+            <rect x="324.0" y="119.0" width="72" height="18" rx="4" fill="rgba(210,153,34,0.25)" stroke="#f59e0b" stroke-width="1"/>
+            <text x="360.0" y="132.0" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="700" fill="#d29922" text-anchor="middle">🚀 +2,333</text>
             
-        <circle cx="460.0" cy="125.1" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        <circle cx="460.0" cy="136.5" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
         
-        <circle cx="560.0" cy="98.8" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        <circle cx="560.0" cy="114.0" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
         
-            <text x="560.0" y="89.8" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">3,749</text>
+            <text x="560.0" y="105.0" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">3,749</text>
             
-        <circle cx="660.0" cy="74.0" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        <circle cx="660.0" cy="92.7" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
         
-            <text x="660.0" y="65.0" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">4,623</text>
+            <text x="660.0" y="83.7" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">4,623</text>
             
-        <circle cx="760.0" cy="68.3" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
+        <circle cx="760.0" cy="87.8" r="3.5" fill="#39c5bb" stroke="#161b22" stroke-width="2"/>
         
-            <text x="760.0" y="59.3" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">4,825</text>
+            <text x="760.0" y="78.8" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#8b949e" text-anchor="middle">4,825</text>
             
-        <circle cx="860.0" cy="102.7" r="5.5" fill="#10b981" stroke="#161b22" stroke-width="2"/>
+        <circle cx="860.0" cy="51.1" r="5.5" fill="#10b981" stroke="#161b22" stroke-width="2"/>
         
-            <rect x="824.0" y="77.7" width="72" height="18" rx="4" fill="rgba(63,185,80,0.25)" stroke="#10b981" stroke-width="1"/>
-            <text x="860.0" y="90.7" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#3fb950" text-anchor="middle">3,610</text>
+            <rect x="824.0" y="26.1" width="72" height="18" rx="4" fill="rgba(63,185,80,0.25)" stroke="#10b981" stroke-width="1"/>
+            <text x="860.0" y="39.1" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#3fb950" text-anchor="middle">6,339</text>
             
   </g>
   
@@ -612,18 +616,18 @@
             </div>
             <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center;">
                 <div style="font-size: 11px; color: var(--text-secondary); text-transform: uppercase; font-weight: 700;">Cumulative View Gain</div>
-                <div style="font-size: 18px; font-weight: 800; color: var(--accent-green); margin-top: 2px;">+3,511 Views</div>
-                <div style="font-size: 11px; color: var(--accent-green); margin-top: 2px;">▲ 3,546% Expansion</div>
+                <div style="font-size: 18px; font-weight: 800; color: var(--accent-green); margin-top: 2px;">+6,240 Views</div>
+                <div style="font-size: 11px; color: var(--accent-green); margin-top: 2px;">▲ 6,303% Expansion</div>
             </div>
             <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center;">
                 <div style="font-size: 11px; color: var(--text-secondary); text-transform: uppercase; font-weight: 700;">Total Audience Likes</div>
-                <div style="font-size: 18px; font-weight: 800; color: var(--accent-cyan); margin-top: 2px;">69 Likes (+64)</div>
-                <div style="font-size: 11px; color: var(--accent-cyan); margin-top: 2px;">1.91% Studio Average</div>
+                <div style="font-size: 18px; font-weight: 800; color: var(--accent-cyan); margin-top: 2px;">146 Likes (+141)</div>
+                <div style="font-size: 11px; color: var(--accent-cyan); margin-top: 2px;">2.30% Studio Average</div>
             </div>
             <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center;">
                 <div style="font-size: 11px; color: var(--text-secondary); text-transform: uppercase; font-weight: 700;">Subscribers Base</div>
-                <div style="font-size: 18px; font-weight: 800; color: var(--accent-purple); margin-top: 2px;">2 Subscribers</div>
-                <div style="font-size: 11px; color: var(--accent-purple); margin-top: 2px;">+1 Gained (400%)</div>
+                <div style="font-size: 18px; font-weight: 800; color: var(--accent-purple); margin-top: 2px;">8 Subscribers</div>
+                <div style="font-size: 11px; color: var(--accent-purple); margin-top: 2px;">+7 Gained (400%)</div>
             </div>
         </div>
 
@@ -730,7 +734,7 @@
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
                 <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
                     <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
-                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 41%; height: 100%; border-radius: 4px;"></div>
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 35%; height: 100%; border-radius: 4px;"></div>
                     </div>
                     <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">2,513</span>
                 </div>
@@ -756,7 +760,7 @@
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
                 <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
                     <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
-                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 47%; height: 100%; border-radius: 4px;"></div>
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 40%; height: 100%; border-radius: 4px;"></div>
                     </div>
                     <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">2,820</span>
                 </div>
@@ -782,7 +786,7 @@
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
                 <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
                     <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
-                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 62%; height: 100%; border-radius: 4px;"></div>
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 53%; height: 100%; border-radius: 4px;"></div>
                     </div>
                     <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">3,749</span>
                 </div>
@@ -808,7 +812,7 @@
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
                 <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
                     <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
-                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 77%; height: 100%; border-radius: 4px;"></div>
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 66%; height: 100%; border-radius: 4px;"></div>
                     </div>
                     <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">4,623</span>
                 </div>
@@ -834,7 +838,7 @@
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
                 <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
                     <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
-                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 80%; height: 100%; border-radius: 4px;"></div>
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 68%; height: 100%; border-radius: 4px;"></div>
                     </div>
                     <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">4,825</span>
                 </div>
@@ -855,21 +859,21 @@
                 <strong style="color: var(--text-primary);">Nov 10</strong> <span style="color: var(--text-secondary); font-size: 11px;">(Day 9)</span>
             </td>
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
-                <span class="badge badge-pass" style="font-size: 11px;">+-1,215</span>
+                <span class="badge badge-pass" style="font-size: 11px;">+1,514</span>
             </td>
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color);">
                 <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
                     <div style="background: var(--border-color); border-radius: 4px; height: 8px; flex: 1; overflow: hidden;">
-                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 60%; height: 100%; border-radius: 4px;"></div>
+                        <div style="background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue)); width: 90%; height: 100%; border-radius: 4px;"></div>
                     </div>
-                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">3,610</span>
+                    <span style="font-weight: 700; color: var(--accent-cyan); font-size: 12px; min-width: 45px; text-align: right;">6,339</span>
                 </div>
             </td>
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: right; white-space: nowrap;">
-                <strong style="color: var(--text-primary);">69</strong> <span style="color: var(--accent-green); font-size: 11px;">(+-20)</span>
+                <strong style="color: var(--text-primary);">146</strong> <span style="color: var(--accent-green); font-size: 11px;">(+57)</span>
             </td>
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); text-align: center; font-weight: bold; color: var(--accent-purple);">
-                2
+                8
             </td>
             <td style="padding: 9px 12px; border-bottom: 1px solid var(--border-color); font-size: 12px; color: var(--text-secondary);">
                 🚀 5K Milestone & AT&T 1990 Long-Distance Bug (Today)
@@ -1415,11 +1419,11 @@ const studioDailyHistory = [
     {
         "date": "Nov 10",
         "day": "Day 9",
-        "views": 3610,
-        "delta_v": "+-1,215",
-        "likes": 69,
-        "delta_l": "+-20",
-        "subs": 2,
+        "views": 6339,
+        "delta_v": "+1,514",
+        "likes": 146,
+        "delta_l": "+57",
+        "subs": 8,
         "note": "\ud83d\ude80 5K Milestone & AT&T 1990 Long-Distance Bug (Today)"
     }
 ];

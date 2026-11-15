@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-11-14 04:01 PM ET",
-  "epoch": 1794690136,
+  "timestamp": "2026-11-14 07:30 PM ET",
+  "epoch": 1794702605,
   "summary": {
-    "combined_views": 3610,
-    "combined_likes": 69,
-    "combined_videos": 34,
+    "combined_views": 6339,
+    "combined_likes": 146,
+    "combined_videos": 48,
     "youtube": {
-      "views": 1550,
-      "likes": 35,
-      "videos": 11,
-      "tech_views": 0,
-      "yolki_views": 1550,
-      "tech_likes": 0,
+      "views": 4279,
+      "likes": 112,
+      "videos": 25,
+      "tech_views": 2731,
+      "yolki_views": 1548,
+      "tech_likes": 77,
       "yolki_likes": 35
     },
     "tiktok": {
@@ -29,13 +29,126 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 0,
-      "likes": 0,
-      "subs": 1,
-      "videos_count": 0,
+      "views": 2731,
+      "likes": 77,
+      "subs": 7,
+      "videos_count": 14,
       "trend": "▲ +47 (+3.5%)",
       "status": "ACTIVE & INDEXED",
-      "videos": []
+      "videos": [
+        {
+          "id": "NqmcDpe0yLM",
+          "title": "The Ridiculous 500-Mile Email Software Bug 📧💡 #shorts #coding #tech",
+          "views": 1258,
+          "likes": 31,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=NqmcDpe0yLM"
+        },
+        {
+          "id": "DH3-z1t3Ryg",
+          "title": "The Single C Word That Crashed 114 Switches! 💀 (1990 AT&T Outage) #shorts #coding #tech",
+          "views": 823,
+          "likes": 7,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=DH3-z1t3Ryg"
+        },
+        {
+          "id": "69GrVIQwYW8",
+          "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
+          "views": 186,
+          "likes": 5,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=69GrVIQwYW8"
+        },
+        {
+          "id": "7fZNTT41P8Q",
+          "title": "How 19KB Crashed 8.5M Computers: The CrowdStrike Kernel Bug! #Shorts",
+          "views": 132,
+          "likes": 4,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=7fZNTT41P8Q"
+        },
+        {
+          "id": "c4xvXEJtRwQ",
+          "title": "The $370M Code Overflow That Blew Up a Rocket 🚀💥 #shorts #coding #techhistory",
+          "views": 72,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=c4xvXEJtRwQ"
+        },
+        {
+          "id": "b92yJAX32FQ",
+          "title": "The Software Bug That Hid a Blackout #shorts #tech",
+          "views": 46,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=b92yJAX32FQ"
+        },
+        {
+          "id": "Aeor0SBB2-w",
+          "title": "How 7 Characters of Regex Crashed 12 Million Websites #shorts #tech",
+          "views": 37,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=Aeor0SBB2-w"
+        },
+        {
+          "id": "yK3zH7KxtAQ",
+          "title": "Why Google Flagged the Entire Internet as Malware in 2009 (The Slash Bug) #shorts #tech",
+          "views": 30,
+          "likes": 1,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=yK3zH7KxtAQ"
+        },
+        {
+          "id": "dtHHAfDl8RM",
+          "title": "99.999% Uptime: Why Two Healthy Servers Can Still Fail",
+          "views": 28,
+          "likes": 4,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=dtHHAfDl8RM"
+        },
+        {
+          "id": "zLXFLPOuX8Y",
+          "title": "The $440M Dead Code Glitch That Bankrupted Wall Street 📉💥 #shorts #coding",
+          "views": 27,
+          "likes": 4,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=zLXFLPOuX8Y"
+        },
+        {
+          "id": "2agTjm7b3_s",
+          "title": "Why 100 Lava Lamps Guard 20% of the Internet! 💡🔐 #shorts #coding #cybersecurity",
+          "views": 26,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=2agTjm7b3_s"
+        },
+        {
+          "id": "V8Hum-9iD2g",
+          "title": "The Ridiculous 1983 Sensor Glitch That Nearly Triggered WW3! ☢️🚨 #shorts #coding #tech",
+          "views": 25,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=V8Hum-9iD2g"
+        },
+        {
+          "id": "YfjcnpNDyJ8",
+          "title": "Why Wall Street Pays 70-Year-Olds $500/hr for 1959 Code! 🏦💀 #shorts #coding #tech",
+          "views": 25,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=YfjcnpNDyJ8"
+        },
+        {
+          "id": "Vdbrj63XM1k",
+          "title": "How Typing Too Fast Triggered a Lethal Radiation Overdose! ⚡️💀 (Therac-25 Bug) #shorts",
+          "views": 16,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=Vdbrj63XM1k"
+        }
+      ]
     },
     "tech_tiktok": {
       "name": "SouthFly Studios",
@@ -132,9 +245,9 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1550,
+      "views": 1548,
       "likes": 35,
-      "subs": 3,
+      "subs": 4,
       "videos_count": 11,
       "trend": "▲ +26 (Growing)",
       "status": "ACTIVE & INDEXED",
@@ -150,7 +263,7 @@
         {
           "id": "jfCbIR2I2Cw",
           "title": "Why You Must NEVER Ignore a Second Head Bump! 🧠⚠️ #shorts",
-          "views": 72,
+          "views": 73,
           "likes": 1,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=jfCbIR2I2Cw"
@@ -172,20 +285,20 @@
           "url": "https://youtube.com/watch?v=2sqshfFvqcQ"
         },
         {
+          "id": "5Jrw_oh3SG0",
+          "title": "Why Benadryl FAILS in Severe Anaphylaxis! (Inject EpiPen Fast) #Shorts",
+          "views": 47,
+          "likes": 2,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=5Jrw_oh3SG0"
+        },
+        {
           "id": "ghv3_Z2zwgY",
           "title": "Why Pouring Ice Water on a Heatstroke Victim Can Backfire! ☀️🥵 (3 Cooling Zones)",
           "views": 47,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=ghv3_Z2zwgY"
-        },
-        {
-          "id": "5Jrw_oh3SG0",
-          "title": "Why Benadryl FAILS in Severe Anaphylaxis! (Inject EpiPen Fast) #Shorts",
-          "views": 44,
-          "likes": 2,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=5Jrw_oh3SG0"
         },
         {
           "id": "Bz9UwWEiVBw",
@@ -236,14 +349,6 @@
           "url": "https://youtube.com/watch?v=yb1dfL6dup8"
         },
         {
-          "id": "7_FcrPWqC58",
-          "title": "[MOTION DEMO] Suture Physics & Active Collagen Animation",
-          "views": 7,
-          "likes": 0,
-          "type": "Short (9:16)",
-          "url": "https://youtube.com/shorts/7_FcrPWqC58"
-        },
-        {
           "id": "vK5Cdr099a8",
           "title": "Sudden Cardiac Arrest: Why Pausing CPR Resets Pressure to Zero! #Shorts",
           "views": 6,
@@ -252,9 +357,17 @@
           "url": "https://youtube.com/watch?v=vK5Cdr099a8"
         },
         {
+          "id": "7_FcrPWqC58",
+          "title": "[MOTION DEMO] Suture Physics & Active Collagen Animation",
+          "views": 5,
+          "likes": 0,
+          "type": "Short (9:16)",
+          "url": "https://youtube.com/shorts/7_FcrPWqC58"
+        },
+        {
           "id": "COvNTK9Q0tU",
           "title": "[INTERNAL REVIEW] Suture Mechanism 1080p Master (REV-056 Standard)",
-          "views": 5,
+          "views": 3,
           "likes": 1,
           "type": "Short (9:16)",
           "url": "https://youtube.com/shorts/COvNTK9Q0tU"
@@ -262,7 +375,7 @@
         {
           "id": "Lhm6hpHfM8A",
           "title": "[INTERNAL DEMO] How Stitches Work: Suture Mechanics & Tissue Eversion",
-          "views": 5,
+          "views": 3,
           "likes": 0,
           "type": "Short (9:16)",
           "url": "https://youtube.com/shorts/Lhm6hpHfM8A"
