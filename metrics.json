@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-11-15 07:30 PM ET",
-  "epoch": 1794789016,
+  "timestamp": "2026-11-16 10:30 AM ET",
+  "epoch": 1794843016,
   "summary": {
-    "combined_views": 6525,
+    "combined_views": 6595,
     "combined_likes": 150,
     "combined_videos": 48,
     "youtube": {
-      "views": 4395,
+      "views": 4452,
       "likes": 114,
       "videos": 25,
-      "tech_views": 2803,
-      "yolki_views": 1592,
+      "tech_views": 2847,
+      "yolki_views": 1605,
       "tech_likes": 78,
       "yolki_likes": 36
     },
     "tiktok": {
-      "views": 2130,
+      "views": 2143,
       "likes": 36,
       "videos": 23,
-      "tech_views": 1030,
-      "yolki_views": 1100,
+      "tech_views": 1031,
+      "yolki_views": 1112,
       "tech_likes": 18,
       "yolki_likes": 18
     }
@@ -29,9 +29,9 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 2803,
+      "views": 2847,
       "likes": 78,
-      "subs": 8,
+      "subs": 9,
       "videos_count": 14,
       "trend": "▲ +47 (+3.5%)",
       "status": "ACTIVE & INDEXED",
@@ -55,7 +55,7 @@
         {
           "id": "69GrVIQwYW8",
           "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
-          "views": 247,
+          "views": 287,
           "likes": 6,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=69GrVIQwYW8"
@@ -87,7 +87,7 @@
         {
           "id": "yK3zH7KxtAQ",
           "title": "Why Google Flagged the Entire Internet as Malware in 2009 (The Slash Bug) #shorts #tech",
-          "views": 38,
+          "views": 42,
           "likes": 1,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=yK3zH7KxtAQ"
@@ -103,7 +103,7 @@
         {
           "id": "dtHHAfDl8RM",
           "title": "99.999% Uptime: Why Two Healthy Servers Can Still Fail",
-          "views": 32,
+          "views": 33,
           "likes": 4,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=dtHHAfDl8RM"
@@ -125,20 +125,20 @@
           "url": "https://youtube.com/watch?v=2agTjm7b3_s"
         },
         {
-          "id": "V8Hum-9iD2g",
-          "title": "The Ridiculous 1983 Sensor Glitch That Nearly Triggered WW3! ☢️🚨 #shorts #coding #tech",
-          "views": 25,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=V8Hum-9iD2g"
-        },
-        {
           "id": "YfjcnpNDyJ8",
           "title": "Why Wall Street Pays 70-Year-Olds $500/hr for 1959 Code! 🏦💀 #shorts #coding #tech",
           "views": 25,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=YfjcnpNDyJ8"
+        },
+        {
+          "id": "V8Hum-9iD2g",
+          "title": "The Ridiculous 1983 Sensor Glitch That Nearly Triggered WW3! ☢️🚨 #shorts #coding #tech",
+          "views": 24,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=V8Hum-9iD2g"
         },
         {
           "id": "Vdbrj63XM1k",
@@ -154,7 +154,7 @@
       "name": "SouthFly Studios",
       "handle": "@southfly8",
       "platform": "TikTok",
-      "views": 1030,
+      "views": 1031,
       "likes": 18,
       "followers": 0,
       "videos_count": 13,
@@ -217,8 +217,8 @@
         },
         {
           "title": "Mission-Critical Tech 使用 Mission-Critical Tech 的 原聲 - Missio",
-          "views": 0,
-          "viewsText": "0",
+          "views": 1,
+          "viewsText": "1",
           "url": "https://www.tiktok.com/@southfly8/video/7708073279310810399"
         },
         {
@@ -245,7 +245,7 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1592,
+      "views": 1605,
       "likes": 36,
       "subs": 4,
       "videos_count": 11,
@@ -261,6 +261,14 @@
           "url": "https://youtube.com/watch?v=Zhc5NOj20I0"
         },
         {
+          "id": "5Jrw_oh3SG0",
+          "title": "Why Benadryl FAILS in Severe Anaphylaxis! (Inject EpiPen Fast) #Shorts",
+          "views": 81,
+          "likes": 3,
+          "type": "Masterclass (16:9)",
+          "url": "https://youtube.com/watch?v=5Jrw_oh3SG0"
+        },
+        {
           "id": "jfCbIR2I2Cw",
           "title": "Why You Must NEVER Ignore a Second Head Bump! 🧠⚠️ #shorts",
           "views": 80,
@@ -269,17 +277,9 @@
           "url": "https://youtube.com/watch?v=jfCbIR2I2Cw"
         },
         {
-          "id": "5Jrw_oh3SG0",
-          "title": "Why Benadryl FAILS in Severe Anaphylaxis! (Inject EpiPen Fast) #Shorts",
-          "views": 75,
-          "likes": 3,
-          "type": "Masterclass (16:9)",
-          "url": "https://youtube.com/watch?v=5Jrw_oh3SG0"
-        },
-        {
           "id": "QI34USS_3yQ",
           "title": "Normal Pulse Oximeter Reading Can MISS Carbon Monoxide Poisoning #Shorts",
-          "views": 60,
+          "views": 61,
           "likes": 1,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=QI34USS_3yQ"
@@ -287,7 +287,7 @@
         {
           "id": "2sqshfFvqcQ",
           "title": "What To Do During An Asthma Attack With NO Inhaler! 🫁⚠️ #shorts #health #medical",
-          "views": 53,
+          "views": 54,
           "likes": 2,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=2sqshfFvqcQ"
@@ -295,7 +295,7 @@
         {
           "id": "ghv3_Z2zwgY",
           "title": "Why Pouring Ice Water on a Heatstroke Victim Can Backfire! ☀️🥵 (3 Cooling Zones)",
-          "views": 47,
+          "views": 49,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=ghv3_Z2zwgY"
@@ -303,7 +303,7 @@
         {
           "id": "Bz9UwWEiVBw",
           "title": "What To Do During Severe Arterial Bleeding! 🩸⚠️ (180-Second Rule) #shorts #firstaid #health",
-          "views": 43,
+          "views": 46,
           "likes": 2,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Bz9UwWEiVBw"
@@ -386,7 +386,7 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 1100,
+      "views": 1112,
       "likes": 18,
       "followers": 1,
       "videos_count": 10,
@@ -395,8 +395,8 @@
       "videos": [
         {
           "title": "Yolki Med 使用 Yolki Med 的 原聲 - yolki189 创作的 What to do during",
-          "views": 306,
-          "viewsText": "306",
+          "views": 318,
+          "viewsText": "318",
           "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
         },
         {
