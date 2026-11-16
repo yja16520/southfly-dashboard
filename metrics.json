@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-11-15 02:58 PM ET",
-  "epoch": 1794772725,
+  "timestamp": "2026-11-15 07:30 PM ET",
+  "epoch": 1794789016,
   "summary": {
-    "combined_views": 6509,
+    "combined_views": 6525,
     "combined_likes": 150,
     "combined_videos": 48,
     "youtube": {
-      "views": 4383,
+      "views": 4395,
       "likes": 114,
       "videos": 25,
-      "tech_views": 2796,
-      "yolki_views": 1587,
+      "tech_views": 2803,
+      "yolki_views": 1592,
       "tech_likes": 78,
       "yolki_likes": 36
     },
     "tiktok": {
-      "views": 2126,
+      "views": 2130,
       "likes": 36,
       "videos": 23,
       "tech_views": 1030,
-      "yolki_views": 1096,
+      "yolki_views": 1100,
       "tech_likes": 18,
       "yolki_likes": 18
     }
@@ -29,7 +29,7 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 2796,
+      "views": 2803,
       "likes": 78,
       "subs": 8,
       "videos_count": 14,
@@ -55,7 +55,7 @@
         {
           "id": "69GrVIQwYW8",
           "title": "The 500-Mile Email: How 3ms Broke Sendmail | Systems Architecture Post-Mortem",
-          "views": 244,
+          "views": 247,
           "likes": 6,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=69GrVIQwYW8"
@@ -103,7 +103,7 @@
         {
           "id": "dtHHAfDl8RM",
           "title": "99.999% Uptime: Why Two Healthy Servers Can Still Fail",
-          "views": 28,
+          "views": 32,
           "likes": 4,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=dtHHAfDl8RM"
@@ -245,7 +245,7 @@
       "name": "Yolki Med",
       "handle": "@yolkimed",
       "platform": "YouTube",
-      "views": 1587,
+      "views": 1592,
       "likes": 36,
       "subs": 4,
       "videos_count": 11,
@@ -255,7 +255,7 @@
         {
           "id": "Zhc5NOj20I0",
           "title": "What To Do If You Are Choking ALONE! 😱⚠️ (Heimlich First Aid) #shorts #firstaid #health",
-          "views": 1109,
+          "views": 1110,
           "likes": 13,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=Zhc5NOj20I0"
@@ -271,7 +271,7 @@
         {
           "id": "5Jrw_oh3SG0",
           "title": "Why Benadryl FAILS in Severe Anaphylaxis! (Inject EpiPen Fast) #Shorts",
-          "views": 73,
+          "views": 75,
           "likes": 3,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=5Jrw_oh3SG0"
@@ -287,7 +287,7 @@
         {
           "id": "2sqshfFvqcQ",
           "title": "What To Do During An Asthma Attack With NO Inhaler! 🫁⚠️ #shorts #health #medical",
-          "views": 51,
+          "views": 53,
           "likes": 2,
           "type": "Masterclass (16:9)",
           "url": "https://youtube.com/watch?v=2sqshfFvqcQ"
@@ -386,7 +386,7 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 1096,
+      "views": 1100,
       "likes": 18,
       "followers": 1,
       "videos_count": 10,
@@ -395,8 +395,8 @@
       "videos": [
         {
           "title": "Yolki Med 使用 Yolki Med 的 原聲 - yolki189 创作的 What to do during",
-          "views": 302,
-          "viewsText": "302",
+          "views": 306,
+          "viewsText": "306",
           "url": "https://www.tiktok.com/@yolki189/video/7703785203076041997"
         },
         {
