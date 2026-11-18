@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-11-17 07:30 PM ET",
-  "epoch": 1794961818,
+  "timestamp": "2026-11-17 08:12 PM ET",
+  "epoch": 1794964340,
   "summary": {
-    "combined_views": 6696,
+    "combined_views": 6697,
     "combined_likes": 151,
     "combined_videos": 48,
     "youtube": {
@@ -15,11 +15,11 @@
       "yolki_likes": 36
     },
     "tiktok": {
-      "views": 2176,
+      "views": 2177,
       "likes": 36,
       "videos": 23,
       "tech_views": 1031,
-      "yolki_views": 1145,
+      "yolki_views": 1146,
       "tech_likes": 18,
       "yolki_likes": 18
     }
@@ -386,7 +386,7 @@
       "name": "Yolki Med",
       "handle": "@yolki189",
       "platform": "TikTok",
-      "views": 1145,
+      "views": 1146,
       "likes": 18,
       "followers": 1,
       "videos_count": 10,
@@ -401,8 +401,8 @@
         },
         {
           "title": "Yolki Med 使用 Yolki Med 的 原聲 - Yolki Med 创作的 What to do if yo",
-          "views": 130,
-          "viewsText": "130",
+          "views": 131,
+          "viewsText": "131",
           "url": "https://www.tiktok.com/@yolki189/video/7703787182728760589"
         },
         {
