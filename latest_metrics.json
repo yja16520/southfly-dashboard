@@ -1,17 +1,17 @@
 {
   "timestamp": "2026-11-19 05:18 PM ET",
-  "epoch": 1795126705,
+  "epoch": 1795126734,
   "summary": {
-    "combined_views": 6725,
+    "combined_views": 6727,
     "combined_likes": 150,
     "combined_comments": 16,
     "combined_videos": 49,
     "combined_subs": 14,
     "youtube": {
-      "views": 4548,
+      "views": 4550,
       "likes": 114,
       "videos": 26,
-      "tech_views": 2922,
+      "tech_views": 2924,
       "yolki_views": 1626,
       "tech_subs": 9,
       "yolki_subs": 4
@@ -30,7 +30,7 @@
     "tech_youtube": {
       "channel_name": "Mission-Critical Tech",
       "channel_handle": "@missioncriticaltech",
-      "total_views": 2922,
+      "total_views": 2924,
       "total_likes": 80,
       "total_comments": 10,
       "subscribers_or_followers": 9,
@@ -264,8 +264,20 @@
       "cum_likes": 150,
       "cum_subs": 14,
       "active_catalog": 49,
+      "account_status": "NORMAL",
+      "note": "Masterclass Ep 2 Cloudflare 16:9 Release"
+    },
+    {
+      "date": "2026-11-19",
+      "day": "Day 18",
+      "daily_views": 19,
+      "cum_views": 6725,
+      "daily_likes": 0,
+      "cum_likes": 150,
+      "cum_subs": 14,
+      "active_catalog": 49,
       "account_status": "AUDITED_LIVE",
-      "note": "🚀 6.7K Milestone & Masterclass Ep 2 Cloudflare 16:9 Release (Today)"
+      "note": "🚀 6.72K Milestone & Yolki Mid-Catalog Steady Crawl (Today)"
     }
   ],
   "total_videos_count": 49,
@@ -1821,11 +1833,11 @@
       "published_at_utc": "2026-11-19T03:11:41Z",
       "published_at_et": "2026-11-18 10:11 PM ET",
       "duration_seconds": 218,
-      "views": 4,
+      "views": 6,
       "likes": 1,
       "comments": 0,
       "shares": "NOT_AVAILABLE",
-      "l2v_ratio_pct": 25.0,
+      "l2v_ratio_pct": 16.67,
       "snapshot_24h_views": "PENDING_AGE",
       "snapshot_72h_views": "PENDING_AGE",
       "snapshot_7d_views": "PENDING_AGE",
