@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-11-21 01:50 PM ET",
-  "epoch": 1795287041,
+  "timestamp": "2026-11-21 02:55 PM ET",
+  "epoch": 1795290924,
   "summary": {
-    "combined_views": 6472,
-    "combined_likes": 153,
+    "combined_views": 6473,
+    "combined_likes": 154,
     "combined_videos": 54,
     "youtube": {
-      "views": 4560,
-      "likes": 116,
+      "views": 4561,
+      "likes": 117,
       "videos": 27,
-      "tech_views": 2947,
+      "tech_views": 2948,
       "yolki_views": 1613,
-      "tech_likes": 80,
+      "tech_likes": 81,
       "yolki_likes": 36
     },
     "tiktok": {
@@ -29,8 +29,8 @@
       "name": "Mission-Critical Tech",
       "handle": "@missioncriticaltech",
       "platform": "YouTube",
-      "views": 2947,
-      "likes": 80,
+      "views": 2948,
+      "likes": 81,
       "subs": 9,
       "videos_count": 16,
       "trend": "▲ +47 (+3.5%)",
@@ -159,8 +159,8 @@
         {
           "id": "nzTCFSP9cDQ",
           "title": "A Defense Rule Trapped Its Own Workers in a Loop | Cloudflare Outage #shorts",
-          "views": 1,
-          "likes": 0,
+          "views": 2,
+          "likes": 1,
           "type": "Short (9:16)",
           "url": "https://youtube.com/shorts/nzTCFSP9cDQ"
         }
