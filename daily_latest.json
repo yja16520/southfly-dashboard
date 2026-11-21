@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-21 11:12 AM ET",
-  "epoch": 1795277568,
+  "timestamp": "2026-11-21 11:13 AM ET",
+  "epoch": 1795277593,
   "summary": {
     "combined_views": 6808,
     "combined_likes": 151,
@@ -2034,8 +2034,32 @@
       "cum_likes": 150,
       "cum_subs": 14,
       "active_catalog": 49,
+      "account_status": "NORMAL",
+      "note": "Yolki Mid-Catalog Steady Crawl"
+    },
+    {
+      "date": "2026-11-20",
+      "day": "Day 19",
+      "daily_views": 48,
+      "cum_views": 6773,
+      "daily_likes": 1,
+      "cum_likes": 151,
+      "cum_subs": 14,
+      "active_catalog": 49,
+      "account_status": "NORMAL",
+      "note": "Tech Long-form Ep 2 Algorithmic Seeding"
+    },
+    {
+      "date": "2026-11-21",
+      "day": "Day 20",
+      "daily_views": 35,
+      "cum_views": 6808,
+      "daily_likes": 0,
+      "cum_likes": 151,
+      "cum_subs": 14,
+      "active_catalog": 50,
       "account_status": "AUDITED_LIVE",
-      "note": "🚀 6.72K Milestone & Yolki Mid-Catalog Steady Crawl (Today)"
+      "note": "🚀 6.8K+ Milestone: Cloudflare Masterclass Climb & 7-Day Transfer Gate (Today)"
     }
   ],
   "all_videos": [
