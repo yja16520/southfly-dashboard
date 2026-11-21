@@ -1738,5 +1738,180 @@
         </div>
     </div>
 </div>
+<script>
+const studioDailyHistory = [
+    {
+        "date": "Nov 02",
+        "day": "Day 1",
+        "views": 99,
+        "delta_v": "+99",
+        "likes": 5,
+        "delta_l": "+5",
+        "subs": 1,
+        "note": "Studio Inception: Lava Lamps, 1983 Bug, Asthma"
+    },
+    {
+        "date": "Nov 03",
+        "day": "Day 2",
+        "views": 132,
+        "delta_v": "+33",
+        "likes": 7,
+        "delta_l": "+2",
+        "subs": 1,
+        "note": "Therac-25 Radiation Bug & Hypothermia First Aid"
+    },
+    {
+        "date": "Nov 04",
+        "day": "Day 3",
+        "views": 180,
+        "delta_v": "+48",
+        "likes": 9,
+        "delta_l": "+2",
+        "subs": 2,
+        "note": "Algorithmic Staging & Production Review"
+    },
+    {
+        "date": "Nov 05",
+        "day": "Day 4",
+        "views": 2513,
+        "delta_v": "+2,333",
+        "likes": 49,
+        "delta_l": "+40",
+        "subs": 3,
+        "note": "\ud83d\ude80 BREAKOUT: 500-Mile Email & Choking Alone"
+    },
+    {
+        "date": "Nov 06",
+        "day": "Day 5",
+        "views": 2820,
+        "delta_v": "+307",
+        "likes": 58,
+        "delta_l": "+9",
+        "subs": 3,
+        "note": "Ariane 5, Knight Capital & Drowning 24h"
+    },
+    {
+        "date": "Nov 07",
+        "day": "Day 6",
+        "views": 3749,
+        "delta_v": "+929",
+        "likes": 66,
+        "delta_l": "+8",
+        "subs": 4,
+        "note": "Brand Kit Deployment & Cardiac Arrest CPR"
+    },
+    {
+        "date": "Nov 08",
+        "day": "Day 7",
+        "views": 4623,
+        "delta_v": "+874",
+        "likes": 87,
+        "delta_l": "+21",
+        "subs": 4,
+        "note": "CrowdStrike Kernel Outage & 2003 Blackout"
+    },
+    {
+        "date": "Nov 09",
+        "day": "Day 8",
+        "views": 4825,
+        "delta_v": "+202",
+        "likes": 89,
+        "delta_l": "+2",
+        "subs": 5,
+        "note": "Blackout Circulation & Yolki Ep 9 Masterclass"
+    },
+    {
+        "date": "Nov 21",
+        "day": "Day 9",
+        "views": 6472,
+        "delta_v": "+1,647",
+        "likes": 153,
+        "delta_l": "+64",
+        "subs": 14,
+        "note": "\ud83d\ude80 6.6K+ Views Milestone & Live Multi-Platform Sync (Today)"
+    }
+];
+
+function renderChart(metric) {
+    const btnV = document.getElementById('btn-trend-views');
+    const btnL = document.getElementById('btn-trend-likes');
+    const btnS = document.getElementById('btn-trend-subs');
+    
+    if (btnV) {
+        btnV.className = 'badge' + (metric === 'views' ? ' badge-pass' : '');
+        btnV.style.background = metric === 'views' ? 'rgba(63,185,80,0.15)' : 'var(--bg-primary)';
+        btnV.style.borderColor = metric === 'views' ? 'var(--accent-green)' : 'var(--border-color)';
+    }
+    if (btnL) {
+        btnL.className = 'badge' + (metric === 'likes' ? ' badge-pass' : '');
+        btnL.style.background = metric === 'likes' ? 'rgba(57,197,187,0.15)' : 'var(--bg-primary)';
+        btnL.style.borderColor = metric === 'likes' ? 'var(--accent-cyan)' : 'var(--border-color)';
+    }
+    if (btnS) {
+        btnS.className = 'badge' + (metric === 'subs' ? ' badge-pass' : '');
+        btnS.style.background = metric === 'subs' ? 'rgba(188,140,255,0.15)' : 'var(--bg-primary)';
+        btnS.style.borderColor = metric === 'subs' ? 'var(--accent-purple)' : 'var(--border-color)';
+    }
+    
+    const width = 900;
+    const height = 240;
+    const padLeft = 60;
+    const padRight = 40;
+    const padTop = 35;
+    const padBottom = 35;
+    const chartW = width - padLeft - padRight;
+    const chartH = height - padTop - padBottom;
+    const n = studioDailyHistory.length;
+    
+    let maxVal = Math.max(6000, Math.ceil(Math.max(...studioDailyHistory.map(h => h.views)) / 1000) * 1000);
+    let strokeColor = '#39c5bb';
+    let metricKey = 'views';
+    
+    if (metric === 'likes') {
+        maxVal = Math.max(150, Math.ceil(Math.max(...studioDailyHistory.map(h => h.likes)) / 50) * 50);
+        strokeColor = '#3fb950';
+        metricKey = 'likes';
+    } else if (metric === 'subs') {
+        maxVal = Math.max(15, Math.ceil(Math.max(...studioDailyHistory.map(h => h.subs)) / 5) * 5);
+        strokeColor = '#bc8cff';
+        metricKey = 'subs';
+    }
+    
+    const coords = studioDailyHistory.map((h, i) => {
+        const val = h[metricKey];
+        const x = padLeft + i * (chartW / (n - 1));
+        const y = padTop + chartH - (val / maxVal) * chartH;
+        return { x, y, h, val };
+    });
+    
+    const polyPts = coords.map(c => `${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(' ');
+    const areaPts = `${padLeft.toFixed(1)},${(padTop + chartH).toFixed(1)} ` + polyPts + ` ${coords[coords.length - 1].x.toFixed(1)},${(padTop + chartH).toFixed(1)}`;
+    
+    const areaEl = document.getElementById('dash-area');
+    const lineEl = document.getElementById('dash-line');
+    const dotsEl = document.getElementById('dash-dots');
+    
+    if (lineEl) {
+        lineEl.setAttribute('points', polyPts);
+        lineEl.setAttribute('stroke', strokeColor);
+    }
+    if (areaEl) {
+        areaEl.setAttribute('points', areaPts);
+    }
+    
+    if (dotsEl) {
+        let dotsHtml = '';
+        coords.forEach((c, idx) => {
+            const isLast = (idx === n - 1);
+            const radius = isLast ? 6 : 4;
+            dotsHtml += `<circle cx="${c.x.toFixed(1)}" cy="${c.y.toFixed(1)}" r="${radius}" fill="${strokeColor}" stroke="var(--bg-secondary)" stroke-width="2.5"/>`;
+            if (isLast || idx === 0 || (metric === 'views' && idx === 3)) {
+                dotsHtml += `<text x="${c.x.toFixed(1)}" y="${(c.y - 10).toFixed(1)}" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="${strokeColor}" text-anchor="middle">${c.val.toLocaleString()}</text>`;
+            }
+        });
+        dotsEl.innerHTML = dotsHtml;
+    }
+}
+</script>
 </body>
 </html>
